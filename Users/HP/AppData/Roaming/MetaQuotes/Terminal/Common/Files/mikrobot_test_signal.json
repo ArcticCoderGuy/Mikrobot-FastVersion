@@ -1,0 +1,17 @@
+{
+  "ea_name": "MikroBot_BOS_M5M1",
+  "ea_version": "2.00",
+  "signal_type": "CONNECTION_TEST",
+  "symbol": "EURUSD",
+  "direction": "BUY",
+  "trigger_price": 1.0855,
+  "m5_bos_level": 1.085,
+  "m5_bos_direction": "BULLISH",
+  "m1_break_high": 1.0857,
+  "m1_break_low": 1.0852,
+  "pip_trigger": 0.2,
+  "timestamp": "2025-08-04T21:33:32.128866",
+  "account": 107034605,
+  "test_message": "Mikrobot connection test successful",
+  "metaquotes_id": "03A06890"
+}

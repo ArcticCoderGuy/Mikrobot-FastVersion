@@ -1,0 +1,9 @@
+{
+  "trade_id": "USDCAD_BULL_08_36",
+  "timestamp": "2025-08-04T11:37:30.814152",
+  "symbol": "USDCAD",
+  "action": "BUY",
+  "execution_price": 1.37888,
+  "order_id": 39850619,
+  "major_pair_expansion": true
+}

@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-08-04T21:38:10.121374",
+  "terminal_activity": [],
+  "expert_activity": [],
+  "signal_files": [
+    {
+      "phase": "4_PHASE_TRIGGER",
+      "symbol": "BCHUSD",
+      "action": "BUY",
+      "lot_size": 0.1,
+      "entry_price": 0.0,
+      "stop_loss": 50,
+      "take_profit": 100,
+      "comment": "v8Fixed BCHUSD M5 Test",
+      "magic": 20250804,
+      "timestamp": "2025-08-04T10:35:16.365795",
+      "atr_multiplier": 1.0,
+      "confidence": 0.85,
+      "file_name": "mikrobot_4phase_signal.json",
+      "file_modified": "2025-08-04T10:35:16.360168"
+    },
+    {
+      "action": "GET_POSITIONS",
+      "id": 2,
+      "timestamp": "2025-08-03T01:09:17.534951",
+      "status": "pending",
+      "file_name": "signal.json",
+      "file_modified": "2025-08-03T01:09:17.536098"
+    },
+    {
+      "test": "signal",
+      "path": "MQL5_Files",
+      "file_name": "test_signal.json",
+      "file_modified": "2025-08-03T01:10:01.372215"
+    }
+  ],
+  "positions": [
+    {
+      "ticket": 39856284,
+      "symbol": "USDCAD",
+      "type": 0,
+      "volume": 6.8,
+      "price_open": 1.37888,
+      "price_current": 1.3778000000000001,
+      "profit": -460.73,
+      "time": "2025-08-04T13:39:08",
+      "comment": "BIG_PLAN_COMPLIA",
+      "magic": 234000
+    },
+    {
+      "ticket": 39856402,
+      "symbol": "USDCAD",
+      "type": 0,
+      "volume": 6.8,
+      "price_open": 1.37894,
+      "price_current": 1.3778000000000001,
+      "profit": -486.33,
+      "time": "2025-08-04T13:40:33",
+      "comment": "BIG_PLAN_COMPLIA",
+      "magic": 234000
+    },
+    {
+      "ticket": 39903810,
+      "symbol": "EURJPY",
+      "type": 1,
+      "volume": 0.7,
+      "price_open": 170.079,
+      "price_current": 170.017,
+      "profit": 25.53,
+      "time": "2025-08-04T21:30:44",
+      "comment": "COMPLIANT_0.7lot",
+      "magic": 234000
+    }
+  ],
+  "orders": [],
+  "account": {
+    "login": 107034605,
+    "balance": 102126.13,
+    "equity": 101204.6,
+    "margin_free": 59647.71,
+    "margin_used": 41556.89,
+    "profit": -921.53
+  },
+  "monitoring_status": "stopped"
+}

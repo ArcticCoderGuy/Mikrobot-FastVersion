@@ -1,0 +1,24 @@
+{
+  "timestamp": "20250803_103915",
+  "base_pip_trigger": 0.8,
+  "pip_conversion_rules": {
+    "BTCUSD": 0.8,
+    "ETHUSD": 0.008,
+    "XRPUSD": 0.008,
+    "LTCUSD": 0.008,
+    "BCHUSD": 8e-05,
+    "EURUSD": 8.000000000000001e-06,
+    "GBPUSD": 8.000000000000001e-06,
+    "USDJPY": 0.008,
+    "USDCHF": 8.000000000000001e-06,
+    "AUDUSD": 8.000000000000001e-06,
+    "USDCAD": 8.000000000000001e-06,
+    "NZDUSD": 8.000000000000001e-06,
+    "EURJPY": 0.008,
+    "GBPJPY": 0.008,
+    "EURGBP": 8.000000000000001e-06,
+    "AUDCAD": 8.000000000000001e-06,
+    "AUDJPY": 0.008,
+    "CADJPY": 0.008
+  }
+}

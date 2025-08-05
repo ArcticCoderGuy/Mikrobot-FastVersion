@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-05T10:56:13.687588",
+  "symbol": "GBPJPY",
+  "direction": "BEAR",
+  "signal_type": "GBPJPY_M5_BOS_YLIPIP_URGENT",
+  "original_signal_bos": 195.616,
+  "entry_price": 195.57,
+  "lot_size": 1.0,
+  "risk_amount": 557.928085,
+  "risk_percent": 0.55,
+  "ticket": 39929518,
+  "account_balance": 101441.47,
+  "executed_at": "10:56",
+  "status": "EXECUTED_SUCCESSFULLY",
+  "market_conditions": {
+    "bid": 195.571,
+    "ask": 195.594,
+    "spread": 0.022999999999996135
+  },
+  "stop_loss": 195.58599999999998,
+  "take_profit": 195.551
+}

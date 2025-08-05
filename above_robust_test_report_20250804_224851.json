@@ -1,0 +1,125 @@
+{
+  "test_suite": "Above Robust! Comprehensive Test Suite",
+  "timestamp": "2025-08-04T22:48:51.268578",
+  "summary": {
+    "total_tests": 4,
+    "passed_tests": 1,
+    "partial_tests": 1,
+    "failed_tests": 2,
+    "success_rate": 25.0
+  },
+  "detailed_results": [
+    {
+      "test_name": "ML Observation System",
+      "status": "PASS",
+      "start_time": "2025-08-04T22:48:41.972200",
+      "subtests": [
+        {
+          "name": "System Initialization",
+          "status": "PASS",
+          "details": "ML Observation System initialized successfully"
+        },
+        {
+          "name": "Database Connectivity",
+          "status": "PASS",
+          "details": "Database accessible, 200 trading phases recorded"
+        },
+        {
+          "name": "Quality Metrics Calculation",
+          "status": "FAIL",
+          "details": "Current Cpk: -0.168"
+        },
+        {
+          "name": "Compliance Checking",
+          "status": "PASS",
+          "details": "Compliance check result: True"
+        }
+      ],
+      "overall_score": 3,
+      "end_time": "2025-08-04T22:48:41.999175"
+    },
+    {
+      "test_name": "Six Sigma Quality Engine",
+      "status": "FAIL",
+      "start_time": "2025-08-04T22:48:41.999381",
+      "subtests": [
+        {
+          "name": "Engine Initialization",
+          "status": "PASS",
+          "details": "Six Sigma Quality Engine initialized successfully"
+        },
+        {
+          "name": "Control Chart Creation",
+          "status": "PASS",
+          "details": "Control chart created: True"
+        }
+      ],
+      "error": "Execution failed on sql '\n            SELECT defect_type, COUNT(*) as frequency, AVG(COALESCE(cost_impact, 100)) as avg_cost\n            FROM trading_phases \n            WHERE defect_type IS NOT NULL \n            GROUP BY defect_type\n            ORDER BY frequency DESC\n            ': no such column: cost_impact",
+      "end_time": "2025-08-04T22:48:42.070064"
+    },
+    {
+      "test_name": "System Integration",
+      "status": "FAIL",
+      "start_time": "2025-08-04T22:48:42.070274",
+      "subtests": [
+        {
+          "name": "Data Flow Observation \u2192 Storage",
+          "status": "PASS",
+          "details": "Test data recorded: True"
+        },
+        {
+          "name": "Quality Metrics Integration",
+          "status": "FAIL",
+          "details": "Cpk calculated: -0.169"
+        }
+      ],
+      "error": "Execution failed on sql '\n            SELECT defect_type, COUNT(*) as frequency, AVG(COALESCE(cost_impact, 100)) as avg_cost\n            FROM trading_phases \n            WHERE defect_type IS NOT NULL \n            GROUP BY defect_type\n            ORDER BY frequency DESC\n            ': no such column: cost_impact",
+      "end_time": "2025-08-04T22:48:42.175226"
+    },
+    {
+      "test_name": "Cpk 3.0 Progression Path",
+      "status": "PARTIAL",
+      "start_time": "2025-08-04T22:48:42.175320",
+      "progression_data": [
+        {
+          "phase": "Baseline",
+          "cpk": -0.158,
+          "defect_rate_ppm": 150000.0,
+          "sigma_level": 2.0,
+          "target_achieved": false
+        },
+        {
+          "phase": "Phase 1: Pareto Focus",
+          "cpk": -0.087,
+          "defect_rate_ppm": 70000.0,
+          "sigma_level": 2.0,
+          "target_achieved": false
+        },
+        {
+          "phase": "Phase 2: Process Control",
+          "cpk": -0.059,
+          "defect_rate_ppm": 70000.0,
+          "sigma_level": 2.0,
+          "target_achieved": false
+        },
+        {
+          "phase": "Phase 3: Six Sigma Implementation",
+          "cpk": -0.066,
+          "defect_rate_ppm": 80000.0,
+          "sigma_level": 2.0,
+          "target_achieved": false
+        },
+        {
+          "phase": "Phase 4: Above Robust!",
+          "cpk": -0.045,
+          "defect_rate_ppm": 50000.0,
+          "sigma_level": 3.0,
+          "target_achieved": false
+        }
+      ],
+      "final_cpk": -0.045,
+      "target_achieved": false,
+      "end_time": "2025-08-04T22:48:51.268301"
+    }
+  ]
+}

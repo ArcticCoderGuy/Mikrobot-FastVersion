@@ -1,0 +1,72 @@
+MIKROBOT FASTVERSION EA - MANUAL INSTALLATION GUIDE
+=====================================================
+
+ONGELMA:
+- EA lahdekoodi (MikrobotFastversionEA.mq5) on olemassa
+- EA:ta ei nay MT5:n Navigator-paneelissa
+- .ex5 tiedosto puuttuu (kaannetty versio)
+
+RATKAISU - KAANNA EA MANUAALISESTI:
+
+VAIHE 1: AVAA METAEDITOR
+1. Avaa MetaTrader 5
+2. Paina F4 tai klikkaa Tools -> MetaQuotes Language Editor
+
+VAIHE 2: LOYDA EA LAHDEKOODI
+1. MetaEditorissa, Navigator-paneelissa (vasemmalla)
+2. Laajenna "MQL5" 
+3. Laajenna "Experts"
+4. Naet "MikrobotFastversionEA.mq5"
+5. Kaksoisklikkaa sita
+
+VAIHE 3: KAANNA EA
+1. EA:n koodi aukeaa paaikkunaan
+2. Paina F7 TAI klikkaa "Compile" nappia
+3. Odota kaantamisen valmistumista
+4. Alhaalla nakyy: "0 error(s), 0 warning(s)"
+
+VAIHE 4: TARKISTA KAANTAMINEN
+1. Navigator-paneelissa, "Experts" kansiossa
+2. Naet nyt KAKSI tiedostoa:
+   - MikrobotFastversionEA.mq5 (lahdekoodi)
+   - MikrobotFastversionEA.ex5 (kaannetty)
+
+VAIHE 5: SULJE METAEDITOR
+1. Sulje MetaEditor ikkuna
+2. Palaa MetaTrader 5:een
+
+VAIHE 6: PAIVITA MT5 EA LISTA
+1. MT5:ssa, paina F5 (paivita)
+2. TAI sulje ja avaa MT5 uudelleen
+
+VAIHE 7: LOYDA EA
+1. Avaa Navigator (Ctrl+N)
+2. Laajenna "Expert Advisors"
+3. Naet nyt "MikrobotFastversionEA" listassa!
+
+VAIHE 8: ASENNA EA CHARTTIIN
+1. Veda "MikrobotFastversionEA" haluamaasi charttiin
+2. Esim. EURUSD M5 chart
+3. Ilmestyy asetusikkuna - klikkaa OK
+4. Naet EA:n nimen chartin oikeassa ylakulmassa
+
+VAIHE 9: VARMISTA AUTOTRADING
+1. Tarkista etta AutoTrading nappi on VIHREA
+2. Jos punainen, klikkaa sita vihreak
+
+TULOS:
+- MikrobotFastversionEA on nyt aktiivinen
+- Se seuraa M5 BOS + M1 retest signaaleja
+- 0.6 ylipip trigger system toimii
+- ATR dynamic positioning paalla
+- XPWS weekly tracking aktiivinen
+- Risk management: 0.55% per trade
+
+VAHVISTUS:
+- Chartin oikeassa ylakulmassa: "MikrobotFastversionEA"
+- Expert-valilehdessa nakyy EA:n viesteja
+- AutoTrading nappi on VIHREA
+
+Jos ongelmia, kaynnista: test_final_deployment.py
+
+MIKROBOT FASTVERSION EA INSTALLATION COMPLETE!

@@ -1,0 +1,1 @@
+# Trading app for core trading functionality

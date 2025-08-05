@@ -1,0 +1,180 @@
+{
+  "submarine_id": "USS_MIKROBOT_FASTVERSION",
+  "drill_timestamp": "2025-08-04T00:31:45.630146",
+  "drill_duration_seconds": 8.730523,
+  "total_engagements": 7,
+  "successful_engagements": 0,
+  "success_rate_percent": 0.0,
+  "average_execution_time_ms": 240.24314285714286,
+  "quality_rating": "[WARN] NEEDS IMPROVEMENT",
+  "detailed_results": [
+    {
+      "engagement_number": 1,
+      "symbol": "EURUSD",
+      "direction": "BUY",
+      "execution_time_ms": 25.406000000000002,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "EURUSD",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 12.714285714285742,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 12.714285714285742,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 1.15939,
+      "timestamp": "2025-08-04T00:31:36.897424"
+    },
+    {
+      "engagement_number": 2,
+      "symbol": "GBPUSD",
+      "direction": "SELL",
+      "execution_time_ms": 50.215999999999994,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "GBPUSD",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 13.842857142857268,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 13.842857142857268,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 1.32809,
+      "timestamp": "2025-08-04T00:31:37.937961"
+    },
+    {
+      "engagement_number": 3,
+      "symbol": "USDJPY",
+      "direction": "BUY",
+      "execution_time_ms": 349.92400000000004,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "USDJPY",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 11.642857142857313,
+        "pip_value": 0.01,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 11.642857142857313,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 147.252,
+      "timestamp": "2025-08-04T00:31:38.989165"
+    },
+    {
+      "engagement_number": 4,
+      "symbol": "USDCHF",
+      "direction": "SELL",
+      "execution_time_ms": 34.547000000000004,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "USDCHF",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 9.37857142857149,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 9.37857142857149,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 0.80397,
+      "timestamp": "2025-08-04T00:31:40.340179"
+    },
+    {
+      "engagement_number": 5,
+      "symbol": "AUDUSD",
+      "direction": "BUY",
+      "execution_time_ms": 432.832,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "AUDUSD",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 7.57142857142853,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 7.57142857142853,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 0.64669,
+      "timestamp": "2025-08-04T00:31:41.375419"
+    },
+    {
+      "engagement_number": 6,
+      "symbol": "USDCAD",
+      "direction": "SELL",
+      "execution_time_ms": 401.96500000000003,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "USDCAD",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 9.90714285714305,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 9.90714285714305,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 1.3778000000000001,
+      "timestamp": "2025-08-04T00:31:42.808777"
+    },
+    {
+      "engagement_number": 7,
+      "symbol": "NZDUSD",
+      "direction": "BUY",
+      "execution_time_ms": 386.812,
+      "trade_result": {
+        "success": false,
+        "error": "Trade failed: 10030 - Unsupported filling mode",
+        "retcode": 10030
+      },
+      "risk_calculation": {
+        "symbol": "NZDUSD",
+        "asset_class": "FOREX",
+        "lot_size": 1.0,
+        "stop_loss_pips": 7.092857142857219,
+        "pip_value": 0.0001,
+        "risk_amount": 495.53430000000003,
+        "atr_adjusted": 7.092857142857219,
+        "reactor_status": "CRITICAL",
+        "calculation_precision": "SUBMARINE_GRADE"
+      },
+      "market_price": 0.59126,
+      "timestamp": "2025-08-04T00:31:44.224144"
+    }
+  ]
+}

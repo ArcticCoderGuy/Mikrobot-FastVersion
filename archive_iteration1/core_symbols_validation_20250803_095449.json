@@ -1,0 +1,132 @@
+{
+  "timestamp": "20250803_095449",
+  "strategy_version": "MikroBot_BOS_M5M1_v2.01",
+  "pip_trigger": 0.8,
+  "total_symbols": 18,
+  "validated_symbols": 16,
+  "validation_rate": 88.88888888888889,
+  "results_by_asset_class": {
+    "CRYPTO": {
+      "BTCUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 113565.69,
+        "spread": 90.82000000000698,
+        "digits": 2
+      },
+      "ETHUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 3442.08,
+        "spread": 3.4600000000000364,
+        "digits": 2
+      },
+      "XRPUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8e-05,
+        "current_price": 2.8406000000000002,
+        "spread": 0.007100000000000328,
+        "digits": 4
+      },
+      "LTCUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 108.08,
+        "spread": 0.3400000000000034,
+        "digits": 2
+      }
+    },
+    "FOREX_MAJOR": {
+      "EURUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 1.15872,
+        "spread": 7.999999999985796e-05,
+        "digits": 5
+      },
+      "GBPUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 1.32808,
+        "spread": 0.000140000000000029,
+        "digits": 5
+      },
+      "USDJPY": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 147.445,
+        "spread": 0.05299999999999727,
+        "digits": 3
+      },
+      "USDCHF": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 0.80468,
+        "spread": 0.0010599999999999499,
+        "digits": 5
+      },
+      "AUDUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 0.64754,
+        "spread": 0.0009099999999999664,
+        "digits": 5
+      },
+      "USDCAD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 1.37865,
+        "spread": 0.0003799999999998249,
+        "digits": 5
+      },
+      "NZDUSD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 0.59236,
+        "spread": 0.0014999999999999458,
+        "digits": 5
+      }
+    },
+    "FOREX_MINOR": {
+      "EURJPY": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 170.821,
+        "spread": 0.0759999999999934,
+        "digits": 3
+      },
+      "GBPJPY": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 195.789,
+        "spread": 0.08099999999998886,
+        "digits": 3
+      },
+      "EURGBP": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 0.87267,
+        "spread": 0.00018999999999991246,
+        "digits": 5
+      },
+      "AUDCAD": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 8.000000000000001e-06,
+        "current_price": 0.89254,
+        "spread": 0.0010900000000000354,
+        "digits": 5
+      },
+      "AUDJPY": {
+        "status": "VALIDATED",
+        "pip_trigger_value": 0.008,
+        "current_price": 95.424,
+        "spread": 0.09100000000000819,
+        "digits": 3
+      }
+    },
+    "COMMODITIES": {
+      "XAUUSD": "UNAVAILABLE",
+      "XAGUSD": "UNAVAILABLE"
+    }
+  }
+}

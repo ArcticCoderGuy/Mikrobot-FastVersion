@@ -1,0 +1,73 @@
+MIKROBOT FASTVERSION EA - LOPULLINEN KAANTAMISOHJE
+==================================================
+
+TILANNE:
+- EA lahdekoodi on korjattu (10,712 bytes)
+- Kaikki kaantamisvirheet on korjattu
+- EA on valmis kaantamiseen
+
+YKSINKERTAINEN KAANTAMINEN:
+
+VAIHE 1: AVAA MT5 JA METAEDITOR
+1. Avaa MetaTrader 5
+2. Paina F4 (avaa MetaEditor)
+
+VAIHE 2: LOYDA EA
+1. MetaEditor Navigator-paneelissa (vasen)
+2. Laajenna "MQL5"
+3. Laajenna "Experts"
+4. Naet "MikrobotFastversionEA.mq5"
+5. KAKSOISKLIKKAA sita
+
+VAIHE 3: KAANNA EA
+1. EA koodi aukeaa
+2. PAINA F7 (tai klikkaa Compile-nappia)
+3. Odota hetki
+4. Alhaalla pitaisi nakyy: "0 error(s), 0 warning(s)"
+
+VAIHE 4: TARKISTA TULOS
+1. Navigator-paneelissa "Experts" kansiossa
+2. Naet nyt:
+   - MikrobotFastversionEA.mq5 (lahdekoodi)  
+   - MikrobotFastversionEA.ex5 (kaannetty) <- TAMA PITAA LOYTYY!
+
+VAIHE 5: SULJE METAEDITOR
+1. Sulje MetaEditor
+2. Palaa MT5:een
+
+VAIHE 6: LOYDA EA MT5:SSA
+1. MT5:ssa, avaa Navigator (Ctrl+N)
+2. Laajenna "Expert Advisors"
+3. NAET NYTÄ "MikrobotFastversionEA" LISTASSA!
+
+VAIHE 7: ASENNA EA
+1. Veda "MikrobotFastversionEA" haluamaasi charttiin
+2. Esim. EURUSD M5
+3. Klikkaa OK asetuksissa
+4. Naet "MikrobotFastversionEA" chartin oikeassa ylakulmassa
+
+VAIHE 8: VARMISTA AUTOTRADING
+1. AutoTrading nappi VIHREA (jo vihrea)
+2. EA alkaa toimia automaattisesti
+
+VAHVISTUS ETTÄ EA TOIMII:
+- Chartin oikeassa ylakulmassa: "MikrobotFastversionEA"
+- Expert-valilehdessa EA:n viestit:
+  "MIKROBOT FASTVERSION EA v2.0.0 - STARTING"
+  "Strategy: M5 BOS + M1 retest + 0.6 ylipip system"
+  "Risk per trade: 0.55%"
+
+EA TOIMINNOT:
+- M5 BOS pattern recognition
+- M1 retest validation  
+- 0.6 ylipip trigger system
+- ATR dynamic positioning (4-15 pips)
+- XPWS weekly tracking
+- Risk management: 0.55% per trade
+
+JOS ONGELMA:
+- Kaantaminen epaonnistuu -> Lahdekoodi on korjattu, yrita uudelleen
+- EA ei nay Navigator:ssa -> Paina F5 MT5:ssa tai kaynnista uudelleen
+- EA ei toimi -> Tarkista AutoTrading on vihrea
+
+MIKROBOT FASTVERSION EA ON VALMIS 24/7/365 KAUPANKAYNNILLE!

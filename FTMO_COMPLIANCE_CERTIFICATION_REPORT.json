@@ -1,0 +1,442 @@
+{
+  "report_metadata": {
+    "report_id": "FTMO_COMPLIANCE_20250803_113337",
+    "generated_timestamp": "2025-08-03T11:33:37.551399",
+    "validator_agent": "RiskEngineAgent",
+    "validation_framework": "FTMO_COMPLIANCE_V2.0",
+    "account_balance": 100000.0
+  },
+  "executive_summary": {
+    "certification_status": "CONDITIONAL",
+    "certification_level": "BRONZE",
+    "overall_compliance_score": 0.7595882923754166,
+    "overall_risk_level": "MEDIUM",
+    "critical_violations": 0,
+    "six_sigma_achievement": false
+  },
+  "detailed_validations": {
+    "ftmo_rule_compliance": {
+      "overall_compliance_status": "PASS",
+      "compliance_score": 1.0,
+      "validation_results": [
+        {
+          "rule_name": "Daily Loss Limit",
+          "compliance_status": "PASS",
+          "current_value": 2.0,
+          "limit_value": 5.0,
+          "risk_level": "LOW",
+          "violation_impact": "Account breach if exceeded",
+          "corrective_action": "Reduce position sizes or stop trading for the day",
+          "six_sigma_score": 3.0,
+          "timestamp": "2025-08-03 11:33:37.548404"
+        },
+        {
+          "rule_name": "Maximum Drawdown",
+          "compliance_status": "PASS",
+          "current_value": 3.5,
+          "limit_value": 10.0,
+          "risk_level": "LOW",
+          "violation_impact": "Account termination",
+          "corrective_action": "Implement emergency risk reduction protocol",
+          "six_sigma_score": 3.0,
+          "timestamp": "2025-08-03 11:33:37.548592"
+        },
+        {
+          "rule_name": "Position Risk Per Trade",
+          "compliance_status": "PASS",
+          "current_value": 0.55,
+          "limit_value": 0.55,
+          "risk_level": "LOW",
+          "violation_impact": "Excessive risk exposure",
+          "corrective_action": "Adjust position sizing to 0.55% risk",
+          "six_sigma_score": 3.0,
+          "timestamp": "2025-08-03 11:33:37.548661"
+        },
+        {
+          "rule_name": "Weekly Profit Target",
+          "compliance_status": "PASS",
+          "current_value": 8.5,
+          "limit_value": 10.0,
+          "risk_level": "LOW",
+          "violation_impact": "Challenge failure risk",
+          "corrective_action": "Focus on consistent profit generation",
+          "six_sigma_score": 2.0,
+          "timestamp": "2025-08-03 11:33:37.548726"
+        },
+        {
+          "rule_name": "Consistency Rule",
+          "compliance_status": "PASS",
+          "current_value": 33.87096774193549,
+          "limit_value": 40.0,
+          "risk_level": "HIGH",
+          "violation_impact": "Consistency violation",
+          "corrective_action": "Maintain consistent daily performance",
+          "six_sigma_score": 3.0,
+          "timestamp": "2025-08-03 11:33:37.548797"
+        },
+        {
+          "rule_name": "Trading Time Restrictions",
+          "compliance_status": "PASS",
+          "current_value": 1.0,
+          "limit_value": 1.0,
+          "risk_level": "LOW",
+          "violation_impact": "Reduced liquidity risk",
+          "corrective_action": "Trade only during major sessions",
+          "six_sigma_score": 3.0,
+          "timestamp": "2025-08-03 11:33:37.548881"
+        }
+      ],
+      "critical_violations": [],
+      "risk_level": "MEDIUM",
+      "audit_timestamp": "2025-08-03T11:33:37.549270"
+    },
+    "atr_dynamic_risk_management": {
+      "atr_compliance_status": "FAIL",
+      "atr_compliance_score": 0.9375,
+      "valid_atr_ranges": 14,
+      "correct_risk_calculations": 16,
+      "total_symbols_tested": 16,
+      "symbol_validations": [
+        {
+          "symbol": "EURUSD",
+          "atr_value": 12.5,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 4.4,
+          "sl_distance": 12.5,
+          "kelly_optimal": 0.45555555555555566,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "GBPUSD",
+          "atr_value": 18.2,
+          "atr_range_valid": false,
+          "risk_per_trade": 0.55,
+          "position_size": 3.021978021978022,
+          "sl_distance": 18.2,
+          "kelly_optimal": 0.39999999999999997,
+          "variance_adjustment": 1.0,
+          "compliance_score": 0.0
+        },
+        {
+          "symbol": "USDJPY",
+          "atr_value": 8.7,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 6.32183908045977,
+          "sl_distance": 8.7,
+          "kelly_optimal": 0.5,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "USDCHF",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 5.5,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "EURGBP",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 5.5,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "EURJPY",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 5.5,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "GBPJPY",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 5.5,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "XAUUSD",
+          "atr_value": 25.3,
+          "atr_range_valid": false,
+          "risk_per_trade": 0.55,
+          "position_size": 2.1739130434782608,
+          "sl_distance": 25.3,
+          "kelly_optimal": 0.35571428571428565,
+          "variance_adjustment": 1.0,
+          "compliance_score": 0.0
+        },
+        {
+          "symbol": "XAGUSD",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 1.1,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "USOIL",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 5.5,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "US30",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "US500",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "NAS100",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "GER40",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "BTCUSD",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        },
+        {
+          "symbol": "ETHUSD",
+          "atr_value": 10.0,
+          "atr_range_valid": true,
+          "risk_per_trade": 0.55,
+          "position_size": 55.0,
+          "sl_distance": 10.0,
+          "kelly_optimal": 0.33333333333333326,
+          "variance_adjustment": 1.0,
+          "compliance_score": 1.0
+        }
+      ],
+      "risk_calculation_accuracy": 1.0
+    },
+    "xpws_risk_controls": {
+      "xpws_compliance_status": "FAIL",
+      "xpws_validation_score": 0.7999999999999999,
+      "xpws_controls": {
+        "weekly_profit_pct": 8.5,
+        "xpws_active": false,
+        "risk_reward_ratio": 1.0,
+        "breakeven_trigger": 1.0,
+        "risk_elimination_active": false,
+        "conservative_progression": true
+      },
+      "validation_details": [
+        "Weekly profit tracking: MISSING",
+        "Risk-reward ratio: CORRECT (1.0)",
+        "Breakeven management: ACTIVE",
+        "Risk elimination: IMPLEMENTED",
+        "Conservative progression: MAINTAINED"
+      ],
+      "risk_level": "MEDIUM"
+    },
+    "multi_asset_risk_assessment": {
+      "multi_asset_compliance_status": "FAIL",
+      "portfolio_risk_score": 0.77625,
+      "asset_class_results": {
+        "forex_majors": {
+          "asset_class": "forex_majors",
+          "total_exposure": 8000.0,
+          "position_count": 2,
+          "avg_correlation": 0.37,
+          "risk_score": 0.72,
+          "weight": 0.25
+        },
+        "forex_minors": {
+          "asset_class": "forex_minors",
+          "total_exposure": 0,
+          "position_count": 0,
+          "avg_correlation": 0.3,
+          "risk_score": 0.8,
+          "weight": 0.1875
+        },
+        "commodities": {
+          "asset_class": "commodities",
+          "total_exposure": 2000.0,
+          "position_count": 1,
+          "avg_correlation": 0.3,
+          "risk_score": 0.78,
+          "weight": 0.1875
+        },
+        "indices": {
+          "asset_class": "indices",
+          "total_exposure": 0,
+          "position_count": 0,
+          "avg_correlation": 0.3,
+          "risk_score": 0.8,
+          "weight": 0.25
+        },
+        "cryptocurrencies": {
+          "asset_class": "cryptocurrencies",
+          "total_exposure": 0,
+          "position_count": 0,
+          "avg_correlation": 0.3,
+          "risk_score": 0.8,
+          "weight": 0.125
+        }
+      },
+      "correlation_analysis": {
+        "forex_majors": {
+          "EURUSD_GBPUSD": 0.72,
+          "EURUSD_USDJPY": 0.3,
+          "EURUSD_USDCHF": 0.3,
+          "GBPUSD_USDJPY": 0.3,
+          "GBPUSD_USDCHF": 0.3,
+          "USDJPY_USDCHF": 0.3
+        },
+        "forex_minors": {
+          "EURGBP_EURJPY": 0.3,
+          "EURGBP_GBPJPY": 0.3,
+          "EURJPY_GBPJPY": 0.3
+        },
+        "commodities": {
+          "XAUUSD_XAGUSD": 0.3,
+          "XAUUSD_USOIL": 0.3,
+          "XAGUSD_USOIL": 0.3
+        },
+        "indices": {
+          "US30_US500": 0.3,
+          "US30_NAS100": 0.3,
+          "US30_GER40": 0.3,
+          "US500_NAS100": 0.3,
+          "US500_GER40": 0.3,
+          "NAS100_GER40": 0.3
+        },
+        "cryptocurrencies": {
+          "BTCUSD_ETHUSD": 0.3
+        }
+      },
+      "risk_concentration": {
+        "concentration_risk": 0.38,
+        "largest_position_pct": 50.0,
+        "hhi_classification": "HIGH"
+      },
+      "total_portfolio_exposure": 10000.0,
+      "diversification_score": 0.0,
+      "max_correlation_risk": 0.72
+    },
+    "six_sigma_quality_control": {
+      "six_sigma_status": "FAIL",
+      "cp_score": 1.072099526841691,
+      "cpk_score": 0.8525743856312495,
+      "sigma_level": 2.3525743856312493,
+      "dpmo": 0.0,
+      "process_capability": "POOR",
+      "quality_grade": "F",
+      "target_achievement": false,
+      "sample_size": 30,
+      "mean_return": 0.7833333333333333,
+      "std_return": 1.088207426136603,
+      "spec_limits": {
+        "upper": 5.0,
+        "lower": -2.0
+      },
+      "defect_rate": 0.0
+    }
+  },
+  "compliance_matrix": {
+    "daily_loss_limit_5pct": true,
+    "maximum_drawdown_10pct": true,
+    "atr_risk_055pct": false,
+    "atr_range_4_15_pips": false,
+    "xpws_breakeven_management": false,
+    "multi_asset_correlation_control": false,
+    "six_sigma_cpk_target": false,
+    "real_time_monitoring": true,
+    "automated_risk_limits": true,
+    "audit_trail_complete": true
+  },
+  "risk_metrics_summary": {
+    "current_daily_risk": 0.0,
+    "current_drawdown": 0.0,
+    "position_count": 2,
+    "atr_compliance_rate": 0.9375,
+    "six_sigma_cpk": 0.8525743856312495,
+    "portfolio_correlation_risk": 0.72
+  },
+  "recommendations": [
+    "HIGH: Improve ATR-based position sizing accuracy",
+    "Verify 0.55% risk per trade calculation across all symbols",
+    "MEDIUM: Enhance XPWS breakeven management implementation",
+    "HIGH: Reduce portfolio correlation risk",
+    "Diversify positions to reduce correlation exposure",
+    "CRITICAL: Improve process capability (Current Cpk: 0.85, Target: 2.9)",
+    "Implement statistical process control measures"
+  ],
+  "next_review_date": "2025-08-10T11:33:37.551476",
+  "compliance_warranty": {
+    "valid_until": "2025-09-02T11:33:37.551550",
+    "conditions": [
+      "All trading activities must comply with MIKROBOT_FASTVERSION.md specification",
+      "0.55% risk per trade must be maintained across all positions",
+      "ATR range 4-15 pips validation required for all entries",
+      "Six Sigma quality standards must be continuously monitored"
+    ]
+  }
+}

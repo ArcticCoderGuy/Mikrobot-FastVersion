@@ -1,0 +1,27 @@
+{
+  "analysis_timestamp": "2025-08-04T10:04:05.736229",
+  "analysis_version": "1.0",
+  "mt5_terminal_state": {
+    "terminal_info": {},
+    "account_info": {
+      "login": 107034605,
+      "server": "Ava-Demo 1-MT5",
+      "name": "Markus Kaprio",
+      "balance": 99106.86,
+      "equity": 99106.86,
+      "margin": 0.0,
+      "margin_free": 99106.86,
+      "margin_level": 0.0,
+      "leverage": 400,
+      "currency": "EUR",
+      "company": "Ava Trade Ltd.",
+      "trade_allowed": true
+    },
+    "positions": [],
+    "orders": [],
+    "experts": [],
+    "journal_entries": [],
+    "log_entries": [],
+    "signal_files": []
+  }
+}

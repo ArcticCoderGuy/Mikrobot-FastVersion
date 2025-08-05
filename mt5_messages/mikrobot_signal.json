@@ -1,0 +1,8 @@
+{
+  "ea_name": "MikroBot_BOS_M5M1",
+  "signal_type": "CONNECTION_TEST",
+  "symbol": "EURUSD",
+  "timestamp": "2025-08-02T11:31:23.097600",
+  "account": 107034605,
+  "test_message": "Mikrobot connection successful"
+}

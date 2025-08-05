@@ -1,0 +1,10 @@
+{
+  "cleanup_timestamp": "2025-08-04T10:53:55.428497",
+  "iteration": 1,
+  "files_before": 254,
+  "files_after": 162,
+  "files_archived": 92,
+  "reduction_percentage": 36.2,
+  "archive_location": "archive_iteration1/",
+  "cleanup_status": "COMPLETED"
+}

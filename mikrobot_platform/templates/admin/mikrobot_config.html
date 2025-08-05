@@ -1,0 +1,294 @@
+{% extends "base.html" %}
+
+{% block title %}MIKROBOT Configuration - Above Robust Control Center{% endblock %}
+
+{% block extra_css %}
+<style>
+    .config-header {
+        text-align: center;
+        margin: 40px 0;
+    }
+    
+    .config-header h1 {
+        color: white;
+        font-size: 2.5em;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .config-header p {
+        color: white;
+        font-size: 1.2em;
+        opacity: 0.9;
+    }
+    
+    .compliance-status {
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    
+    .compliant {
+        background-color: rgba(40, 167, 69, 0.2);
+        color: #155724;
+        border: 1px solid rgba(40, 167, 69, 0.3);
+    }
+    
+    .non-compliant {
+        background-color: rgba(220, 53, 69, 0.2);
+        color: #721c24;
+        border: 1px solid rgba(220, 53, 69, 0.3);
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #2c3e50;
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+    
+    .form-control:focus {
+        outline: none;
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+    
+    .config-value {
+        font-family: 'Courier New', monospace;
+        background: rgba(102, 126, 234, 0.1);
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 0.9em;
+        color: #667eea;
+        font-weight: bold;
+    }
+    
+    .action-buttons {
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .btn-export {
+        background-color: #28a745;
+        color: white;
+        margin-right: 10px;
+    }
+    
+    .btn-validate {
+        background-color: #17a2b8;
+        color: white;
+    }
+    
+    .btn-export:hover {
+        background-color: #218838;
+        color: white;
+    }
+    
+    .btn-validate:hover {
+        background-color: #138496;
+        color: white;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="config-header">
+    <h1>⚙️ Configuration Center</h1>
+    <p>Above Robust Control Center - Submarine Grade Precision</p>
+</div>
+
+<!-- Compliance Status -->
+<div class="compliance-status {% if is_compliant %}compliant{% else %}non-compliant{% endif %}">
+    {% if is_compliant %}
+        ✅ Above Robust Compliance Status: COMPLIANT
+        <br><small>All systems operational with submarine-grade precision</small>
+    {% else %}
+        ⚠️ Above Robust Compliance Status: NON-COMPLIANT
+        <br><small>Configuration requires attention for Above Robust standards</small>
+    {% endif %}
+</div>
+
+<!-- Action Buttons -->
+<div class="action-buttons">
+    <button class="btn btn-export" onclick="exportConfig()">📥 Export Configuration</button>
+    <button class="btn btn-validate" onclick="validateConfig()">✅ Validate Compliance</button>
+</div>
+
+<!-- Configuration Form -->
+<form method="post">
+    {% csrf_token %}
+    
+    <div class="grid grid-2">
+        <!-- Position Sizing Configuration -->
+        <div class="content-card">
+            <h2>🎯 Position Sizing - Above Robust Standards</h2>
+            
+            <div class="form-group">
+                <label for="default_risk_percent">Default Risk Percent:</label>
+                <input type="number" step="0.01" min="0.1" max="2.0" 
+                       name="default_risk_percent" 
+                       value="{{ config.position_sizing.DEFAULT_RISK_PERCENT }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">{{ config.position_sizing.DEFAULT_RISK_PERCENT }}%</span></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="min_lot_size">Minimum Lot Size:</label>
+                <input type="number" step="0.01" min="0.01" 
+                       name="min_lot_size" 
+                       value="{{ config.position_sizing.MIN_LOT_SIZE }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">{{ config.position_sizing.MIN_LOT_SIZE }}</span></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="max_lot_size">Maximum Lot Size:</label>
+                <input type="number" step="0.01" min="1.0" 
+                       name="max_lot_size" 
+                       value="{{ config.position_sizing.MAX_LOT_SIZE }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">{{ config.position_sizing.MAX_LOT_SIZE }}</span></small>
+            </div>
+        </div>
+
+        <!-- Platform Configuration -->
+        <div class="content-card">
+            <h2>🚢 Platform Settings</h2>
+            
+            <div class="form-group">
+                <label for="max_concurrent_trades">Max Concurrent Trades:</label>
+                <input type="number" min="1" max="10" 
+                       name="max_concurrent_trades" 
+                       value="{{ config.platform.MAX_CONCURRENT_TRADES }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">{{ config.platform.MAX_CONCURRENT_TRADES }}</span></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="signal_timeout">Signal Timeout (seconds):</label>
+                <input type="number" min="30" max="300" 
+                       name="signal_timeout" 
+                       value="{{ config.platform.SIGNAL_TIMEOUT_SECONDS }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">{{ config.platform.SIGNAL_TIMEOUT_SECONDS }}s</span></small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscription Tier Pricing -->
+    <div class="content-card">
+        <h2>💰 Subscription Tier Pricing</h2>
+        <div class="grid grid-3">
+            <div class="form-group">
+                <label for="basic_price">Basic Tier ($/month):</label>
+                <input type="number" min="50" max="200" 
+                       name="basic_price" 
+                       value="{{ config.subscription_tiers.BASIC.price_monthly }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">${{ config.subscription_tiers.BASIC.price_monthly }}/month</span></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="professional_price">Professional Tier ($/month):</label>
+                <input type="number" min="150" max="300" 
+                       name="professional_price" 
+                       value="{{ config.subscription_tiers.PROFESSIONAL.price_monthly }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">${{ config.subscription_tiers.PROFESSIONAL.price_monthly }}/month</span></small>
+            </div>
+            
+            <div class="form-group">
+                <label for="enterprise_price">Enterprise Tier ($/month):</label>
+                <input type="number" min="400" max="1000" 
+                       name="enterprise_price" 
+                       value="{{ config.subscription_tiers.ENTERPRISE.price_monthly }}"
+                       class="form-control">
+                <small>Current: <span class="config-value">${{ config.subscription_tiers.ENTERPRISE.price_monthly }}/month</span></small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quality Control Display -->
+    <div class="grid grid-2">
+        <div class="content-card">
+            <h2>🏆 Quality Control - Six Sigma Standards</h2>
+            <div class="grid grid-2">
+                <div>
+                    <p><strong>Target Cp/Cpk:</strong> <span class="config-value">{{ config.quality_control.TARGET_CP_CPK }}</span></p>
+                    <p><strong>Target Sigma Level:</strong> <span class="config-value">{{ config.quality_control.TARGET_SIGMA_LEVEL }}</span></p>
+                </div>
+                <div>
+                    <p><strong>Max DPMO:</strong> <span class="config-value">{{ config.quality_control.MAX_DPMO }}</span></p>
+                    <p><strong>Min Win Rate:</strong> <span class="config-value">{{ config.quality_control.MIN_WIN_RATE }}</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asset Classes Display -->
+        <div class="content-card">
+            <h2>📊 Asset Class Configuration</h2>
+            {% for asset_class, settings in config.asset_classes.items %}
+                <div style="margin-bottom: 15px; padding: 10px; background: rgba(102, 126, 234, 0.1); border-radius: 8px;">
+                    <h4 style="margin: 0 0 8px 0; color: #2c3e50;">{{ asset_class }}</h4>
+                    <p style="margin: 2px 0;"><strong>Pip Value:</strong> <span class="config-value">{{ settings.pip_value }}</span></p>
+                    <p style="margin: 2px 0;"><strong>ATR Multiplier:</strong> <span class="config-value">{{ settings.atr_multiplier }}</span></p>
+                    <p style="margin: 2px 0;"><strong>Risk Factor:</strong> <span class="config-value">{{ settings.risk_factor }}</span></p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="content-card" style="text-align: center;">
+        <button type="submit" class="btn btn-primary">💾 Update Configuration</button>
+        <a href="/admin/" class="btn btn-secondary">🏠 Back to Admin</a>
+    </div>
+</form>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function exportConfig() {
+    window.open('/admin/mikrobot/config/export/', '_blank');
+}
+
+function validateConfig() {
+    fetch('/admin/mikrobot/config/validate/')
+        .then(response => response.json())
+        .then(data => {
+            let message = 'VALIDATION RESULTS:\n\n';
+            message += `Overall Status: ${data.is_compliant ? 'COMPLIANT' : 'NON-COMPLIANT'}\n\n`;
+            
+            message += 'Checks:\n';
+            for (let [key, value] of Object.entries(data.checks)) {
+                message += `- ${key}: ${value ? 'PASS' : 'FAIL'}\n`;
+            }
+            
+            message += '\nRevenue Potential (Monthly):\n';
+            message += `- Basic: $${data.revenue_potential.basic_monthly}\n`;
+            message += `- Professional: $${data.revenue_potential.professional_monthly}\n`;
+            message += `- Enterprise: $${data.revenue_potential.enterprise_monthly}\n`;
+            
+            alert(message);
+        })
+        .catch(error => {
+            alert('Validation failed: ' + error);
+        });
+}
+</script>
+{% endblock %}

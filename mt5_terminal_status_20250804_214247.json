@@ -1,0 +1,372 @@
+{
+  "timestamp": "2025-08-04 21:42:47",
+  "terminal_activity": [
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (GBPJPY,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (AUDUSD,M5) removed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (AUDUSD,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (AUDCAD,M5) removed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (AUDCAD,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (GBPUSD,M5) removed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (GBPUSD,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (NZDUSD,M5) removed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (NZDUSD,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (EURUSD,M5) removed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "0",
+      "message": "Experts\texpert MikrobotStupidv8_Fixed (EURUSD,M5) loaded successfully",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:25",
+      "type": "3",
+      "message": "Experts\tautomated trading is disabled because the account has been changed",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:26",
+      "type": "0",
+      "message": "Network\t'107034605': terminal synchronized with Ava Trade Ltd.: 3 positions, 0 orders, 869 symbols, 0 spreads",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:26",
+      "type": "0",
+      "message": "Network\t'107034605': trading has been enabled - hedging mode",
+      "source": "terminal"
+    },
+    {
+      "time": "21:31:30",
+      "type": "0",
+      "message": "Experts\tautomated trading is enabled",
+      "source": "terminal"
+    }
+  ],
+  "expert_activity": [
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "STATUS: CALCULATE_ENTRY_POINT (NO SIGNAL TO PYTHON YET)",
+      "activity_type": "signal_sent",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "M1 RETEST DETECTED: AUDUSD - BEAR",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Retest Price: 0.64602",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Break Level: 0.64604",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Retest Time: 2025.08.04 18:42",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "YLIPIP TARGET CALCULATED:",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Base Price: 0.64604",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Pip Value: 0.0001",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Ylipip Distance: 0.00006",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Ylipip Target: 0.64598",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "Direction: BEAR",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "PHASE 3 COMPLETE: M1 retest confirmed - Calculating ylipip",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:58",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "AUDUSD",
+      "message": "STATUS: CALCULATE_ENTRY_POINT (NO SIGNAL TO PYTHON YET)",
+      "activity_type": "signal_sent",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "M1 RETEST DETECTED: NZDUSD - BEAR",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Retest Price: 0.58997",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Break Level: 0.59002",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Retest Time: 2025.08.04 18:42",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "YLIPIP TARGET CALCULATED:",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Base Price: 0.59002",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Pip Value: 0.0001",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Ylipip Distance: 0.00006",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Ylipip Target: 0.58996",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "Direction: BEAR",
+      "activity_type": "general",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "PHASE 3 COMPLETE: M1 retest confirmed - Calculating ylipip",
+      "activity_type": "ylipip_trigger",
+      "source": "expert"
+    },
+    {
+      "time": "21:41:59",
+      "ea_name": "MikrobotStupidv8_Fixed",
+      "symbol": "NZDUSD",
+      "message": "STATUS: CALCULATE_ENTRY_POINT (NO SIGNAL TO PYTHON YET)",
+      "activity_type": "signal_sent",
+      "source": "expert"
+    }
+  ],
+  "signal_files": [
+    {
+      "phase": "4_PHASE_TRIGGER",
+      "symbol": "BCHUSD",
+      "action": "BUY",
+      "lot_size": 0.1,
+      "entry_price": 0.0,
+      "stop_loss": 50,
+      "take_profit": 100,
+      "comment": "v8Fixed BCHUSD M5 Test",
+      "magic": 20250804,
+      "timestamp": "2025-08-04T10:35:16.365795",
+      "atr_multiplier": 1.0,
+      "confidence": 0.85,
+      "file_name": "mikrobot_4phase_signal.json",
+      "file_time": "10:35:16"
+    },
+    {
+      "action": "GET_POSITIONS",
+      "id": 2,
+      "timestamp": "2025-08-03T01:09:17.534951",
+      "status": "pending",
+      "file_name": "signal.json",
+      "file_time": "01:09:17"
+    },
+    {
+      "test": "signal",
+      "path": "MQL5_Files",
+      "file_name": "test_signal.json",
+      "file_time": "01:10:01"
+    }
+  ],
+  "account": {
+    "login": 107034605,
+    "balance": 102126.13,
+    "equity": 101450.76,
+    "margin_free": 59893.87,
+    "profit": -675.37
+  },
+  "positions": [
+    {
+      "ticket": 39856284,
+      "symbol": "USDCAD",
+      "type": 0,
+      "volume": 6.8,
+      "price_open": 1.37888,
+      "price_current": 1.37809,
+      "profit": -337.03,
+      "comment": "BIG_PLAN_COMPLIA",
+      "magic": 234000
+    },
+    {
+      "ticket": 39856402,
+      "symbol": "USDCAD",
+      "type": 0,
+      "volume": 6.8,
+      "price_open": 1.37894,
+      "price_current": 1.37809,
+      "profit": -362.63,
+      "comment": "BIG_PLAN_COMPLIA",
+      "magic": 234000
+    },
+    {
+      "ticket": 39903810,
+      "symbol": "EURJPY",
+      "type": 1,
+      "volume": 0.7,
+      "price_open": 170.079,
+      "price_current": 170.02,
+      "profit": 24.29,
+      "comment": "COMPLIANT_0.7lot",
+      "magic": 234000
+    }
+  ],
+  "orders": []
+}

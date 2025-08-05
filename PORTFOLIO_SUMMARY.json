@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-04T11:35:28.353731",
+  "total_positions": 2,
+  "symbols_active": [
+    "EURJPY",
+    "_FERRARI.IT"
+  ],
+  "combined_pnl": -0.49,
+  "account_balance": 99106.4,
+  "asset_classes": [
+    "FOREX",
+    "CFD_STOCKS"
+  ],
+  "multi_asset_system": true,
+  "mikrobot_active": true
+}

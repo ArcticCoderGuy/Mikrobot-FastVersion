@@ -1,0 +1,31 @@
+{
+  "trade_id": "FERRARI_BULL_08_30",
+  "timestamp": "2025-08-04T11:31:27.754973",
+  "signal_data": {
+    "timestamp": "2025.08.04 08:30",
+    "symbol": "_FERRARI.IT",
+    "strategy": "MIKROBOT_FASTVERSION_4PHASE",
+    "phase_1_m5_bos": {
+      "time": "2025.08.04 08:25",
+      "price": 377.08,
+      "direction": "BULL"
+    },
+    "phase_4_ylipip": {
+      "target": 377.14,
+      "current": 377.18,
+      "triggered": true
+    },
+    "trade_direction": "BULL",
+    "ylipip_trigger": 0.6
+  },
+  "symbol": "_FERRARI.IT",
+  "action": "BUY",
+  "execution_price": 377.52,
+  "sl_price": 376.91999999999996,
+  "tp_price": 378.71999999999997,
+  "order_id": 39850472,
+  "deal_id": 36204910,
+  "asset_class": "CFD_STOCK",
+  "mikrobot_compliance": true,
+  "multi_asset_expansion": true
+}

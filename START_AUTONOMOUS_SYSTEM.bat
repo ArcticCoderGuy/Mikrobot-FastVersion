@@ -1,0 +1,24 @@
+@echo off
+echo AUTONOMOUS EXECUTION ENGINE - CRITICAL SYSTEM RECOVERY
+echo ====================================================
+echo IMMEDIATE DEPLOYMENT AFTER SYSTEM FAILURE
+echo NO HUMAN INTERVENTION REQUIRED
+echo MONEY MAKING AUTONOMOUS PROTOCOL
+echo.
+echo CURRENT STATUS: SYSTEM DOWN FOR 17+ HOURS
+echo PERFECT SIGNALS MISSED: MULTIPLE OPPORTUNITIES
+echo RECOVERY MODE: AUTONOMOUS EXECUTION ENGAGED
+echo.
+echo Press ANY KEY to start autonomous money making...
+pause > nul
+
+cd /d "C:\Users\HP\Dev\Mikrobot Fastversion"
+
+echo AUTONOMOUS SYSTEM STARTING...
+echo.
+
+python AUTONOMOUS_EXECUTION_ENGINE.py
+
+echo.
+echo AUTONOMOUS SYSTEM STOPPED
+pause

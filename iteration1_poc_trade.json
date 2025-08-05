@@ -1,0 +1,13 @@
+{
+  "symbol": "USDCAD",
+  "action": "BUY",
+  "lot_size": 0.01,
+  "entry_price": 1.37824,
+  "stop_loss": 1.37744,
+  "take_profit": 1.37984,
+  "comment": "ITERATION_1_POC_COMPLETE",
+  "magic_number": 999888,
+  "risk_amount": 0.8,
+  "risk_percentage": 0.0008080926437811463,
+  "source": "EA_4PHASE_COMPLETE"
+}

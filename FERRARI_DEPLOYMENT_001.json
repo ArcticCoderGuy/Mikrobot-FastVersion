@@ -1,0 +1,46 @@
+{
+  "deployment_id": "FERRARI_001",
+  "deployment_time": "2025-08-04T11:12:50.588442",
+  "signal_data": {
+    "timestamp": "2025.08.04 08:10",
+    "symbol": "_FERRARI.IT",
+    "strategy": "MIKROBOT_FASTVERSION_4PHASE",
+    "phase_1_m5_bos": {
+      "time": "2025.08.04 07:15",
+      "price": 376.28,
+      "direction": "BEAR"
+    },
+    "phase_2_m1_break": {
+      "time": "2025.08.04 07:18",
+      "price": 376.28
+    },
+    "phase_3_m1_retest": {
+      "time": "2025.08.04 08:08",
+      "price": 376.28
+    },
+    "phase_4_ylipip": {
+      "target": 376.22,
+      "current": 376.18,
+      "triggered": true
+    },
+    "trade_direction": "BEAR",
+    "current_price": 376.18,
+    "ylipip_trigger": 0.6,
+    "confidence": 0.95
+  },
+  "trade_parameters": {
+    "symbol": "_FERRARI.IT",
+    "action": "SELL",
+    "lot_size": 0.01,
+    "entry_price": 376.18,
+    "sl_price": 376.68,
+    "tp_price": 375.18,
+    "sl_points": 0.5,
+    "tp_points": 1.0,
+    "risk_euros": 0.5,
+    "asset_class": "CFD_STOCK"
+  },
+  "deployment_purpose": "BLACKROCK_VALIDATION",
+  "status": "READY_FOR_EXECUTION",
+  "validation_type": "REAL_MONEY_REAL_TRADE"
+}

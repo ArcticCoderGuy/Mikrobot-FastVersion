@@ -1,0 +1,34 @@
+{
+  "trade_id": "EURJPY_FRESH_08_28",
+  "timestamp": "2025-08-04T11:29:33.427593",
+  "signal_data": {
+    "timestamp": "2025.08.04 08:28",
+    "symbol": "EURJPY",
+    "strategy": "MIKROBOT_FASTVERSION_4PHASE",
+    "phase_1_m5_bos": {
+      "time": "2025.08.04 08:25",
+      "price": 171.129,
+      "direction": "BULL"
+    },
+    "phase_2_m1_break": {
+      "time": "2025.08.04 08:26",
+      "price": 171.133
+    },
+    "phase_3_m1_retest": {
+      "time": "2025.08.04 08:27",
+      "price": 171.132
+    },
+    "phase_4_ylipip": {
+      "target": 171.139,
+      "current": 171.142,
+      "triggered": true
+    },
+    "trade_direction": "BULL",
+    "ylipip_trigger": 0.6
+  },
+  "execution_price": 171.156,
+  "order_id": 39850396,
+  "deal_id": 36204835,
+  "mikrobot_compliance": true,
+  "fresh_signal_execution": true
+}

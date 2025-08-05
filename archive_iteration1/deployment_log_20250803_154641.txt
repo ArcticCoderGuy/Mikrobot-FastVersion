@@ -1,0 +1,21 @@
+MIKROBOT FASTVERSION DEPLOYMENT LOG\n==================================================\n[2025-08-03 15:46:37] INFO: STARTING MIKROBOT FASTVERSION DEPLOYMENT\n[2025-08-03 15:46:37] INFO:    Account: 107034605\n[2025-08-03 15:46:37] INFO:    Strategy: MIKROBOT_FASTVERSION.md\n[2025-08-03 15:46:37] INFO: ============================================================\n[2025-08-03 15:46:37] INFO: Checking MT5 connection...\n[2025-08-03 15:46:37] SUCCESS: SUCCESS: Connected to MT5 account: 107034605\n[2025-08-03 15:46:37] INFO:    Balance: $98985.86\n[2025-08-03 15:46:37] INFO:    Server: Ava-Demo 1-MT5\n[2025-08-03 15:46:37] INFO: Deploying ATR Dynamic Positioning System...\n[2025-08-03 15:46:38] SUCCESS: SUCCESS: ATR Dynamic Positioning System deployed successfully\n[2025-08-03 15:46:38] INFO: Deploying Universal 0.6 Ylipip Trigger System...\n[2025-08-03 15:46:39] SUCCESS: SUCCESS: Universal 0.6 Ylipip Trigger System deployed successfully\n[2025-08-03 15:46:39] INFO: Deploying XPWS Weekly Profit Tracking System...\n[2025-08-03 15:46:40] ERROR: ERROR: XPWS Weekly Profit Tracking System deployment failed: C:\Users\HP\Dev\Mikrobot Fastversion\xpws_weekly_tracker.py:112: DeprecationWarning: The default date adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+  cursor.execute('''
+C:\Users\HP\Dev\Mikrobot Fastversion\xpws_weekly_tracker.py:140: DeprecationWarning: The default date adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+  cursor.execute('''
+Traceback (most recent call last):
+  File "C:\Users\HP\Dev\Mikrobot Fastversion\xpws_weekly_tracker.py", line 297, in <module>
+    print(f"\n\U0001f4ca XPWS Status Report - Week: {status_report['week_start']}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 2: character maps to <undefined>
+\n[2025-08-03 15:46:40] INFO: Deploying Dual Phase TP System...\n[2025-08-03 15:46:41] ERROR: ERROR: Dual Phase TP System deployment failed: Traceback (most recent call last):
+  File "C:\Users\HP\Dev\Mikrobot Fastversion\dual_phase_tp_system.py", line 307, in <module>
+    print(f"\n\U0001f4ca Monitoring {len(positions)} position(s):")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 2: character maps to <undefined>
+\n[2025-08-03 15:46:41] SUCCESS: SUCCESS: EA installed: C:\Users\HP\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Experts\MikrobotFastversionEA.mq5\n[2025-08-03 15:46:41] INFO: Creating EA activation signal...\n[2025-08-03 15:46:41] SUCCESS: SUCCESS: Activation signal created: C:\Users\HP\AppData\Roaming\MetaQuotes\Terminal\Common\Files\mikrobot_fastversion_signal.json\n[2025-08-03 15:46:41] SUCCESS: SUCCESS: Startup script created: C:\Users\HP\Dev\Mikrobot Fastversion\start_mikrobot_fastversion.bat\n[2025-08-03 15:46:41] INFO: ============================================================\n[2025-08-03 15:46:41] ERROR: ERROR: DEPLOYMENT FAILED - Some components had errors\n[2025-08-03 15:46:41] WARNING: WARNING: Review errors above and retry deployment\n

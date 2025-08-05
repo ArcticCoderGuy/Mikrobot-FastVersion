@@ -1,0 +1,15 @@
+{
+  "position_sizing_fix": "COMPLETED",
+  "old_system": "0.01 lots fixed",
+  "new_system": "ATR-based 0.55% risk",
+  "execution": {
+    "symbol": "EURJPY",
+    "volume": 0.7,
+    "price": 170.124,
+    "ticket": 39929442,
+    "risk_amount": 560.0,
+    "improvement_factor": 70.0
+  },
+  "mikrobot_compliance": "100%",
+  "timestamp": "2025-08-05T10:53:07.880120"
+}

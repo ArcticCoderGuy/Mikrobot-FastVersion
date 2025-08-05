@@ -1,0 +1,145 @@
+{
+  "timestamp": "20250803_095900",
+  "strategy_version": "MikroBot_BOS_M5M1_v2.01",
+  "pip_trigger": 0.8,
+  "total_found": 15,
+  "total_tested": 15,
+  "total_validated": 13,
+  "validation_rate": 86.66666666666667,
+  "available_indices": [
+    "MIOTAUSD",
+    "#DOWINC",
+    "#KROGER",
+    "#NASDAQINC",
+    "#SCHLUMBERGER",
+    "#WWGRAINGER",
+    "#SPXL",
+    "#SDOW",
+    "#CHINASOUTHERNAIR",
+    "NAS100",
+    "GERMANY_40",
+    "AUS_200",
+    "GERMANY_TECH30",
+    "#BAUSCHHEALTH",
+    "MELANIAUSD"
+  ],
+  "validated_indices": {
+    "MIOTAUSD": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.08000000000000002,
+      "current_price": 0.1807,
+      "spread": 0.001799999999999996,
+      "digits": 4,
+      "pip_value": 0.1,
+      "trade_mode": 4
+    },
+    "#DOWINC": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 21.86,
+      "spread": 0.08999999999999986,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#KROGER": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 71.48,
+      "spread": 0.09000000000000341,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#NASDAQINC": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 95.27,
+      "spread": 0.22999999999998977,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#SCHLUMBERGER": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 33.08,
+      "spread": 0.07000000000000028,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#WWGRAINGER": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 1040.89,
+      "spread": 2.259999999999991,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#SPXL": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 175.01,
+      "spread": 0.1599999999999966,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#SDOW": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 43.25,
+      "spread": 0.04999999999999716,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "#CHINASOUTHERNAIR": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 33.11,
+      "spread": 0.13000000000000256,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    },
+    "GERMANY_40": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.08000000000000002,
+      "current_price": 23528.3,
+      "spread": 2.0,
+      "digits": 1,
+      "pip_value": 0.1,
+      "trade_mode": 4
+    },
+    "AUS_200": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.8,
+      "current_price": 8590.0,
+      "spread": 2.0,
+      "digits": 0,
+      "pip_value": 1.0,
+      "trade_mode": 4
+    },
+    "GERMANY_TECH30": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.08000000000000002,
+      "current_price": 3809.5,
+      "spread": 60.0,
+      "digits": 1,
+      "pip_value": 0.1,
+      "trade_mode": 4
+    },
+    "#BAUSCHHEALTH": {
+      "status": "VALIDATED",
+      "pip_trigger_value": 0.008,
+      "current_price": 5.73,
+      "spread": 0.03000000000000025,
+      "digits": 2,
+      "pip_value": 0.01,
+      "trade_mode": 4
+    }
+  }
+}

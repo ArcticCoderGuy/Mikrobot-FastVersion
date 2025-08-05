@@ -1,0 +1,10 @@
+2025-08-04 11:14:10,712 - INFO - LIVE TRADING SYSTEM STARTING
+2025-08-04 11:14:10,712 - INFO - ========================================
+2025-08-04 11:14:10,750 - INFO - Connected to MT5 - Account: 107034605, Balance: $99106.86
+2025-08-04 11:14:10,750 - INFO - SYSTEM OPERATIONAL - Monitoring for signals...
+2025-08-04 11:14:10,751 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-08-04 11:14:15,752 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-08-04 11:14:20,760 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-08-04 11:14:25,762 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-08-04 11:14:30,764 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2025-08-04 11:14:35,767 - ERROR - Signal parsing error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)

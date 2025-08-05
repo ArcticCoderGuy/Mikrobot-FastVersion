@@ -1,0 +1,79 @@
+{
+  "timestamp": "20250803_100303",
+  "strategy_version": "MikroBot_BOS_M5M1_v2.02_CFD",
+  "base_pip_trigger": 0.8,
+  "test_results": {
+    "#SPXL": {
+      "pip_trigger_value": 0.008,
+      "trigger_percentage": 0.004571167361865036,
+      "status": "OPTIMAL",
+      "current_price": 175.01
+    },
+    "NAS100": {
+      "pip_trigger_value": 0.8,
+      "trigger_percentage": 0.00633487745971414,
+      "status": "OPTIMAL",
+      "current_price": 12628.5
+    },
+    "GERMANY_40": {
+      "pip_trigger_value": 0.8,
+      "trigger_percentage": 0.0034001606575910716,
+      "status": "OPTIMAL",
+      "current_price": 23528.3
+    },
+    "AUS_200": {
+      "pip_trigger_value": 0.8,
+      "trigger_percentage": 0.009313154831199068,
+      "status": "OPTIMAL",
+      "current_price": 8590.0
+    },
+    "GERMANY_TECH30": {
+      "pip_trigger_value": 0.8,
+      "trigger_percentage": 0.021000131250820318,
+      "status": "OPTIMAL",
+      "current_price": 3809.5
+    }
+  },
+  "cfd_pip_rules": {
+    "#SPXL": {
+      "pip_value": 0.01,
+      "pip_trigger_value": 0.008,
+      "description": "0.01 point = 1 pip (2 decimals)",
+      "price": 175.01,
+      "digits": 2
+    },
+    "NAS100": {
+      "pip_value": 1.0,
+      "pip_trigger_value": 0.8,
+      "description": "1 point = 1 pip (high value)",
+      "price": 12628.5,
+      "digits": 2
+    },
+    "GERMANY_40": {
+      "pip_value": 1.0,
+      "pip_trigger_value": 0.8,
+      "description": "1 point = 1 pip (DAX style)",
+      "price": 23528.3,
+      "digits": 1
+    },
+    "AUS_200": {
+      "pip_value": 1.0,
+      "pip_trigger_value": 0.8,
+      "description": "1 point = 1 pip (ASX style)",
+      "price": 8590.0,
+      "digits": 0
+    },
+    "GERMANY_TECH30": {
+      "pip_value": 1.0,
+      "pip_trigger_value": 0.8,
+      "description": "1 point = 1 pip (DAX style)",
+      "price": 3809.5,
+      "digits": 1
+    }
+  },
+  "summary": {
+    "total_tested": 5,
+    "optimal_triggers": 5,
+    "success_rate": 100.0
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "submarine_id": "USS_MIKROBOT_FASTVERSION_TACTICAL",
+  "demo_timestamp": "2025-08-04T00:34:50.750012",
+  "demo_duration_seconds": 3.578187,
+  "total_analyses": 7,
+  "average_analysis_time_ms": 1.387,
+  "quality_rating": "[GOLD] GOLD STANDARD (Cp/Cpk >= 3.0)",
+  "nuclear_reactor_performance": {
+    "conservative_total_risk": 3468.740100000001,
+    "moderate_total_risk": 6937.480200000002,
+    "aggressive_total_risk": 13874.960400000004,
+    "average_atr_pips": 10.448979591836789,
+    "reactor_status": "CRITICAL"
+  },
+  "asset_class_distribution": {
+    "FOREX": 7
+  },
+  "detailed_results": [
+    {
+      "analysis_number": 1,
+      "symbol": "EURUSD",
+      "analysis_time_ms": 0.86,
+      "market_intel": {
+        "bid": 1.15926,
+        "ask": 1.15934,
+        "spread_pips": 0.8,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 201.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 12.728571428571392,
+      "risk_scenarios": [
+        {
+          "symbol": "EURUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 12.728571428571392,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 12.728571428571392,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "EURUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 12.728571428571392,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 12.728571428571392,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "EURUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 12.728571428571392,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 12.728571428571392,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:47.168493"
+    },
+    {
+      "analysis_number": 2,
+      "symbol": "GBPUSD",
+      "analysis_time_ms": 1.367,
+      "market_intel": {
+        "bid": 1.3280699999999999,
+        "ask": 1.32844,
+        "spread_pips": 3.7,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 150.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 13.842857142857268,
+      "risk_scenarios": [
+        {
+          "symbol": "GBPUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 13.842857142857268,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 13.842857142857268,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "GBPUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 13.842857142857268,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 13.842857142857268,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "GBPUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 13.842857142857268,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 13.842857142857268,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:47.682560"
+    },
+    {
+      "analysis_number": 3,
+      "symbol": "USDJPY",
+      "analysis_time_ms": 1.611,
+      "market_intel": {
+        "bid": 147.235,
+        "ask": 147.255,
+        "spread_pips": 2.0,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 201.0,
+        "lot_step": 0.01,
+        "point": 0.001,
+        "digits": 3
+      },
+      "atr_value": 11.642857142857313,
+      "risk_scenarios": [
+        {
+          "symbol": "USDJPY",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 11.642857142857313,
+          "pip_value": 0.01,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 11.642857142857313,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "USDJPY",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 11.642857142857313,
+          "pip_value": 0.01,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 11.642857142857313,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "USDJPY",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 11.642857142857313,
+          "pip_value": 0.01,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 11.642857142857313,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:48.186193"
+    },
+    {
+      "analysis_number": 4,
+      "symbol": "USDCHF",
+      "analysis_time_ms": 1.6360000000000001,
+      "market_intel": {
+        "bid": 0.80399,
+        "ask": 0.80426,
+        "spread_pips": 2.7,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 150.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 10.085714285714301,
+      "risk_scenarios": [
+        {
+          "symbol": "USDCHF",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.085714285714301,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 10.085714285714301,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "USDCHF",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.085714285714301,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 10.085714285714301,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "USDCHF",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.085714285714301,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 10.085714285714301,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:48.700516"
+    },
+    {
+      "analysis_number": 5,
+      "symbol": "AUDUSD",
+      "analysis_time_ms": 1.443,
+      "market_intel": {
+        "bid": 0.64635,
+        "ask": 0.6465,
+        "spread_pips": 1.5,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 151.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 7.621428571428542,
+      "risk_scenarios": [
+        {
+          "symbol": "AUDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.621428571428542,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 7.621428571428542,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "AUDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.621428571428542,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 7.621428571428542,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "AUDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.621428571428542,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 7.621428571428542,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:49.203389"
+    },
+    {
+      "analysis_number": 6,
+      "symbol": "USDCAD",
+      "analysis_time_ms": 1.463,
+      "market_intel": {
+        "bid": 1.37795,
+        "ask": 1.37901,
+        "spread_pips": 10.6,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 150.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 10.114285714285836,
+      "risk_scenarios": [
+        {
+          "symbol": "USDCAD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.114285714285836,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 10.114285714285836,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "USDCAD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.114285714285836,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 10.114285714285836,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "USDCAD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 10.114285714285836,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 10.114285714285836,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:49.719057"
+    },
+    {
+      "analysis_number": 7,
+      "symbol": "NZDUSD",
+      "analysis_time_ms": 1.3290000000000002,
+      "market_intel": {
+        "bid": 0.59086,
+        "ask": 0.59107,
+        "spread_pips": 2.1,
+        "trading_session": "SYDNEY",
+        "contract_size": 100000.0,
+        "min_lot": 0.01,
+        "max_lot": 150.0,
+        "lot_step": 0.01,
+        "point": 1e-05,
+        "digits": 5
+      },
+      "atr_value": 7.107142857142867,
+      "risk_scenarios": [
+        {
+          "symbol": "NZDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.107142857142867,
+          "pip_value": 0.0001,
+          "risk_amount": 495.53430000000003,
+          "atr_adjusted": 7.107142857142867,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "CONSERVATIVE"
+        },
+        {
+          "symbol": "NZDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.107142857142867,
+          "pip_value": 0.0001,
+          "risk_amount": 991.0686000000001,
+          "atr_adjusted": 7.107142857142867,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "MODERATE"
+        },
+        {
+          "symbol": "NZDUSD",
+          "asset_class": "FOREX",
+          "lot_size": 1.0,
+          "stop_loss_pips": 7.107142857142867,
+          "pip_value": 0.0001,
+          "risk_amount": 1982.1372000000001,
+          "atr_adjusted": 7.107142857142867,
+          "reactor_status": "CRITICAL",
+          "calculation_precision": "SUBMARINE_GRADE",
+          "scenario": "AGGRESSIVE"
+        }
+      ],
+      "timestamp": "2025-08-04T00:34:50.234459"
+    }
+  ]
+}

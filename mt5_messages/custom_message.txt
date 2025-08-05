@@ -1,0 +1,11 @@
+MIKROBOT VIESTI - 11:42:51 02.08.2025
+============================================================
+Vastaanottaja: MetaQuotes ID 03A06890
+Tili: 107034605
+Aika: 2025-08-02 11:42:51.743749
+
+VIESTI:
+Pekka ja Aulikki menivät saunaan ja Pekka avasi kaljapullon johon Auni sanoi; ota nyt mielummin Paulaner:ia
+
+============================================================
+Lähettäjä: Mikrobot FastVersion

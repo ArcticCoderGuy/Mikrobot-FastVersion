@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Test - Mikrobot</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/static/images/dubai-skyline.jpg') center/cover no-repeat fixed;
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <img src="/static/images/mikrobot-logo.svg" alt="Mikrobot Logo" class="logo">
+        <h1>Mikrobot</h1>
+        <p>Dubai Background Test</p>
+        <p>If you see this with Dubai skyline behind, the fix worked!</p>
+        <p><a href="/" style="color: #4CAF50;">← Back to Main Site</a></p>
+    </div>
+</body>
+</html>

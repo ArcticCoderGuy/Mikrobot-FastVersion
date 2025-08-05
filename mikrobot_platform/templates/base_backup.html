@@ -1,0 +1,320 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mikrobot - Smart Microscale Trading Platform{% endblock %}</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: 
+                linear-gradient(rgba(30, 58, 95, 0.85), rgba(30, 58, 95, 0.85)),
+                url('{% load static %}{% static "images/dubai-skyline.jpg" %}') center/cover no-repeat fixed;
+            color: white;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        /* Top Navigation Bar */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .logo-section .mikrobot-logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            filter: brightness(1.2);
+        }
+        
+        .logo-section .brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+        
+        .logo-section .brand-name {
+            font-size: 1em;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        
+        .logo-section .brand-tagline {
+            font-size: 0.5em;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        
+        .nav-item {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            color: white;
+        }
+        
+        .nav-item.active {
+            background: rgba(255, 255, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        /* Status Indicator */
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+        
+        .status-green { background-color: #28a745; }
+        .status-blue { background-color: #17a2b8; }
+        .status-orange { background-color: #fd7e14; }
+        
+        /* Main Content */
+        .main-content {
+            margin-top: 80px;
+            padding: 40px 20px;
+            min-height: calc(100vh - 80px);
+        }
+        
+        /* Standard Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Standard Card Design */
+        .content-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        
+        .content-card h1, .content-card h2, .content-card h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        /* Grid System */
+        .grid {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .grid-2 { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+        .grid-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .grid-4 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .top-nav {
+                padding: 10px 15px;
+            }
+            
+            .nav-menu {
+                gap: 15px;
+            }
+            
+            .nav-item {
+                padding: 6px 12px;
+                font-size: 0.9em;
+            }
+            
+            .logo-section {
+                font-size: 1.1em;
+            }
+            
+            .logo-section .mikrobot-logo {
+                width: 32px;
+                height: 32px;
+                margin-right: 10px;
+            }
+            
+            .main-content {
+                margin-top: 70px;
+                padding: 20px 10px;
+            }
+            
+            .container {
+                padding: 0 10px;
+            }
+            
+            .content-card {
+                padding: 20px;
+                margin: 15px 0;
+            }
+        }
+        
+        {% block extra_css %}{% endblock %}
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo-section">
+            <img src="{% static 'images/mikrobot-logo.svg' %}" alt="Mikrobot Logo" class="mikrobot-logo">
+            <div class="brand-text">
+                <div class="brand-name">Mikrobot</div>
+                <div class="brand-tagline">Smart Microscale Trading</div>
+            </div>
+        </div>
+        
+        <div class="nav-menu">
+            <a href="/" class="nav-item">
+                <span class="status-indicator status-green"></span>
+                Home
+            </a>
+            <a href="/dashboard/" class="nav-item">
+                <span class="status-indicator status-blue"></span>
+                Dashboard
+            </a>
+            <a href="/admin/" class="nav-item">
+                <span class="status-indicator status-orange"></span>
+                Admin
+            </a>
+            <a href="/admin/mikrobot/config/" class="nav-item">
+                <span class="status-indicator status-green"></span>
+                Config
+            </a>
+            <a href="/admin/mikrobot/config/validate/" class="nav-item">
+                <span class="status-indicator status-blue"></span>
+                Validate
+            </a>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            {% block content %}
+            <div class="content-card">
+                <h1>Mikrobot Trading Platform</h1>
+                <p>Smart Microscale Trading - Professional automated trading solutions with enterprise-grade precision</p>
+            </div>
+            {% endblock %}
+        </div>
+    </main>
+    
+    <!-- JavaScript -->
+    <script>
+        // Highlight active navigation item
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            const navItems = document.querySelectorAll('.nav-item');
+            
+            navItems.forEach(item => {
+                if (item.getAttribute('href') === currentPath) {
+                    item.classList.add('active');
+                }
+            });
+            
+            // Status check for validation endpoint
+            fetch('/admin/mikrobot/config/validate/')
+                .then(response => response.json())
+                .then(data => {
+                    const statusIndicators = document.querySelectorAll('.status-indicator');
+                    if (data.is_compliant) {
+                        statusIndicators.forEach(indicator => {
+                            if (indicator.classList.contains('status-blue')) {
+                                indicator.classList.remove('status-blue');
+                                indicator.classList.add('status-green');
+                            }
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.log('Status check failed:', error);
+                });
+        });
+        
+        {% block extra_js %}{% endblock %}
+    </script>
+</body>
+</html>

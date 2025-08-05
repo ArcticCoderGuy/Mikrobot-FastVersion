@@ -1,0 +1,872 @@
+INFO 2025-08-04 19:32:52,057 basehttp 3876 45572 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 19:32:53,261 basehttp 3876 45572 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13205
+INFO 2025-08-04 19:32:53,334 basehttp 3876 45572 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-04 19:32:53,360 basehttp 3876 45572 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-04 19:32:53,368 basehttp 3876 45140 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-04 19:32:53,372 basehttp 3876 3488 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-04 19:32:53,373 basehttp 3876 6348 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 19:32:53,374 basehttp 3876 46076 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 19:32:53,375 basehttp 3876 46024 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-04 19:32:53,411 basehttp 3876 6348 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 19:32:53,412 basehttp 3876 46024 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-04 19:32:53,412 basehttp 3876 46076 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-04 19:32:53,530 basehttp 3876 46076 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2025-08-04 19:32:53,843 log 3876 46076 Not Found: /favicon.ico
+WARNING 2025-08-04 19:32:53,845 basehttp 3876 46076 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 19:34:29,710 basehttp 3876 46964 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 19:34:29,837 basehttp 3876 46964 "GET /admin/ HTTP/1.1" 200 23176
+INFO 2025-08-04 19:34:29,883 basehttp 3876 46964 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,896 basehttp 3876 46964 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,899 basehttp 3876 46940 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-08-04 19:34:29,906 basehttp 3876 46964 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,907 basehttp 3876 45748 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,909 basehttp 3876 38180 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,910 basehttp 3876 46752 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,912 basehttp 3876 46940 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,912 basehttp 3876 46964 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,919 basehttp 3876 46964 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:34:29,946 basehttp 3876 46964 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-04 19:34:29,951 basehttp 3876 46940 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-04 19:34:29,952 basehttp 3876 46752 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-08-04 19:34:30,010 basehttp 3876 46752 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,660 basehttp 3876 44416 "GET /admin/accounts/loginhistory/ HTTP/1.1" 200 24264
+INFO 2025-08-04 19:36:51,705 basehttp 3876 44416 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,717 basehttp 3876 44416 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,725 basehttp 3876 40076 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-08-04 19:36:51,743 basehttp 3876 11680 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,744 basehttp 3876 40076 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,752 basehttp 3876 16396 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-08-04 19:36:51,752 basehttp 3876 44416 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-08-04 19:36:51,765 basehttp 3876 44416 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-08-04 19:36:51,767 basehttp 3876 40076 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-08-04 19:36:51,782 basehttp 3876 16396 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-08-04 19:36:51,790 basehttp 3876 11680 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-08-04 19:36:51,798 basehttp 3876 44416 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,860 basehttp 3876 40076 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-08-04 19:36:51,864 basehttp 3876 43096 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-08-04 19:36:51,885 basehttp 3876 43096 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,890 basehttp 3876 40076 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-08-04 19:36:51,902 basehttp 3876 46728 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:36:51,904 basehttp 3876 40076 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,912 basehttp 3876 40076 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,915 basehttp 3876 46728 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-08-04 19:36:51,947 basehttp 3876 46728 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,950 basehttp 3876 40076 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:51,955 basehttp 3876 40076 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:36:55,666 basehttp 3876 44492 "GET /admin/accounts/userprofile/ HTTP/1.1" 200 25048
+INFO 2025-08-04 19:36:55,818 basehttp 3876 44492 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:36:55,848 basehttp 3876 44492 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-08-04 19:37:01,064 basehttp 3876 44492 "GET /admin/auth/group/add/ HTTP/1.1" 200 34235
+INFO 2025-08-04 19:37:01,114 basehttp 3876 44492 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-08-04 19:37:01,146 basehttp 3876 44492 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-08-04 19:37:01,158 basehttp 3876 1608 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-08-04 19:37:01,165 basehttp 3876 37200 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-08-04 19:37:01,199 basehttp 3876 47044 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-08-04 19:37:01,208 basehttp 3876 47044 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-08-04 19:37:01,231 basehttp 3876 44992 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:37:01,347 basehttp 3876 44992 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-08-04 19:37:01,357 basehttp 3876 44992 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-08-04 19:37:01,358 basehttp 3876 47044 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-08-04 19:37:21,017 basehttp 3876 4100 "POST /admin/auth/group/add/ HTTP/1.1" 200 9937
+INFO 2025-08-04 19:37:21,062 basehttp 3876 4100 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2025-08-04 19:37:32,724 basehttp 3876 45744 "GET /admin/auth/group/add/ HTTP/1.1" 200 34441
+INFO 2025-08-04 19:37:32,783 basehttp 3876 46284 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-08-04 19:37:53,836 basehttp 3876 47280 "GET /admin/sites/site/ HTTP/1.1" 200 24677
+INFO 2025-08-04 19:37:53,983 basehttp 3876 47280 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:37:54,005 basehttp 3876 47280 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-08-04 19:37:58,435 basehttp 3876 47280 "GET /admin/sites/site/1/change/ HTTP/1.1" 200 24448
+INFO 2025-08-04 19:37:58,575 basehttp 3876 47280 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:38:10,992 basehttp 3876 47116 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 19:38:11,046 basehttp 3876 47116 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,058 basehttp 3876 47116 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,063 basehttp 3876 7472 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,068 basehttp 3876 7472 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,072 basehttp 3876 38180 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,073 basehttp 3876 45000 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:11,091 basehttp 3876 38180 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,010 basehttp 3876 38180 "GET /admin/account/emailaddress/add/ HTTP/1.1" 200 25402
+INFO 2025-08-04 19:38:59,050 basehttp 3876 38180 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,061 basehttp 3876 38180 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,067 basehttp 3876 768 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,093 basehttp 3876 768 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,095 basehttp 3876 47300 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,099 basehttp 3876 47404 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,100 basehttp 3876 43872 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,109 basehttp 3876 768 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,119 basehttp 3876 44384 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,128 basehttp 3876 47300 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,131 basehttp 3876 47404 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,131 basehttp 3876 43872 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,173 basehttp 3876 47404 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,180 basehttp 3876 47404 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:38:59,216 basehttp 3876 38180 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:38:59,242 basehttp 3876 38180 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:17,010 basehttp 3876 42580 "POST /admin/account/emailaddress/add/ HTTP/1.1" 200 25637
+INFO 2025-08-04 19:39:17,069 basehttp 3876 42580 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:17,084 basehttp 3876 4312 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:17,123 basehttp 3876 4312 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:17,138 basehttp 3876 4312 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:17,161 basehttp 3876 46180 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:39:17,187 basehttp 3876 46180 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:28,652 basehttp 3876 47556 "POST /admin/account/emailaddress/add/ HTTP/1.1" 200 25621
+INFO 2025-08-04 19:39:28,758 basehttp 3876 47556 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 19:39:47,213 basehttp 3876 5972 "GET /admin/account/ HTTP/1.1" 200 14555
+INFO 2025-08-04 19:39:47,268 basehttp 3876 11552 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:47,268 basehttp 3876 5972 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:47,271 basehttp 3876 44340 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:47,300 basehttp 3876 44340 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:39:50,140 basehttp 3876 44340 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 19:40:04,765 basehttp 3876 8356 "GET /admin/accounts/ HTTP/1.1" 200 15914
+INFO 2025-08-04 19:46:47,145 basehttp 3876 4312 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 19:46:47,198 basehttp 3876 4312 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,212 basehttp 3876 4312 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,217 basehttp 3876 13760 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,221 basehttp 3876 8592 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,226 basehttp 3876 14356 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,228 basehttp 3876 3612 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,230 basehttp 3876 14332 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,235 basehttp 3876 3612 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,238 basehttp 3876 14332 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,239 basehttp 3876 14356 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,261 basehttp 3876 14332 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,266 basehttp 3876 14356 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,268 basehttp 3876 3612 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 19:46:47,274 basehttp 3876 3612 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 19:48:37,480 autoreload 48180 48184 Watching for file changes with StatReloader
+INFO 2025-08-04 19:50:37,493 autoreload 48180 48184 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 19:50:40,771 autoreload 49860 49864 Watching for file changes with StatReloader
+INFO 2025-08-04 19:53:07,706 autoreload 49860 49864 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\config\mikrobot_config.py changed, reloading.
+INFO 2025-08-04 19:53:09,701 autoreload 52080 50796 Watching for file changes with StatReloader
+INFO 2025-08-04 20:03:27,059 basehttp 3876 53472 code 400, message Bad request version ('\x0exÎÇãD=è\x9380?^Ü]üDj¨¥\x9b(\x05±\xadÙ\x06]\x9aÄ')
+ERROR 2025-08-04 20:03:27,113 basehttp 3876 53472 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:27,140 basehttp 3876 54484 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2025-08-04 20:03:27,142 basehttp 3876 54484 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:29,389 basehttp 3876 5652 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2025-08-04 20:03:29,389 basehttp 3876 5652 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:29,395 basehttp 3876 11968 code 400, message Bad request version ('ÖV')
+ERROR 2025-08-04 20:03:29,398 basehttp 3876 11968 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:29,409 basehttp 3876 5028 code 400, message Bad request version ('4\x82|7¾P\x10q»Àsd\x18L[ÊL\x92bëô\x8aÆ')
+ERROR 2025-08-04 20:03:29,411 basehttp 3876 5028 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:29,415 basehttp 3876 12080 code 400, message Bad request version ('g"êº@h¸2.¸Âï\x8cw4\x00?,Ü\x90ë')
+ERROR 2025-08-04 20:03:29,417 basehttp 3876 12080 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:03:47,829 basehttp 3876 54716 "GET /admin/ HTTP/1.1" 200 23905
+INFO 2025-08-04 20:03:47,906 basehttp 3876 54716 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,928 basehttp 3876 54716 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,930 basehttp 3876 12104 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,944 basehttp 3876 12404 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,944 basehttp 3876 10096 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,945 basehttp 3876 54716 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,946 basehttp 3876 50612 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,962 basehttp 3876 50612 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,975 basehttp 3876 50612 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,977 basehttp 3876 54716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:47,990 basehttp 3876 54716 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:48,006 basehttp 3876 54716 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:48,013 basehttp 3876 54716 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:48,013 basehttp 3876 50612 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:03:54,297 basehttp 3876 54716 "GET /dashboard/ HTTP/1.1" 200 18638
+WARNING 2025-08-04 20:03:55,063 log 3876 54716 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:03:55,065 basehttp 3876 54716 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:12:05,919 basehttp 3876 16544 "GET /dashboard/ HTTP/1.1" 200 18639
+INFO 2025-08-04 20:12:05,996 basehttp 3876 16544 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:12:06,012 basehttp 3876 16544 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:12:06,052 basehttp 3876 55592 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:12:06,087 basehttp 3876 53364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-08-04 20:12:06,255 log 3876 16544 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:12:06,257 basehttp 3876 16544 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:12:37,284 basehttp 3876 11616 "GET /dashboard/ HTTP/1.1" 200 18639
+WARNING 2025-08-04 20:12:37,527 log 3876 11616 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:12:37,528 basehttp 3876 11616 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:12:41,651 basehttp 3876 11616 "GET /dashboard/ HTTP/1.1" 200 18637
+INFO 2025-08-04 20:12:41,708 basehttp 3876 11616 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 20:12:41,709 basehttp 3876 8812 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 20:12:41,710 basehttp 3876 12372 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 20:12:41,740 basehttp 3876 12372 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2025-08-04 20:12:42,780 log 3876 8812 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:12:42,782 basehttp 3876 8812 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16686
+INFO 2025-08-04 20:12:42,817 basehttp 3876 11616 "GET /dashboard/ HTTP/1.1" 200 18638
+ERROR 2025-08-04 20:12:42,859 log 3876 12372 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\middleware.py", line 58, in __call__
+    response = toolbar.process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\timer.py", line 65, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\headers.py", line 46, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\staticfiles.py", line 114, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\redirects.py", line 17, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\profiling.py", line 144, in process_request
+    return self.profiler.runcall(super().process_request, request)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\cProfile.py", line 111, in runcall
+    self.enable()
+    ~~~~~~~~~~~^^
+ValueError: Another profiling tool is already active
+INFO 2025-08-04 20:12:42,872 basehttp 3876 12372 - Broken pipe from ('127.0.0.1', 57644)
+INFO 2025-08-04 20:12:42,878 basehttp 3876 11616 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 20:12:42,885 basehttp 3876 8812 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 20:12:42,890 basehttp 3876 55660 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 20:12:42,911 basehttp 3876 55660 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2025-08-04 20:12:43,101 log 3876 8812 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:12:43,104 basehttp 3876 8812 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+ERROR 2025-08-04 20:12:43,142 log 3876 55660 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\middleware.py", line 58, in __call__
+    response = toolbar.process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\timer.py", line 65, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\headers.py", line 46, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\staticfiles.py", line 114, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\redirects.py", line 17, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\profiling.py", line 144, in process_request
+    return self.profiler.runcall(super().process_request, request)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\cProfile.py", line 111, in runcall
+    self.enable()
+    ~~~~~~~~~~~^^
+ValueError: Another profiling tool is already active
+ERROR 2025-08-04 20:12:43,148 basehttp 3876 55660 "GET /favicon.ico HTTP/1.1" 500 157302
+INFO 2025-08-04 20:12:55,260 basehttp 3876 55624 "GET /dashboard/ HTTP/1.1" 200 18637
+WARNING 2025-08-04 20:12:55,539 log 3876 55624 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:12:55,542 basehttp 3876 55624 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+ERROR 2025-08-04 20:12:55,571 log 3876 49220 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\middleware.py", line 58, in __call__
+    response = toolbar.process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\timer.py", line 65, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\headers.py", line 46, in process_request
+    return super().process_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\staticfiles.py", line 114, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\redirects.py", line 17, in process_request
+    response = super().process_request(request)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\debug_toolbar\panels\profiling.py", line 144, in process_request
+    return self.profiler.runcall(super().process_request, request)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\cProfile.py", line 111, in runcall
+    self.enable()
+    ~~~~~~~~~~~^^
+ValueError: Another profiling tool is already active
+ERROR 2025-08-04 20:12:55,575 basehttp 3876 49220 "GET /favicon.ico HTTP/1.1" 500 157006
+WARNING 2025-08-04 20:12:59,070 log 3876 54424 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:12:59,071 basehttp 3876 54424 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+WARNING 2025-08-04 20:12:59,286 log 3876 54424 Not Found: /favicon.ico
+WARNING 2025-08-04 20:12:59,286 basehttp 3876 54424 "GET /favicon.ico HTTP/1.1" 404 12576
+INFO 2025-08-04 20:13:03,996 basehttp 3876 54424 "GET /admin/accounts/user/ HTTP/1.1" 200 28342
+INFO 2025-08-04 20:13:04,035 basehttp 3876 54424 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,045 basehttp 3876 54424 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,048 basehttp 3876 11820 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,068 basehttp 3876 11820 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,069 basehttp 3876 3188 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,070 basehttp 3876 53392 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,076 basehttp 3876 56192 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,077 basehttp 3876 55852 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,087 basehttp 3876 3188 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,091 basehttp 3876 11820 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,103 basehttp 3876 53392 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,110 basehttp 3876 56192 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,114 basehttp 3876 55852 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,116 basehttp 3876 11820 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,123 basehttp 3876 3188 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-08-04 20:13:04,158 basehttp 3876 3188 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,168 basehttp 3876 3188 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,180 basehttp 3876 3188 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,190 basehttp 3876 54424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 20:13:04,229 basehttp 3876 54424 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,239 basehttp 3876 54424 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:04,239 basehttp 3876 3188 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:13:07,343 basehttp 3876 12320 "GET /admin/accounts/tradingaccount/ HTTP/1.1" 200 25248
+INFO 2025-08-04 20:13:07,483 basehttp 3876 12320 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-08-04 20:13:24,948 log 3876 17984 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:13:24,949 basehttp 3876 17984 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+INFO 2025-08-04 20:14:17,220 autoreload 52080 50796 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\settings.py changed, reloading.
+INFO 2025-08-04 20:14:19,759 autoreload 57212 57208 Watching for file changes with StatReloader
+INFO 2025-08-04 20:15:27,925 autoreload 57212 57208 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\urls.py changed, reloading.
+INFO 2025-08-04 20:15:30,332 autoreload 58124 58128 Watching for file changes with StatReloader
+INFO 2025-08-04 20:15:57,613 autoreload 58124 58128 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\settings.py changed, reloading.
+INFO 2025-08-04 20:15:59,790 autoreload 56956 56948 Watching for file changes with StatReloader
+INFO 2025-08-04 20:16:05,394 autoreload 56956 56948 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\urls.py changed, reloading.
+INFO 2025-08-04 20:16:07,714 autoreload 53320 53668 Watching for file changes with StatReloader
+INFO 2025-08-04 20:16:13,090 autoreload 53320 53668 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\urls.py changed, reloading.
+INFO 2025-08-04 20:16:15,498 autoreload 6460 6520 Watching for file changes with StatReloader
+INFO 2025-08-04 20:17:46,407 basehttp 3876 1936 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00')
+ERROR 2025-08-04 20:17:46,410 basehttp 3876 1936 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:17:46,422 basehttp 3876 58980 code 400, message Bad request version ('\x82')
+ERROR 2025-08-04 20:17:46,426 basehttp 3876 58980 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:17:52,713 basehttp 3876 56644 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 20:17:52,794 basehttp 3876 56644 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,797 basehttp 3876 53828 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,800 basehttp 3876 59016 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,829 basehttp 3876 59016 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,845 basehttp 3876 59016 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,849 basehttp 3876 53828 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:52,986 basehttp 3876 53828 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:17:56,202 basehttp 3876 53828 "GET /dashboard/ HTTP/1.1" 200 18637
+WARNING 2025-08-04 20:17:56,990 log 3876 53828 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:17:56,991 basehttp 3876 53828 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:18:08,865 basehttp 3876 56840 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02DÍ\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+ERROR 2025-08-04 20:18:08,865 basehttp 3876 56840 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:18:08,869 basehttp 3876 58012 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00')
+ERROR 2025-08-04 20:18:08,869 basehttp 3876 58012 You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2025-08-04 20:18:35,836 log 3876 58864 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:18:35,837 basehttp 3876 58864 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+INFO 2025-08-04 20:19:00,328 basehttp 3876 1244 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00\x00')
+ERROR 2025-08-04 20:19:00,330 basehttp 3876 1244 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:00,334 basehttp 3876 2052 code 400, message Bad request version ('ç/èúâ3\x8c4\x82¶,W\x89¬p_îE[d')
+ERROR 2025-08-04 20:19:00,334 basehttp 3876 2052 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:05,218 basehttp 3876 11728 code 400, message Bad request version ('N')
+ERROR 2025-08-04 20:19:05,219 basehttp 3876 11728 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:05,222 basehttp 3876 11724 code 400, message Bad request version ('Ü7M')
+ERROR 2025-08-04 20:19:05,222 basehttp 3876 11724 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:05,224 basehttp 3876 7032 code 400, message Bad request version ('ÃWÁgá\x19\x87\x8a')
+ERROR 2025-08-04 20:19:05,224 basehttp 3876 7032 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:05,227 basehttp 3876 56840 code 400, message Bad request version ('?{0;©\x92Ê\x8c,}ð\x00')
+ERROR 2025-08-04 20:19:05,228 basehttp 3876 56840 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:18,008 basehttp 3876 7496 code 400, message Bad request version (")¡¾²\x87òin\x07\x07\x1b~KQ\x04'Fåñ")
+ERROR 2025-08-04 20:19:18,008 basehttp 3876 7496 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:18,012 basehttp 3876 6932 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ê\x044\x8aÃ\x8b÷V')
+ERROR 2025-08-04 20:19:18,012 basehttp 3876 6932 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:19:59,235 basehttp 3876 5284 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 20:19:59,271 basehttp 3876 5284 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 20:19:59,285 basehttp 3876 5284 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 20:19:59,295 basehttp 3876 5284 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 20:19:59,473 basehttp 3876 1244 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 20:19:59,498 basehttp 3876 5284 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:19:59,554 basehttp 3876 5284 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+INFO 2025-08-04 20:20:06,146 basehttp 3876 59584 "GET /dashboard/ HTTP/1.1" 200 18236
+INFO 2025-08-04 20:20:06,261 basehttp 3876 59584 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:20:06,336 basehttp 3876 59584 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+INFO 2025-08-04 20:20:09,672 basehttp 3876 59584 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:20:09,705 basehttp 3876 59584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 20:20:09,759 basehttp 3876 59584 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-04 20:20:09,776 basehttp 3876 59748 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-04 20:20:09,776 basehttp 3876 59744 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-04 20:20:09,777 basehttp 3876 59740 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-04 20:20:09,778 basehttp 3876 59756 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-04 20:20:09,779 basehttp 3876 59584 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-04 20:20:09,780 basehttp 3876 59752 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-04 20:20:16,829 basehttp 3876 59752 "GET /admin/mikrobot/config/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:20:16,872 basehttp 3876 59752 "GET /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 200 13255
+INFO 2025-08-04 20:20:23,763 basehttp 3876 59752 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:20:23,807 basehttp 3876 59752 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 20:20:34,106 basehttp 3876 59576 code 400, message Bad request version ('yÙº³\x00*èìÔ@â8\x94ÏQ')
+ERROR 2025-08-04 20:20:34,107 basehttp 3876 59576 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:34,110 basehttp 3876 59464 code 400, message Bad request version ('\x0fã\x98\x7f\x99lÇJ\x88\x14')
+ERROR 2025-08-04 20:20:34,111 basehttp 3876 59464 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:40,307 basehttp 3876 59616 code 400, message Bad request version ('#[²')
+ERROR 2025-08-04 20:20:40,307 basehttp 3876 59616 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:40,311 basehttp 3876 11968 code 400, message Bad request version ('\x7flË\x08Ö\x1bñß\x15,\x91')
+ERROR 2025-08-04 20:20:40,311 basehttp 3876 11968 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:45,581 basehttp 3876 60304 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03[UÔ\x12\x80\x8c+±')
+ERROR 2025-08-04 20:20:45,581 basehttp 3876 60304 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:45,585 basehttp 3876 59580 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00')
+ERROR 2025-08-04 20:20:45,585 basehttp 3876 59580 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:45,586 basehttp 3876 12140 code 400, message Bad request version ("_ÖXØ'\x15rlw\x87\x97N\x7f¨H\x02\x19\x08¿kÌ\x99Ö\x05Z©\x8açw")
+ERROR 2025-08-04 20:20:45,586 basehttp 3876 12140 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:45,588 basehttp 3876 9596 code 400, message Bad request version ('ØyB\x01²å¿Ê\x9e«w')
+ERROR 2025-08-04 20:20:45,589 basehttp 3876 9596 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:53,131 basehttp 3876 59140 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00ÿ\x01\x00\x01\x00\x00')
+ERROR 2025-08-04 20:20:53,135 basehttp 3876 59140 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:53,139 basehttp 3876 3048 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2025-08-04 20:20:53,140 basehttp 3876 3048 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:20:56,109 basehttp 3876 59680 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 20:20:56,171 basehttp 3876 59680 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,194 basehttp 3876 59680 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,195 basehttp 3876 59692 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,198 basehttp 3876 59160 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,211 basehttp 3876 59160 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,218 basehttp 3876 59160 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:56,830 basehttp 3876 59160 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:20:58,839 basehttp 3876 59160 "GET /dashboard/ HTTP/1.1" 200 18637
+WARNING 2025-08-04 20:20:59,305 log 3876 59160 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:20:59,306 basehttp 3876 59160 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+WARNING 2025-08-04 20:21:02,159 log 3876 59160 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:21:02,160 basehttp 3876 59160 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+WARNING 2025-08-04 20:23:45,525 log 3876 59932 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:23:45,527 basehttp 3876 59932 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+INFO 2025-08-04 20:23:45,578 basehttp 3876 59932 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:23:45,585 basehttp 3876 59932 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:23:45,586 basehttp 3876 11348 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:23:45,635 basehttp 3876 11348 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:23:49,864 basehttp 3876 11348 "GET /admin/ HTTP/1.1" 200 23904
+WARNING 2025-08-04 20:23:52,880 log 3876 5644 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:23:52,881 basehttp 3876 5644 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+INFO 2025-08-04 20:29:22,884 basehttp 3876 60396 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2025-08-04 20:29:22,887 basehttp 3876 60396 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:22,904 basehttp 3876 12528 code 400, message Bad request version ('RfÄV¡r×â"\x92£5¸î^_\x00ÕçÎt\x14ª\x93ô¥\x1a%°.Óô\x00')
+ERROR 2025-08-04 20:29:22,904 basehttp 3876 12528 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:30,702 basehttp 3876 60468 code 400, message Bad request version ('\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+ERROR 2025-08-04 20:29:30,704 basehttp 3876 60468 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:30,707 basehttp 3876 14464 code 400, message Bad request version ('{\x9f|Í')
+ERROR 2025-08-04 20:29:30,707 basehttp 3876 14464 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:38,022 basehttp 3876 16748 code 400, message Bad request version ('ú\x0e3³æ³©\x0eRWWÞ¶\x9eMÆ37»ÉZ+\x83I£\x8agÓ»jmÄfGXÐÝý»')
+ERROR 2025-08-04 20:29:38,023 basehttp 3876 16748 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:38,027 basehttp 3876 10256 code 400, message Bad request version ('\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2025-08-04 20:29:38,027 basehttp 3876 10256 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:29:41,097 basehttp 3876 53856 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 20:29:41,159 basehttp 3876 53856 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,180 basehttp 3876 53856 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,186 basehttp 3876 16368 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,187 basehttp 3876 60272 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,187 basehttp 3876 53856 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,408 basehttp 3876 53856 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,413 basehttp 3876 53856 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,429 basehttp 3876 60272 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,429 basehttp 3876 53856 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:41,430 basehttp 3876 16368 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:46,335 basehttp 3876 16368 "GET /dashboard/ HTTP/1.1" 200 18637
+INFO 2025-08-04 20:29:46,457 basehttp 3876 16368 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:46,484 basehttp 3876 16368 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:46,486 basehttp 3876 60272 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:46,776 basehttp 3876 16368 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-08-04 20:29:46,961 log 3876 60272 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:29:46,963 basehttp 3876 60272 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:29:52,146 basehttp 3876 62108 "GET /admin/accounts/tradingaccount/ HTTP/1.1" 200 25248
+INFO 2025-08-04 20:29:52,215 basehttp 3876 62108 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,230 basehttp 3876 62116 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,235 basehttp 3876 62120 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,241 basehttp 3876 62108 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,255 basehttp 3876 62124 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,256 basehttp 3876 62128 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,288 basehttp 3876 62116 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,303 basehttp 3876 62120 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,326 basehttp 3876 62108 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,327 basehttp 3876 62124 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,357 basehttp 3876 62124 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:29:52,369 basehttp 3876 62112 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 20:29:52,413 basehttp 3876 62112 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+WARNING 2025-08-04 20:29:54,807 log 3876 62112 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:29:54,808 basehttp 3876 62112 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16649
+INFO 2025-08-04 20:30:00,447 basehttp 3876 12320 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+ERROR 2025-08-04 20:30:00,454 basehttp 3876 12320 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:30:00,458 basehttp 3876 7768 code 400, message Bad request version ('\x98\x86ÿ½\x00')
+ERROR 2025-08-04 20:30:00,458 basehttp 3876 7768 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:31:46,154 basehttp 3876 13876 code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+ERROR 2025-08-04 20:31:46,163 basehttp 3876 13876 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:31:46,168 basehttp 3876 60576 code 400, message Bad request version ('\x8b\x9dþ\x81\x96¬U\x01È¢\x87sâÅ@æ^%&Îe\x873æ@È/ë')
+ERROR 2025-08-04 20:31:46,169 basehttp 3876 60576 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:31:49,785 basehttp 3876 13344 "GET /dashboard/ HTTP/1.1" 200 18638
+WARNING 2025-08-04 20:31:50,275 log 3876 13344 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:31:50,276 basehttp 3876 13344 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:32:51,982 basehttp 3876 12340 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03áP¾Ã')
+ERROR 2025-08-04 20:32:51,983 basehttp 3876 12340 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:32:51,987 basehttp 3876 43476 code 400, message Bad request version ('´\x97®©\x9cCËíÙ!3\x89þo\x11ÏÐ¼\x02B?¼\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00')
+ERROR 2025-08-04 20:32:51,988 basehttp 3876 43476 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:32:51,988 basehttp 3876 4312 code 400, message Bad request version ("<\x84zCÐ'FX6\x8eWyø\x05\x94-b-ðÇ")
+ERROR 2025-08-04 20:32:51,988 basehttp 3876 4312 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:32:51,990 basehttp 3876 13744 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+ERROR 2025-08-04 20:32:51,991 basehttp 3876 13744 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:33:21,985 basehttp 3876 9376 "GET /admin/ HTTP/1.1" 200 23904
+INFO 2025-08-04 20:33:44,839 basehttp 3876 64440 "GET /dashboard/ HTTP/1.1" 200 18236
+INFO 2025-08-04 20:33:44,908 basehttp 3876 64440 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 20:33:44,917 basehttp 3876 64484 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 20:33:44,971 basehttp 3876 64484 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 20:33:44,997 basehttp 3876 64440 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:33:45,184 basehttp 3876 64440 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 20:33:45,213 basehttp 3876 64484 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 20:33:45,498 log 3876 64484 Not Found: /favicon.ico
+WARNING 2025-08-04 20:33:45,499 basehttp 3876 64484 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 20:33:56,191 basehttp 3876 64484 "GET /admin/mikrobot/config/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:33:56,232 basehttp 3876 64484 "GET /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 200 13255
+INFO 2025-08-04 20:33:56,278 basehttp 3876 64484 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-04 20:33:56,288 basehttp 3876 64440 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-04 20:33:56,295 basehttp 3876 9844 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-04 20:33:56,295 basehttp 3876 13792 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-04 20:33:56,297 basehttp 3876 10016 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-04 20:33:56,299 basehttp 3876 64484 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-04 20:33:56,301 basehttp 3876 4128 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-04 20:34:00,064 basehttp 3876 64484 "GET /admin/accounts/tradingaccount/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:34:00,101 basehttp 3876 64484 "GET /admin/login/?next=/admin/accounts/tradingaccount/ HTTP/1.1" 200 13279
+INFO 2025-08-04 20:34:04,608 basehttp 3876 64484 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:34:04,660 basehttp 3876 64484 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 20:35:43,817 basehttp 3876 61688 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:35:43,850 basehttp 3876 61688 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 20:35:43,902 basehttp 3876 61688 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,921 basehttp 3876 61688 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,921 basehttp 3876 61652 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,921 basehttp 3876 38296 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,922 basehttp 3876 62612 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,924 basehttp 3876 63088 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,924 basehttp 3876 62068 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,938 basehttp 3876 63088 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,938 basehttp 3876 62068 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,939 basehttp 3876 62612 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:43,973 basehttp 3876 62612 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:35:49,336 basehttp 3876 62612 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:35:49,427 basehttp 3876 62612 "GET /admin/ HTTP/1.1" 200 23500
+INFO 2025-08-04 20:35:49,471 basehttp 3876 62612 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-08-04 20:35:49,498 basehttp 3876 63088 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-08-04 20:35:49,499 basehttp 3876 62612 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-04 20:35:49,501 basehttp 3876 62068 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-04 20:36:11,812 basehttp 3876 62612 "GET /dashboard HTTP/1.1" 301 0
+INFO 2025-08-04 20:36:11,852 basehttp 3876 62068 "GET /dashboard/ HTTP/1.1" 200 18234
+WARNING 2025-08-04 20:36:11,967 log 3876 62068 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:36:11,968 basehttp 3876 62068 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16281
+INFO 2025-08-04 20:36:37,569 basehttp 3876 62492 "GET /dashboard/ HTTP/1.1" 200 18638
+INFO 2025-08-04 20:36:37,741 basehttp 3876 62492 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:36:37,760 basehttp 3876 62492 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:36:37,775 basehttp 3876 62492 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:36:38,106 basehttp 3876 60684 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-08-04 20:36:38,284 log 3876 62492 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:36:38,286 basehttp 3876 62492 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:40:55,090 basehttp 3876 59496 code 400, message Bad request version ('Ò±®i\x04$±|\x80\x15$X·Ç?À\x11\x99\x01\x86ÐÃc\x8eÐ\x81à·')
+ERROR 2025-08-04 20:40:55,092 basehttp 3876 59496 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:40:55,098 basehttp 3876 63304 code 400, message Bad request version ('ý;K(O')
+ERROR 2025-08-04 20:40:55,099 basehttp 3876 63304 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:01,704 basehttp 3876 12056 code 400, message Bad request version ('y}\x954\x06õÊ÷\x9a\x9e\x89\x00\x8d\x94ÅU´wÈÂ¶9¹ê\x93\x01Éª\x16Áh')
+ERROR 2025-08-04 20:41:01,705 basehttp 3876 12056 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:01,707 basehttp 3876 2312 code 400, message Bad request version ('3\x9f¢j»\x95Cç\x99x\x90kÙ\x8f}w\x19\x00')
+ERROR 2025-08-04 20:41:01,708 basehttp 3876 2312 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:05,979 basehttp 3876 6476 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sjj\x00\x00\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2025-08-04 20:41:05,980 basehttp 3876 6476 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:05,985 basehttp 3876 5200 code 400, message Bad request version ('¡c?¶;TÈÌ')
+ERROR 2025-08-04 20:41:05,985 basehttp 3876 5200 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:12,350 basehttp 3876 7812 code 400, message Bad request version ('r')
+ERROR 2025-08-04 20:41:12,351 basehttp 3876 7812 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:12,354 basehttp 3876 60132 code 400, message Bad request version ('ü\x95:.\x8f\x95ÿäjÚ\x04ÕÅz\x03\x16')
+ERROR 2025-08-04 20:41:12,354 basehttp 3876 60132 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:28,268 basehttp 3876 62336 code 400, message Bad request version ('\x9aµ\x9fw<Á9Èg\x90u\x8f\x96Ub')
+ERROR 2025-08-04 20:41:28,269 basehttp 3876 62336 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:28,272 basehttp 3876 11452 code 400, message Bad request version ("\x9c\x84BÎü&A=²´®k¯\x94h\x04¾H\x1aÞÀ3Îj©D!k\x97Wm\x15ä\x9d\x96\x18\x0e%\x96IÒw´'ã\x0e\x87¦xYy\x80ÕX")
+ERROR 2025-08-04 20:41:28,273 basehttp 3876 11452 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:31,847 basehttp 3876 60844 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+ERROR 2025-08-04 20:41:31,847 basehttp 3876 60844 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:31,849 basehttp 3876 9304 code 400, message Bad request version ('ùoH\x9c\x8d\x9a$£')
+ERROR 2025-08-04 20:41:31,850 basehttp 3876 9304 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:31,850 basehttp 3876 4720 code 400, message Bad request version ('HÜ&÷ô\x9b&')
+ERROR 2025-08-04 20:41:31,851 basehttp 3876 4720 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:31,853 basehttp 3876 3324 code 400, message Bad request version ('nÿVy\x16È¦')
+ERROR 2025-08-04 20:41:31,854 basehttp 3876 3324 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:56,196 basehttp 3876 10236 code 400, message Bad request version ('æ\x007\x84þ\x87rþjØkµdW»Ç`Æhfü¿"E\x08i\x9fCÉ\x83¹u')
+ERROR 2025-08-04 20:41:56,197 basehttp 3876 10236 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:41:56,200 basehttp 3876 63216 code 400, message Bad request version ('F\x02á\x15\x7fÎ\x15\x11×{oë¼\x95WAÍBlºþ"\x9a|\x90_\x87\x83Â²±\x94ÊåggÙ¹\x9eµ®»ð\x01mÔ')
+ERROR 2025-08-04 20:41:56,201 basehttp 3876 63216 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:42:23,738 basehttp 3876 64472 code 400, message Bad request version ('Í5Ö½j\x0f\x8f,l\x08dGOH/\x9aÊ4_CÙÂïâe')
+ERROR 2025-08-04 20:42:23,738 basehttp 3876 64472 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:42:23,744 basehttp 3876 16248 code 400, message Bad request version ('H\x97')
+ERROR 2025-08-04 20:42:23,746 basehttp 3876 16248 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:42:29,528 basehttp 3876 63808 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x19*À')
+ERROR 2025-08-04 20:42:29,528 basehttp 3876 63808 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:42:29,531 basehttp 3876 62012 code 400, message Bad request version ('ã|Õð\x9b\x07]ÀõÂ|ú(UÔÊl')
+ERROR 2025-08-04 20:42:29,532 basehttp 3876 62012 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-08-04 20:42:47,913 basehttp 3876 5792 "GET /dashboard/ HTTP/1.1" 200 18638
+WARNING 2025-08-04 20:42:48,284 log 3876 5792 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:42:48,286 basehttp 3876 5792 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16685
+INFO 2025-08-04 20:43:33,145 basehttp 3876 64800 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 20:43:33,204 basehttp 3876 64800 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:33,208 basehttp 3876 64836 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:33,253 basehttp 3876 64836 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:33,299 basehttp 3876 64836 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:43:33,483 basehttp 3876 64800 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:33,511 basehttp 3876 64836 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 20:43:33,817 log 3876 64836 Not Found: /favicon.ico
+WARNING 2025-08-04 20:43:33,818 basehttp 3876 64836 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 20:43:48,738 basehttp 3876 64836 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:43:48,786 basehttp 3876 64836 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 20:43:48,833 basehttp 3876 64836 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,841 basehttp 3876 64836 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,844 basehttp 3876 64800 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,852 basehttp 3876 10152 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,853 basehttp 3876 64664 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,854 basehttp 3876 62456 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:48,855 basehttp 3876 64836 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-08-04 20:43:51,768 basehttp 3876 64836 "GET /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:43:51,819 basehttp 3876 64836 "GET /admin/login/?next=/admin/accounts/user/ HTTP/1.1" 200 13249
+INFO 2025-08-04 20:43:57,294 basehttp 3876 64836 "GET /admin/mikrobot/config/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:43:57,340 basehttp 3876 64836 "GET /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 200 13255
+INFO 2025-08-04 20:44:20,247 basehttp 3876 64836 "POST /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 200 13427
+INFO 2025-08-04 20:45:42,346 basehttp 3876 64836 "POST /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 302 0
+WARNING 2025-08-04 20:45:42,416 log 3876 64836 Not Found: /admin/mikrobot/config/
+WARNING 2025-08-04 20:45:42,417 basehttp 3876 64836 "GET /admin/mikrobot/config/ HTTP/1.1" 404 16245
+INFO 2025-08-04 20:47:30,244 basehttp 3876 64836 "GET /admin/login/?next=/admin/mikrobot/config/ HTTP/1.1" 302 0
+INFO 2025-08-04 20:47:30,369 basehttp 3876 64836 "GET /admin/ HTTP/1.1" 200 23501
+INFO 2025-08-04 20:47:30,428 basehttp 3876 64836 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-08-04 20:47:30,432 basehttp 3876 10152 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-04 20:47:30,433 basehttp 3876 64664 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-08-04 20:47:30,435 basehttp 3876 62456 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-04 20:47:39,540 autoreload 6460 6520 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 20:47:43,001 autoreload 65440 65468 Watching for file changes with StatReloader
+INFO 2025-08-04 20:49:17,416 autoreload 65440 65468 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 20:49:19,059 autoreload 17200 65176 Watching for file changes with StatReloader
+INFO 2025-08-04 20:49:37,400 autoreload 17200 65176 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\mikrobot_platform\urls.py changed, reloading.
+INFO 2025-08-04 20:49:39,130 autoreload 65248 62072 Watching for file changes with StatReloader
+INFO 2025-08-04 20:50:09,282 autoreload 66312 6840 Watching for file changes with StatReloader
+INFO 2025-08-04 20:50:50,162 basehttp 3876 10152 "GET / HTTP/1.1" 200 17341
+WARNING 2025-08-04 20:50:50,337 log 3876 10152 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:50:50,338 basehttp 3876 10152 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16282
+INFO 2025-08-04 20:50:53,011 basehttp 3876 10152 "GET /admin/accounts/user/ HTTP/1.1" 200 27939
+INFO 2025-08-04 20:50:53,051 basehttp 3876 10152 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-08-04 20:50:53,089 basehttp 3876 64664 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-08-04 20:50:53,091 basehttp 3876 64836 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-08-04 20:50:53,098 basehttp 3876 13880 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-08-04 20:50:53,102 basehttp 3876 64836 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-08-04 20:50:53,103 basehttp 3876 65956 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-08-04 20:50:53,105 basehttp 3876 64664 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-08-04 20:50:53,120 basehttp 3876 13880 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-08-04 20:50:53,121 basehttp 3876 64664 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-08-04 20:50:53,135 basehttp 3876 62456 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-08-04 20:50:53,137 basehttp 3876 65956 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-08-04 20:50:53,147 basehttp 3876 65956 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-08-04 20:50:53,167 basehttp 3876 10152 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-08-04 20:50:53,207 basehttp 3876 10152 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-08-04 20:50:53,208 basehttp 3876 65956 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-08-04 20:50:57,825 basehttp 3876 65956 "GET /admin/ HTTP/1.1" 200 23500
+INFO 2025-08-04 20:50:59,436 basehttp 3876 65956 "GET /admin/accounts/user/ HTTP/1.1" 200 27939
+INFO 2025-08-04 20:51:01,723 basehttp 3876 65956 "GET /dashboard/ HTTP/1.1" 200 18234
+WARNING 2025-08-04 20:51:01,862 log 3876 65956 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:51:01,863 basehttp 3876 65956 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16281
+INFO 2025-08-04 20:51:06,636 basehttp 3876 65956 "GET /dashboard/ HTTP/1.1" 200 18234
+WARNING 2025-08-04 20:51:06,822 log 3876 65956 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 20:51:06,823 basehttp 3876 65956 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16282
+INFO 2025-08-04 21:07:13,930 autoreload 69360 69356 Watching for file changes with StatReloader
+INFO 2025-08-04 21:07:42,673 basehttp 3876 9376 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:07:42,832 basehttp 3876 9376 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 21:07:42,834 basehttp 3876 68772 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 21:07:42,996 basehttp 3876 68772 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-08-04 21:07:43,097 basehttp 3876 9376 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-08-04 21:07:43,150 log 3876 68772 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 21:07:43,151 basehttp 3876 68772 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16282
+INFO 2025-08-04 21:07:48,397 basehttp 3876 70360 "GET / HTTP/1.1" 200 17339
+INFO 2025-08-04 21:07:48,562 basehttp 3876 70360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:07:48,705 basehttp 3876 70360 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:07:48,738 basehttp 3876 70360 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:07:49,050 basehttp 3876 70360 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:07:49,097 basehttp 3876 70384 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:07:49,262 basehttp 3876 70384 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13283
+WARNING 2025-08-04 21:07:49,653 log 3876 70384 Not Found: /favicon.ico
+WARNING 2025-08-04 21:07:49,654 basehttp 3876 70384 "GET /favicon.ico HTTP/1.1" 404 12174
+INFO 2025-08-04 21:07:59,847 basehttp 3876 69988 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:07:59,903 basehttp 3876 69988 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:07:59,914 basehttp 3876 69988 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:07:59,988 basehttp 3876 69988 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:08:00,032 basehttp 3876 69988 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:08:00,218 basehttp 3876 69988 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:08:00,243 basehttp 3876 70060 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 21:08:00,530 log 3876 70060 Not Found: /favicon.ico
+WARNING 2025-08-04 21:08:00,530 basehttp 3876 70060 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 21:08:16,115 basehttp 3876 70060 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:08:16,222 basehttp 3876 70060 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 21:08:16,314 basehttp 3876 69988 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-04 21:08:16,315 basehttp 3876 5792 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-04 21:08:16,316 basehttp 3876 70060 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-04 21:08:16,325 basehttp 3876 70060 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-04 21:08:16,326 basehttp 3876 69988 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-04 21:08:16,350 basehttp 3876 69988 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-04 21:08:16,351 basehttp 3876 70060 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-04 21:08:32,774 basehttp 3876 70060 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:08:32,906 basehttp 3876 70060 "GET /admin/ HTTP/1.1" 200 23501
+INFO 2025-08-04 21:08:32,963 basehttp 3876 70060 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-08-04 21:08:32,988 basehttp 3876 70060 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-08-04 21:08:32,989 basehttp 3876 69988 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-08-04 21:08:32,990 basehttp 3876 5792 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-08-04 21:08:39,901 basehttp 3876 5792 "GET / HTTP/1.1" 200 17341
+WARNING 2025-08-04 21:08:40,035 log 3876 5792 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 21:08:40,036 basehttp 3876 5792 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16281
+INFO 2025-08-04 21:08:42,447 basehttp 3876 5792 "GET /admin/ HTTP/1.1" 200 23500
+INFO 2025-08-04 21:08:44,613 basehttp 3876 5792 "GET / HTTP/1.1" 200 17341
+WARNING 2025-08-04 21:08:44,836 log 3876 5792 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 21:08:44,840 basehttp 3876 5792 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16282
+INFO 2025-08-04 21:08:45,651 basehttp 3876 5792 "GET /dashboard/ HTTP/1.1" 200 18234
+WARNING 2025-08-04 21:08:45,840 log 3876 5792 Not Found: /admin/mikrobot/config/validate/
+WARNING 2025-08-04 21:08:45,842 basehttp 3876 5792 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16282
+INFO 2025-08-04 21:08:52,441 basehttp 3876 64900 "GET /dashboard/ HTTP/1.1" 200 18237
+INFO 2025-08-04 21:08:53,377 basehttp 3876 64900 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:08:53,561 basehttp 3876 64900 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+INFO 2025-08-04 21:10:06,404 basehttp 3876 16244 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:10:06,463 basehttp 3876 16244 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:06,478 basehttp 3876 12364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:06,480 basehttp 3876 16244 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:10:06,509 basehttp 3876 12364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:10:06,542 basehttp 3876 16244 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:10:06,606 basehttp 3876 16244 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 21:10:06,808 log 3876 16244 Not Found: /favicon.ico
+WARNING 2025-08-04 21:10:06,809 basehttp 3876 16244 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 21:10:07,509 basehttp 3876 16244 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:10:07,564 basehttp 3876 16244 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:07,572 basehttp 3876 16244 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:07,573 basehttp 3876 12364 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:10:07,596 basehttp 3876 12364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:10:07,650 basehttp 3876 12364 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:10:07,725 basehttp 3876 12364 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 21:10:07,876 log 3876 12364 Not Found: /favicon.ico
+WARNING 2025-08-04 21:10:07,877 basehttp 3876 12364 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 21:10:08,057 basehttp 3876 12364 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:10:08,119 basehttp 3876 12364 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:08,127 basehttp 3876 12364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:08,129 basehttp 3876 16244 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:10:08,168 basehttp 3876 12364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:10:08,261 basehttp 3876 16244 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:10:08,355 basehttp 3876 12364 "GET / HTTP/1.1" 200 17344
+INFO 2025-08-04 21:10:08,388 basehttp 3876 16244 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13283
+WARNING 2025-08-04 21:10:08,407 log 3876 16052 Not Found: /favicon.ico
+WARNING 2025-08-04 21:10:08,411 basehttp 3876 16052 "GET /favicon.ico HTTP/1.1" 404 12211
+INFO 2025-08-04 21:10:08,499 basehttp 3876 12364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:08,500 basehttp 3876 16244 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:08,538 basehttp 3876 16052 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:10:08,580 basehttp 3876 16244 - Broken pipe from ('127.0.0.1', 60582)
+INFO 2025-08-04 21:10:08,716 basehttp 3876 12364 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:08,725 basehttp 3876 12364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:08,748 basehttp 3876 12364 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:10:08,750 basehttp 3876 16052 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:10:08,875 basehttp 3876 12364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:10:08,878 basehttp 3876 16052 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:10:08,889 basehttp 3876 12364 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:10:08,922 basehttp 3876 16052 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-04 21:10:08,959 basehttp 3876 12364 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:10:09,371 basehttp 3876 12364 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+WARNING 2025-08-04 21:10:09,387 log 3876 16052 Not Found: /favicon.ico
+WARNING 2025-08-04 21:10:09,389 basehttp 3876 16052 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 21:11:38,286 autoreload 71732 71736 Watching for file changes with StatReloader
+INFO 2025-08-04 21:12:19,006 basehttp 3876 71912 "GET / HTTP/1.1" 200 17343
+INFO 2025-08-04 21:12:19,152 basehttp 3876 71912 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:12:19,213 basehttp 3876 71912 "GET /admin/login/?next=/admin/mikrobot/config/validate/ HTTP/1.1" 200 13282
+INFO 2025-08-04 21:12:22,971 basehttp 3876 71912 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-08-04 21:12:23,041 basehttp 3876 71912 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13207
+INFO 2025-08-04 21:12:23,101 basehttp 3876 71912 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-08-04 21:12:23,116 basehttp 3876 71916 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-08-04 21:12:23,116 basehttp 3876 72076 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-08-04 21:12:23,118 basehttp 3876 71912 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-08-04 21:12:23,127 basehttp 3876 71916 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-08-04 21:12:23,128 basehttp 3876 72076 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-08-04 21:12:23,128 basehttp 3876 71912 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-08-04 21:12:32,903 basehttp 71732 62316 "GET / HTTP/1.1" 200 24379
+INFO 2025-08-04 21:12:33,005 basehttp 71732 62316 "GET /static/images/mikrobot-logo.svg HTTP/1.1" 200 944
+INFO 2025-08-04 21:12:33,059 basehttp 71732 62316 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-04 21:12:33,061 basehttp 71732 71388 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-04 21:12:33,068 basehttp 71732 62316 "GET /static/images/dubai-skyline.jpg HTTP/1.1" 200 2071
+INFO 2025-08-04 21:12:33,074 basehttp 71732 3716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-04 21:12:33,391 basehttp 71732 3716 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2025-08-04 21:12:33,713 log 71732 3716 Not Found: /favicon.ico
+WARNING 2025-08-04 21:12:33,714 basehttp 71732 3716 "GET /favicon.ico HTTP/1.1" 404 12173
+INFO 2025-08-04 21:19:39,281 basehttp 3876 73588 "GET /dashboard/ HTTP/1.1" 200 18235
+INFO 2025-08-04 21:19:39,373 basehttp 3876 73588 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-08-04 21:19:39,382 basehttp 3876 73588 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-08-04 21:19:39,489 basehttp 3876 73588 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2025-08-04 21:19:39,586 log 3876 73588 Not Found: /admin/mikrobot/config/validate/
+INFO 2025-08-04 21:19:39,593 basehttp 3876 7416 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2025-08-04 21:19:39,593 basehttp 3876 73588 "GET /admin/mikrobot/config/validate/ HTTP/1.1" 404 16281
+INFO 2025-08-04 21:48:38,519 autoreload 71732 71736 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 21:48:38,670 autoreload 66312 6840 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 21:48:38,960 autoreload 69360 69356 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-04 21:48:38,990 autoreload 65248 62072 C:\Users\HP\Dev\Mikrobot Fastversion\mikrobot_platform\admin_config\admin.py changed, reloading.
+INFO 2025-08-05 00:22:33,844 basehttp 3876 206412 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 13209

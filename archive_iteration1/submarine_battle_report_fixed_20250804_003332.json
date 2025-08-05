@@ -1,0 +1,17 @@
+{
+  "submarine_id": "USS_MIKROBOT_FASTVERSION_FIXED",
+  "drill_timestamp": "2025-08-04T00:33:32.390152",
+  "drill_duration_seconds": 7.087958,
+  "total_engagements": 0,
+  "successful_engagements": 0,
+  "success_rate_percent": 0,
+  "average_execution_time_ms": 0,
+  "quality_rating": "[WARN] NEEDS IMPROVEMENT",
+  "nuclear_reactor_performance": {
+    "total_risk_calculated": 0,
+    "average_lot_size": 0,
+    "average_stop_loss_pips": 0,
+    "reactor_status": "CRITICAL"
+  },
+  "detailed_results": []
+}

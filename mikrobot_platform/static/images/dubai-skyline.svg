@@ -1,0 +1,81 @@
+<svg width="2070" height="1380" viewBox="0 0 2070 1380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF7F50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C2C2C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5A5A5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3C3C3C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6A6A6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4C4C4C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="2070" height="1380" fill="url(#skyGradient)"/>
+  
+  <!-- Burj Khalifa (tallest building in center) -->
+  <polygon points="1035,200 1045,200 1055,900 1045,920 1035,920 1025,900" fill="url(#buildingGradient1)"/>
+  <rect x="1030" y="180" width="20" height="40" fill="#8B7355"/>
+  
+  <!-- Building cluster left side -->
+  <rect x="200" y="600" width="80" height="320" fill="url(#buildingGradient2)"/>
+  <rect x="300" y="550" width="60" height="370" fill="url(#buildingGradient1)"/>
+  <rect x="380" y="650" width="70" height="270" fill="url(#buildingGradient3)"/>
+  <rect x="470" y="580" width="55" height="340" fill="url(#buildingGradient2)"/>
+  <rect x="540" y="620" width="65" height="300" fill="url(#buildingGradient1)"/>
+  
+  <!-- Building cluster right side -->
+  <rect x="1400" y="550" width="75" height="370" fill="url(#buildingGradient2)"/>
+  <rect x="1490" y="600" width="60" height="320" fill="url(#buildingGradient1)"/>
+  <rect x="1570" y="530" width="80" height="390" fill="url(#buildingGradient3)"/>
+  <rect x="1670" y="580" width="70" height="340" fill="url(#buildingGradient2)"/>
+  <rect x="1760" y="620" width="55" height="300" fill="url(#buildingGradient1)"/>
+  
+  <!-- Middle buildings around Burj Khalifa -->
+  <rect x="800" y="650" width="60" height="270" fill="url(#buildingGradient2)"/>
+  <rect x="880" y="600" width="70" height="320" fill="url(#buildingGradient1)"/>
+  <rect x="970" y="680" width="50" height="240" fill="url(#buildingGradient3)"/>
+  <rect x="1080" y="670" width="55" height="250" fill="url(#buildingGradient2)"/>
+  <rect x="1150" y="630" width="65" height="290" fill="url(#buildingGradient1)"/>
+  <rect x="1230" y="660" width="60" height="260" fill="url(#buildingGradient3)"/>
+  
+  <!-- Additional background buildings -->
+  <rect x="100" y="750" width="40" height="170" fill="url(#buildingGradient3)"/>
+  <rect x="160" y="700" width="35" height="220" fill="url(#buildingGradient2)"/>
+  <rect x="650" y="720" width="45" height="200" fill="url(#buildingGradient1)"/>
+  <rect x="720" y="740" width="50" height="180" fill="url(#buildingGradient3)"/>
+  <rect x="1320" y="730" width="40" height="190" fill="url(#buildingGradient2)"/>
+  <rect x="1380" y="710" width="45" height="210" fill="url(#buildingGradient1)"/>
+  <rect x="1850" y="720" width="50" height="200" fill="url(#buildingGradient3)"/>
+  <rect x="1920" y="750" width="40" height="170" fill="url(#buildingGradient2)"/>
+  
+  <!-- Highway/roads with curves -->
+  <path d="M 0,950 Q 500,920 1000,940 T 2070,950 L 2070,1000 Q 1500,980 1000,990 T 0,1000 Z" fill="#444444"/>
+  <path d="M 0,1000 Q 600,970 1200,980 T 2070,1000 L 2070,1050 Q 1400,1030 800,1040 T 0,1050 Z" fill="#555555"/>
+  
+  <!-- Water/reflection area -->
+  <ellipse cx="1600" cy="1200" rx="400" ry="80" fill="#4A90E2" opacity="0.6"/>
+  <ellipse cx="400" cy="1250" rx="300" ry="60" fill="#4A90E2" opacity="0.5"/>
+  
+  <!-- Building lights/windows -->
+  <rect x="210" y="620" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="230" y="650" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="250" y="680" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="320" y="580" width="6" height="5" fill="#FFD700" opacity="0.8"/>
+  <rect x="340" y="610" width="6" height="5" fill="#FFD700" opacity="0.8"/>
+  <rect x="1420" y="580" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="1440" y="610" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="1460" y="640" width="8" height="6" fill="#FFD700" opacity="0.8"/>
+  <rect x="1040" y="400" width="4" height="4" fill="#FFD700" opacity="0.9"/>
+  <rect x="1040" y="500" width="4" height="4" fill="#FFD700" opacity="0.9"/>
+  <rect x="1040" y="600" width="4" height="4" fill="#FFD700" opacity="0.9"/>
+</svg>

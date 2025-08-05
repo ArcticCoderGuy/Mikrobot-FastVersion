@@ -1,0 +1,29 @@
+{
+  "trade_id": "EURJPY_BEAR_08_35",
+  "timestamp": "2025-08-04T11:36:15.046286",
+  "signal_data": {
+    "timestamp": "2025.08.04 08:35",
+    "symbol": "EURJPY",
+    "phase_1_m5_bos": {
+      "direction": "BEAR"
+    },
+    "phase_4_ylipip": {
+      "target": 171.048,
+      "current": 171.048,
+      "triggered": true
+    },
+    "trade_direction": "BEAR",
+    "ylipip_trigger": 0.6
+  },
+  "symbol": "EURJPY",
+  "action": "SELL",
+  "direction": "BEAR",
+  "execution_price": 171.042,
+  "sl_price": 171.122,
+  "tp_price": 170.882,
+  "order_id": 39850585,
+  "deal_id": 36205023,
+  "strategy": "HEDGE_EXISTING_BULLS",
+  "mikrobot_compliance": true,
+  "trend_reversal": true
+}

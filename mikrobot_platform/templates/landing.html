@@ -1,0 +1,195 @@
+{% extends "base.html" %}
+
+{% block title %}Mikrobot - Smart Microscale Trading Platform{% endblock %}
+
+{% block extra_css %}
+<style>
+    .hero-section {
+        text-align: center;
+        margin: 60px 0;
+    }
+    
+    .hero-logo {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 30px auto;
+        filter: brightness(1.2) drop-shadow(2px 2px 8px rgba(0,0,0,0.3));
+    }
+    
+    .hero-title {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        color: white;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4em;
+        margin-bottom: 40px;
+        opacity: 0.9;
+        color: white;
+    }
+    
+    .feature-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
+    
+    .feature-icon {
+        margin-right: 15px;
+        font-size: 1.5em;
+    }
+    
+    .status-bar {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .status-item {
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .status-label {
+        font-size: 0.9em;
+        opacity: 0.8;
+        margin-bottom: 10px;
+    }
+    
+    .status-value {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #28a745;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <img src="/static/images/mikrobot-logo.svg" alt="Mikrobot Logo" class="hero-logo">
+    <h1 class="hero-title">Mikrobot</h1>
+    <p class="hero-subtitle">Smart Microscale Trading - Professional automated trading solutions</p>
+</div>
+
+<div class="grid grid-2">
+    <div class="content-card">
+        <h2>Platform Features</h2>
+        <div class="feature-item">
+            <span class="feature-icon">⚡</span>
+            <span>Sub-100ms Signal Processing</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">📊</span>
+            <span>M5 BOS + M1 Retest Strategy</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">🛡️</span>
+            <span>0.55% Risk Management</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">📈</span>
+            <span>9 Asset Classes Support</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">🏆</span>
+            <span>Six Sigma Quality (Cp/Cpk ≥ 3.0)</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">🎯</span>
+            <span>Enterprise-Grade Precision</span>
+        </div>
+    </div>
+    
+    <div class="content-card">
+        <h2>Subscription Plans</h2>
+        <div class="feature-item">
+            <span class="feature-icon">📦</span>
+            <span><strong>Basic:</strong> $99/month - 10 trades/day</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">⭐</span>
+            <span><strong>Professional:</strong> $199/month - 50 trades/day</span>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">💎</span>
+            <span><strong>Enterprise:</strong> $499/month - Unlimited</span>
+        </div>
+        <div style="margin-top: 20px; padding: 15px; background: rgba(40, 167, 69, 0.2); border-radius: 8px;">
+            <strong>Revenue Potential:</strong> $19.9K-$49.7K/month scalable
+        </div>
+    </div>
+</div>
+
+<div class="content-card">
+    <h2>System Status</h2>
+    <div class="status-bar">
+        <div class="status-item">
+            <div class="status-label">System Status</div>
+            <div class="status-value" id="system-status">CHECKING...</div>
+        </div>
+        <div class="status-item">
+            <div class="status-label">Risk Level</div>
+            <div class="status-value">0.55%</div>
+        </div>
+        <div class="status-item">
+            <div class="status-label">Quality Target</div>
+            <div class="status-value">Cp/Cpk ≥ 3.0</div>
+        </div>
+        <div class="status-item">
+            <div class="status-label">Win Rate Target</div>
+            <div class="status-value">70%+</div>
+        </div>
+    </div>
+</div>
+
+<div class="content-card" style="text-align: center;">
+    <h2>Platform Access</h2>
+    <div class="grid grid-4">
+        <a href="/admin/" class="btn btn-primary">
+            Admin Panel
+        </a>
+        <a href="/dashboard/" class="btn btn-primary">
+            Dashboard
+        </a>
+        <a href="/admin/mikrobot/config/" class="btn btn-primary">
+            Configuration
+        </a>
+        <a href="/admin/mikrobot/config/validate/" class="btn btn-secondary">
+            System Validation
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Check system status on load
+    fetch('/admin/mikrobot/config/validate/')
+        .then(response => response.json())
+        .then(data => {
+            const statusElement = document.getElementById('system-status');
+            if (data.is_compliant) {
+                statusElement.textContent = 'OPERATIONAL';
+                statusElement.style.color = '#28a745';
+            } else {
+                statusElement.textContent = 'MAINTENANCE';
+                statusElement.style.color = '#ffc107';
+            }
+        })
+        .catch(error => {
+            console.log('Status check failed:', error);
+            document.getElementById('system-status').textContent = 'OFFLINE';
+            document.getElementById('system-status').style.color = '#dc3545';
+        });
+</script>
+{% endblock %}

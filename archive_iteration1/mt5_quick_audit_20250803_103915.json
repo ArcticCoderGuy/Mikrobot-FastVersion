@@ -1,0 +1,237 @@
+{
+  "audit_timestamp": "20250803_103915",
+  "strategy_version": "MikroBot_BOS_M5M1_v2.03_QUICK",
+  "base_pip_trigger": 0.8,
+  "audited_symbols": 18,
+  "priority_symbols_audit": true,
+  "pip_conversion_rules": {
+    "BTCUSD": 0.8,
+    "ETHUSD": 0.008,
+    "XRPUSD": 0.008,
+    "LTCUSD": 0.008,
+    "BCHUSD": 8e-05,
+    "EURUSD": 8.000000000000001e-06,
+    "GBPUSD": 8.000000000000001e-06,
+    "USDJPY": 0.008,
+    "USDCHF": 8.000000000000001e-06,
+    "AUDUSD": 8.000000000000001e-06,
+    "USDCAD": 8.000000000000001e-06,
+    "NZDUSD": 8.000000000000001e-06,
+    "EURJPY": 0.008,
+    "GBPJPY": 0.008,
+    "EURGBP": 8.000000000000001e-06,
+    "AUDCAD": 8.000000000000001e-06,
+    "AUDJPY": 0.008,
+    "CADJPY": 0.008
+  },
+  "symbol_details": {
+    "BTCUSD": {
+      "symbol": "BTCUSD",
+      "asset_class": "CRYPTO",
+      "current_price": 113742.9,
+      "spread": 90.91999999999825,
+      "digits": 2,
+      "pip_value": 1.0,
+      "pip_trigger_08": 0.8,
+      "tradeable": true
+    },
+    "ETHUSD": {
+      "symbol": "ETHUSD",
+      "asset_class": "CRYPTO",
+      "current_price": 3459.09,
+      "spread": 3.4600000000000364,
+      "digits": 2,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "XRPUSD": {
+      "symbol": "XRPUSD",
+      "asset_class": "CRYPTO",
+      "current_price": 2.8716,
+      "spread": 0.007099999999999884,
+      "digits": 4,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "LTCUSD": {
+      "symbol": "LTCUSD",
+      "asset_class": "CRYPTO",
+      "current_price": 108.56,
+      "spread": 0.3400000000000034,
+      "digits": 2,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "BCHUSD": {
+      "symbol": "BCHUSD",
+      "asset_class": "CRYPTO",
+      "current_price": 536.98,
+      "spread": 1.6100000000000136,
+      "digits": 2,
+      "pip_value": 0.0001,
+      "pip_trigger_08": 8e-05,
+      "tradeable": true
+    },
+    "EURUSD": {
+      "symbol": "EURUSD",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 1.15872,
+      "spread": 7.999999999985796e-05,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "GBPUSD": {
+      "symbol": "GBPUSD",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 1.32808,
+      "spread": 0.000140000000000029,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "USDJPY": {
+      "symbol": "USDJPY",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 147.445,
+      "spread": 0.05299999999999727,
+      "digits": 3,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "USDCHF": {
+      "symbol": "USDCHF",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 0.80468,
+      "spread": 0.0010599999999999499,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "AUDUSD": {
+      "symbol": "AUDUSD",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 0.64754,
+      "spread": 0.0009099999999999664,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "USDCAD": {
+      "symbol": "USDCAD",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 1.37865,
+      "spread": 0.0003799999999998249,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "NZDUSD": {
+      "symbol": "NZDUSD",
+      "asset_class": "FOREX_MAJOR",
+      "current_price": 0.59236,
+      "spread": 0.0014999999999999458,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "EURJPY": {
+      "symbol": "EURJPY",
+      "asset_class": "FOREX_MINOR",
+      "current_price": 170.821,
+      "spread": 0.0759999999999934,
+      "digits": 3,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "GBPJPY": {
+      "symbol": "GBPJPY",
+      "asset_class": "FOREX_MINOR",
+      "current_price": 195.789,
+      "spread": 0.08099999999998886,
+      "digits": 3,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "EURGBP": {
+      "symbol": "EURGBP",
+      "asset_class": "FOREX_MINOR",
+      "current_price": 0.87267,
+      "spread": 0.00018999999999991246,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "AUDCAD": {
+      "symbol": "AUDCAD",
+      "asset_class": "OTHER",
+      "current_price": 0.89254,
+      "spread": 0.0010900000000000354,
+      "digits": 5,
+      "pip_value": 1e-05,
+      "pip_trigger_08": 8.000000000000001e-06,
+      "tradeable": true
+    },
+    "AUDJPY": {
+      "symbol": "AUDJPY",
+      "asset_class": "FOREX_MINOR",
+      "current_price": 95.424,
+      "spread": 0.09100000000000819,
+      "digits": 3,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    },
+    "CADJPY": {
+      "symbol": "CADJPY",
+      "asset_class": "FOREX_MINOR",
+      "current_price": 106.954,
+      "spread": 0.029999999999986926,
+      "digits": 3,
+      "pip_value": 0.01,
+      "pip_trigger_08": 0.008,
+      "tradeable": true
+    }
+  },
+  "summary_by_class": {
+    "CRYPTO": [
+      "BTCUSD",
+      "ETHUSD",
+      "XRPUSD",
+      "LTCUSD",
+      "BCHUSD"
+    ],
+    "FOREX_MAJOR": [
+      "EURUSD",
+      "GBPUSD",
+      "USDJPY",
+      "USDCHF",
+      "AUDUSD",
+      "USDCAD",
+      "NZDUSD"
+    ],
+    "FOREX_MINOR": [
+      "EURJPY",
+      "GBPJPY",
+      "EURGBP",
+      "AUDJPY",
+      "CADJPY"
+    ],
+    "OTHER": [
+      "AUDCAD"
+    ]
+  }
+}

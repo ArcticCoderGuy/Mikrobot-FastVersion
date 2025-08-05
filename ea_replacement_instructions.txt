@@ -1,0 +1,30 @@
+
+MIKROBOT EA REPLACEMENT INSTRUCTIONS
+Generated: 2025-08-03 16:06:48
+
+CURRENT SITUATION:
+- You have MikrobotM5M1 running on BCHUSD
+- Need to replace with MikrobotFastversionEA
+
+STEPS TO FIX:
+1. Open MetaTrader 5
+2. Look at BCHUSD chart - you'll see "MikrobotM5M1" in top-right corner
+3. Right-click on the chart
+4. Select "Expert Advisors" -> "Remove"
+5. Go to Navigator panel (Ctrl+N if not visible)
+6. Expand "Expert Advisors" 
+7. Find "MikrobotFastversionEA"
+8. Drag it to any chart (EURUSD recommended)
+9. Make sure AutoTrading button is GREEN
+10. You should see "MikrobotFastversionEA" in the chart's top-right corner
+
+VERIFICATION:
+- Only MikrobotFastversionEA should be visible on charts
+- Expert Advisors tab should show MikrobotFastversionEA messages
+- No old MikrobotM5M1 should be running
+
+RESULT:
+- New MIKROBOT_FASTVERSION strategy will be active
+- 0.6 ylipip trigger system activated
+- ATR dynamic positioning enabled
+- XPWS weekly tracking active

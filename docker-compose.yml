@@ -1,0 +1,195 @@
+# Mikrobot FastVersion - Docker Compose Configuration
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: mikrobot-postgres
+    environment:
+      POSTGRES_DB: mikrobot
+      POSTGRES_USER: mikrobot
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mikrobot_secure_password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5432:5432"
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mikrobot -d mikrobot"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: mikrobot-redis
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-redis_secure_password}
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Main Application
+  mikrobot-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mikrobot-app
+    environment:
+      # Database
+      DATABASE_URL: postgresql://mikrobot:${POSTGRES_PASSWORD:-mikrobot_secure_password}@postgres:5432/mikrobot
+      
+      # Redis
+      REDIS_URL: redis://:${REDIS_PASSWORD:-redis_secure_password}@redis:6379/0
+      
+      # Application
+      APP_ENV: ${APP_ENV:-production}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      SECRET_KEY: ${SECRET_KEY:-mikrobot_super_secret_key_change_in_production}
+      
+      # MT5 Configuration
+      MT5_PATH: ${MT5_PATH:-}
+      MT5_LOGIN: ${MT5_LOGIN:-}
+      MT5_PASSWORD: ${MT5_PASSWORD:-}
+      MT5_SERVER: ${MT5_SERVER:-}
+      
+      # Webhook Security
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET:-webhook_secret_key}
+      ALLOWED_IPS: ${ALLOWED_IPS:-}
+      
+      # Risk Management
+      ACCOUNT_BALANCE: ${ACCOUNT_BALANCE:-100000}
+      MAX_DAILY_LOSS_PERCENT: ${MAX_DAILY_LOSS_PERCENT:-5.0}
+      MAX_TOTAL_LOSS_PERCENT: ${MAX_TOTAL_LOSS_PERCENT:-10.0}
+      MAX_POSITION_RISK_PERCENT: ${MAX_POSITION_RISK_PERCENT:-1.0}
+      
+      # ML Model
+      ML_MODEL_PATH: ${ML_MODEL_PATH:-/app/models/signal_classifier.pkl}
+      ENABLE_ML_TRAINING: ${ENABLE_ML_TRAINING:-false}
+      
+      # MCP Configuration
+      ENABLE_MCP: ${ENABLE_MCP:-true}
+      MCP_LOG_LEVEL: ${MCP_LOG_LEVEL:-INFO}
+      
+      # Hansei Configuration
+      ENABLE_HANSEI: ${ENABLE_HANSEI:-true}
+      REFLECTION_INTERVALS: ${REFLECTION_INTERVALS:-3600,86400,604800}
+      
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./config:/app/config
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # Monitoring with Grafana (Optional)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: mikrobot-grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+      GF_INSTALL_PLUGINS: grafana-piechart-panel
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+    ports:
+      - "3000:3000"
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    profiles:
+      - monitoring
+
+  # Prometheus (Optional)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: mikrobot-prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    profiles:
+      - monitoring
+
+  # Backup Service
+  backup:
+    image: postgres:15-alpine
+    container_name: mikrobot-backup
+    environment:
+      PGPASSWORD: ${POSTGRES_PASSWORD:-mikrobot_secure_password}
+    volumes:
+      - ./backups:/backups
+      - ./scripts/backup.sh:/backup.sh:ro
+    command: >
+      sh -c "
+        while true; do
+          sleep 86400
+          pg_dump -h postgres -U mikrobot -d mikrobot > /backups/mikrobot_backup_$$(date +%Y%m%d_%H%M%S).sql
+          find /backups -name '*.sql' -type f -mtime +7 -delete
+        done
+      "
+    depends_on:
+      - postgres
+    networks:
+      - mikrobot-network
+    restart: unless-stopped
+    profiles:
+      - backup
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  grafana_data:
+    driver: local
+  prometheus_data:
+    driver: local
+
+networks:
+  mikrobot-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

@@ -1,0 +1,4 @@
+MIKROBOT ALERT - 11:42:51
+UUSI VIESTI SAAPUNUT
+Tarkista: custom_message.txt
+MetaQuotes ID: 03A06890

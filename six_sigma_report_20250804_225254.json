@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-08-04T22:52:54.031940",
+  "report_type": "Six Sigma Quality Analysis",
+  "target_cpk": 3.0,
+  "current_cpk": 0.448,
+  "target_achieved": 

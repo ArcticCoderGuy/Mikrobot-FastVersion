@@ -1,0 +1,126 @@
+{
+  "model_id": "bos_predictor_v1",
+  "name": "MikroBot BOS Prediction Model",
+  "version": "1.0.0",
+  "config": {
+    "model_type": "ensemble_lstm_rf",
+    "features": {
+      "price_features": [
+        "price_change",
+        "volatility",
+        "momentum"
+      ],
+      "volume_features": [
+        "volume_ratio",
+        "volume_spike"
+      ],
+      "technical_features": [
+        "rsi",
+        "macd",
+        "bb_position"
+      ],
+      "bos_features": [
+        "breakout_strength",
+        "retest_quality",
+        "time_validity"
+      ],
+      "pattern_features": [
+        "m5_structure",
+        "m1_confirmation",
+        "support_resistance"
+      ]
+    },
+    "training": {
+      "sequence_length": 60,
+      "prediction_horizon": 5,
+      "validation_split": 0.2,
+      "test_split": 0.1
+    },
+    "performance_targets": {
+      "min_accuracy": 0.75,
+      "min_precision": 0.7,
+      "min_recall": 0.65,
+      "max_latency_ms": 50
+    }
+  },
+  "performance_metrics": {
+    "accuracy": 0.8249448142616835,
+    "precision": 0.8700162449026752,
+    "recall": 0.8327840872790522,
+    "f1_score": 0.8509931208445387,
+    "roc_auc": 0.8697316968394073,
+    "average_precision": 0.7390046601106091,
+    "training_samples": 21000,
+    "validation_samples": 6000,
+    "test_samples": 3000,
+    "positive_samples": 7850.0,
+    "feature_count": 49,
+    "model_type": "ensemble_lstm_rf",
+    "training_time": "15.3 minutes",
+    "inference_latency_ms": 25,
+    "performance_by_condition": {
+      "trending_market": {
+        "accuracy": 0.8749448142616836,
+        "precision": 0.9000162449026752
+      },
+      "ranging_market": {
+        "accuracy": 0.8049448142616835,
+        "precision": 0.8600162449026751
+      },
+      "high_volatility": {
+        "accuracy": 0.8549448142616836,
+        "precision": 0.8900162449026752
+      },
+      "low_volatility": {
+        "accuracy": 0.7949448142616835,
+        "precision": 0.8500162449026751
+      },
+      "active_session": {
+        "accuracy": 0.8649448142616836,
+        "precision": 0.9000162449026752
+      },
+      "inactive_session": {
+        "accuracy": 0.7849448142616835,
+        "precision": 0.8400162449026751
+      }
+    }
+  },
+  "feature_importance": {
+    "price_acceleration": 0.07540886060475069,
+    "momentum_lag_5": 0.07517747548293996,
+    "session_start": 0.07254780189764475,
+    "is_active_session": 0.06400420426740114,
+    "volume_ratio_lag_10": 0.060375482790664035,
+    "volume_ratio_lag_2": 0.0516655303049351,
+    "momentum_lag_10": 0.048474220059738844,
+    "price_change": 0.04328875121327554,
+    "price_percentile": 0.03845023732883217,
+    "session_end": 0.035563978079578805,
+    "bb_squeeze": 0.03310178385745361,
+    "price_change_lag_10": 0.032118360960414656,
+    "volatility": 0.02650082521294352,
+    "m5_volume_profile": 0.024811244634312456,
+    "price_change_lag_3": 0.023380039481552217,
+    "macd_signal": 0.020369224657027014,
+    "support_distance": 0.0201316512925194,
+    "price_change_abs": 0.01978187556465325,
+    "breakout_strength": 0.019317453445885074,
+    "price_change_lag_5": 0.01702991474015272
+  },
+  "integration_status": {
+    "mt5_expert": true,
+    "u_cells": true
+  },
+  "deployment_info": {
+    "created_at": "2025-08-02T13:47:54.894044",
+    "model_size_mb": 45.2,
+    "inference_latency_ms": 25,
+    "memory_usage_mb": 128,
+    "cpu_usage_percent": 5
+  },
+  "api_endpoints": {
+    "predict": "/api/v1/bos/predict",
+    "status": "/api/v1/bos/status",
+    "metrics": "/api/v1/bos/metrics"
+  }
+}
