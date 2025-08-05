@@ -46,7 +46,9 @@
       "Bash(del db.sqlite3)",
       "Bash(\"C:\\Program Files\\MetaTrader 5\\MetaEditor64.exe\" /compile:\"C:\\Users\\HP\\Dev\\Mikrobot Fastversion\\MikrobotProfessionalBOS.mq5\")",
       "Bash(start /B python:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(touch:*)"
     ],
     "deny": []
   }

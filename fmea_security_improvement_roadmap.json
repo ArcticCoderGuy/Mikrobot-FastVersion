@@ -1,0 +1,382 @@
+{
+  "timestamp": "2025-08-05T16:55:45.756588",
+  "failure_modes": [
+    {
+      "id": "FM001",
+      "failure_mode": "Hardcoded Credentials Exposure",
+      "severity": 10,
+      "occurrence": 9,
+      "detection": 8,
+      "rpn": 720,
+      "expected_rpn_after": 20,
+      "target_date": "2025-08-19",
+      "responsibility": "Security Team Lead + DevOps",
+      "recommended_actions": [
+        "Emergency credential rotation (72 hours)",
+        "Deploy HashiCorp Vault or AWS Secrets Manager",
+        "Implement pre-commit hooks for credential detection",
+        "Automated scanning with tools like GitLeaks",
+        "Security training on secrets management"
+      ]
+    },
+    {
+      "id": "FM002",
+      "failure_mode": "Command Injection Vulnerabilities",
+      "severity": 9,
+      "occurrence": 7,
+      "detection": 6,
+      "rpn": 378,
+      "expected_rpn_after": 18,
+      "target_date": "2025-09-02",
+      "responsibility": "Senior Developer + Security Consultant",
+      "recommended_actions": [
+        "Replace os.system() with subprocess with shell=False",
+        "Implement input validation framework",
+        "Deploy static analysis tools (SonarQube)",
+        "Penetration testing for injection flaws",
+        "Secure coding guidelines implementation"
+      ]
+    },
+    {
+      "id": "FM003",
+      "failure_mode": "Production Debug Mode Enabled",
+      "severity": 8,
+      "occurrence": 5,
+      "detection": 9,
+      "rpn": 360,
+      "expected_rpn_after": 8,
+      "target_date": "2025-08-12",
+      "responsibility": "DevOps Lead",
+      "recommended_actions": [
+        "Immediate debug mode disable (24 hours)",
+        "Implement environment-specific configurations",
+        "Automated deployment with configuration validation",
+        "Continuous monitoring for debug mode detection",
+        "Deployment checklist with security gates"
+      ]
+    },
+    {
+      "id": "FM005",
+      "failure_mode": "Code Duplication Security Inconsistencies",
+      "severity": 6,
+      "occurrence": 8,
+      "detection": 7,
+      "rpn": 336,
+      "expected_rpn_after": 42,
+      "target_date": "2025-09-30",
+      "responsibility": "Tech Lead + Development Team",
+      "recommended_actions": [
+        "Code deduplication using AST analysis",
+        "Implement shared utility libraries",
+        "3S methodology implementation",
+        "Automated duplicate detection in CI/CD",
+        "Refactoring guidelines and training"
+      ]
+    },
+    {
+      "id": "FM004",
+      "failure_mode": "SQL Injection Vulnerabilities",
+      "severity": 9,
+      "occurrence": 6,
+      "detection": 5,
+      "rpn": 270,
+      "expected_rpn_after": 18,
+      "target_date": "2025-09-30",
+      "responsibility": "Database Team + Senior Developers",
+      "recommended_actions": [
+        "Convert to parameterized queries/ORM",
+        "Input validation at all database interfaces",
+        "SQL injection testing tools integration",
+        "Database activity monitoring",
+        "Developer training on secure database practices"
+      ]
+    },
+    {
+      "id": "FM007",
+      "failure_mode": "Weak Encryption Key Management",
+      "severity": 8,
+      "occurrence": 5,
+      "detection": 6,
+      "rpn": 240,
+      "expected_rpn_after": 16,
+      "target_date": "2025-09-30",
+      "responsibility": "Security Team + DevOps",
+      "recommended_actions": [
+        "Implement proper key management system",
+        "Use hardware security modules (HSM)",
+        "Automated key rotation",
+        "Encryption standard compliance (AES-256)",
+        "Regular cryptographic audits"
+      ]
+    },
+    {
+      "id": "FM008",
+      "failure_mode": "No Rate Limiting Implementation",
+      "severity": 5,
+      "occurrence": 6,
+      "detection": 8,
+      "rpn": 240,
+      "expected_rpn_after": 20,
+      "target_date": "2025-09-02",
+      "responsibility": "DevOps + Backend Team",
+      "recommended_actions": [
+        "Implement API rate limiting (Redis-based)",
+        "DDoS protection service integration",
+        "Load testing and capacity planning",
+        "Real-time traffic monitoring",
+        "Automated scaling policies"
+      ]
+    },
+    {
+      "id": "FM006",
+      "failure_mode": "Missing Input Validation",
+      "severity": 7,
+      "occurrence": 7,
+      "detection": 4,
+      "rpn": 196,
+      "expected_rpn_after": 28,
+      "target_date": "2025-10-28",
+      "responsibility": "Development Team + QA",
+      "recommended_actions": [
+        "Implement comprehensive validation framework",
+        "Schema validation for all inputs",
+        "Boundary testing implementation",
+        "Automated validation testing",
+        "Input validation coding standards"
+      ]
+    }
+  ],
+  "prioritized_roadmap": {
+    "categorized_risks": {
+      "CRITICAL": [
+        "FailureMode(id='FM001', failure_mode='Hardcoded Credentials Exposure', potential_effects=['Unauthorized system access', 'Data breach ($4.2M average cost)', 'Regulatory compliance violations', 'Complete trading system compromise'], severity=10, potential_causes=['No secrets management system', 'Developer convenience practices', 'Lack of security training', 'No code review process'], occurrence=9, current_controls=['Manual code reviews (15% coverage)', 'Basic git commit messages'], detection=8, rpn=720, recommended_actions=['Emergency credential rotation (72 hours)', 'Deploy HashiCorp Vault or AWS Secrets Manager', 'Implement pre-commit hooks for credential detection', 'Automated scanning with tools like GitLeaks', 'Security training on secrets management'], responsibility='Security Team Lead + DevOps', target_date='2025-08-19', expected_rpn_after=20)"
+      ],
+      "HIGH": [
+        "FailureMode(id='FM002', failure_mode='Command Injection Vulnerabilities', potential_effects=['Remote code execution', 'Server compromise', 'Data manipulation', 'Trading system manipulation'], severity=9, potential_causes=['Unsanitized input processing', 'Direct os.system() calls', 'No input validation framework', 'Lack of secure coding awareness'], occurrence=7, current_controls=['Basic error handling', 'Limited input validation'], detection=6, rpn=378, recommended_actions=['Replace os.system() with subprocess with shell=False', 'Implement input validation framework', 'Deploy static analysis tools (SonarQube)', 'Penetration testing for injection flaws', 'Secure coding guidelines implementation'], responsibility='Senior Developer + Security Consultant', target_date='2025-09-02', expected_rpn_after=18)",
+        "FailureMode(id='FM003', failure_mode='Production Debug Mode Enabled', potential_effects=['Information disclosure', 'Performance degradation', 'System instability', 'Attack surface expansion'], severity=8, potential_causes=['Deployment configuration errors', 'No environment separation', 'Manual deployment process', 'Lack of deployment checklist'], occurrence=5, current_controls=['Manual configuration review'], detection=9, rpn=360, recommended_actions=['Immediate debug mode disable (24 hours)', 'Implement environment-specific configurations', 'Automated deployment with configuration validation', 'Continuous monitoring for debug mode detection', 'Deployment checklist with security gates'], responsibility='DevOps Lead', target_date='2025-08-12', expected_rpn_after=8)",
+        "FailureMode(id='FM005', failure_mode='Code Duplication Security Inconsistencies', potential_effects=['Inconsistent security implementations', 'Maintenance overhead', 'Missed security updates', 'Configuration drift'], severity=6, potential_causes=['Copy-paste development practices', 'No code reuse framework', 'Rapid development pressure', 'Lack of architectural oversight'], occurrence=8, current_controls=['Basic code review process', 'Version control tracking'], detection=7, rpn=336, recommended_actions=['Code deduplication using AST analysis', 'Implement shared utility libraries', '3S methodology implementation', 'Automated duplicate detection in CI/CD', 'Refactoring guidelines and training'], responsibility='Tech Lead + Development Team', target_date='2025-09-30', expected_rpn_after=42)",
+        "FailureMode(id='FM004', failure_mode='SQL Injection Vulnerabilities', potential_effects=['Database compromise', 'Data exfiltration', 'Data corruption', 'Unauthorized trading modifications'], severity=9, potential_causes=['Dynamic query construction', 'No parameterized queries', 'Insufficient input validation', 'Legacy database access patterns'], occurrence=6, current_controls=['Basic SQL error handling', 'Limited query optimization'], detection=5, rpn=270, recommended_actions=['Convert to parameterized queries/ORM', 'Input validation at all database interfaces', 'SQL injection testing tools integration', 'Database activity monitoring', 'Developer training on secure database practices'], responsibility='Database Team + Senior Developers', target_date='2025-09-30', expected_rpn_after=18)",
+        "FailureMode(id='FM007', failure_mode='Weak Encryption Key Management', potential_effects=['Data decryption by attackers', 'Compliance violations', 'Loss of data integrity', 'Reputation damage'], severity=8, potential_causes=['Hardcoded encryption keys', 'Weak key generation', 'No key rotation process', 'Inadequate key storage'], occurrence=5, current_controls=['Basic encryption implementation', 'Manual key management'], detection=6, rpn=240, recommended_actions=['Implement proper key management system', 'Use hardware security modules (HSM)', 'Automated key rotation', 'Encryption standard compliance (AES-256)', 'Regular cryptographic audits'], responsibility='Security Team + DevOps', target_date='2025-09-30', expected_rpn_after=16)",
+        "FailureMode(id='FM008', failure_mode='No Rate Limiting Implementation', potential_effects=['Denial of Service attacks', 'Resource exhaustion', 'Performance degradation', 'Trading system overload'], severity=5, potential_causes=['No API rate limiting design', 'Performance optimization focus', 'Lack of DDoS awareness', 'No load testing'], occurrence=6, current_controls=['Basic load balancing', 'Connection pooling'], detection=8, rpn=240, recommended_actions=['Implement API rate limiting (Redis-based)', 'DDoS protection service integration', 'Load testing and capacity planning', 'Real-time traffic monitoring', 'Automated scaling policies'], responsibility='DevOps + Backend Team', target_date='2025-09-02', expected_rpn_after=20)"
+      ],
+      "MEDIUM": [
+        "FailureMode(id='FM006', failure_mode='Missing Input Validation', potential_effects=['Data corruption', 'System crashes', 'Security bypass', 'Trading calculation errors'], severity=7, potential_causes=['No validation framework', 'Trust in internal data sources', 'Performance optimization shortcuts', 'Lack of validation standards'], occurrence=7, current_controls=['Basic type checking', 'Exception handling'], detection=4, rpn=196, recommended_actions=['Implement comprehensive validation framework', 'Schema validation for all inputs', 'Boundary testing implementation', 'Automated validation testing', 'Input validation coding standards'], responsibility='Development Team + QA', target_date='2025-10-28', expected_rpn_after=28)"
+      ],
+      "LOW": []
+    },
+    "roadmap_phases": {
+      "Phase_2025_08": [
+        "FailureMode(id='FM001', failure_mode='Hardcoded Credentials Exposure', potential_effects=['Unauthorized system access', 'Data breach ($4.2M average cost)', 'Regulatory compliance violations', 'Complete trading system compromise'], severity=10, potential_causes=['No secrets management system', 'Developer convenience practices', 'Lack of security training', 'No code review process'], occurrence=9, current_controls=['Manual code reviews (15% coverage)', 'Basic git commit messages'], detection=8, rpn=720, recommended_actions=['Emergency credential rotation (72 hours)', 'Deploy HashiCorp Vault or AWS Secrets Manager', 'Implement pre-commit hooks for credential detection', 'Automated scanning with tools like GitLeaks', 'Security training on secrets management'], responsibility='Security Team Lead + DevOps', target_date='2025-08-19', expected_rpn_after=20)",
+        "FailureMode(id='FM003', failure_mode='Production Debug Mode Enabled', potential_effects=['Information disclosure', 'Performance degradation', 'System instability', 'Attack surface expansion'], severity=8, potential_causes=['Deployment configuration errors', 'No environment separation', 'Manual deployment process', 'Lack of deployment checklist'], occurrence=5, current_controls=['Manual configuration review'], detection=9, rpn=360, recommended_actions=['Immediate debug mode disable (24 hours)', 'Implement environment-specific configurations', 'Automated deployment with configuration validation', 'Continuous monitoring for debug mode detection', 'Deployment checklist with security gates'], responsibility='DevOps Lead', target_date='2025-08-12', expected_rpn_after=8)"
+      ],
+      "Phase_2025_09": [
+        "FailureMode(id='FM002', failure_mode='Command Injection Vulnerabilities', potential_effects=['Remote code execution', 'Server compromise', 'Data manipulation', 'Trading system manipulation'], severity=9, potential_causes=['Unsanitized input processing', 'Direct os.system() calls', 'No input validation framework', 'Lack of secure coding awareness'], occurrence=7, current_controls=['Basic error handling', 'Limited input validation'], detection=6, rpn=378, recommended_actions=['Replace os.system() with subprocess with shell=False', 'Implement input validation framework', 'Deploy static analysis tools (SonarQube)', 'Penetration testing for injection flaws', 'Secure coding guidelines implementation'], responsibility='Senior Developer + Security Consultant', target_date='2025-09-02', expected_rpn_after=18)",
+        "FailureMode(id='FM005', failure_mode='Code Duplication Security Inconsistencies', potential_effects=['Inconsistent security implementations', 'Maintenance overhead', 'Missed security updates', 'Configuration drift'], severity=6, potential_causes=['Copy-paste development practices', 'No code reuse framework', 'Rapid development pressure', 'Lack of architectural oversight'], occurrence=8, current_controls=['Basic code review process', 'Version control tracking'], detection=7, rpn=336, recommended_actions=['Code deduplication using AST analysis', 'Implement shared utility libraries', '3S methodology implementation', 'Automated duplicate detection in CI/CD', 'Refactoring guidelines and training'], responsibility='Tech Lead + Development Team', target_date='2025-09-30', expected_rpn_after=42)",
+        "FailureMode(id='FM004', failure_mode='SQL Injection Vulnerabilities', potential_effects=['Database compromise', 'Data exfiltration', 'Data corruption', 'Unauthorized trading modifications'], severity=9, potential_causes=['Dynamic query construction', 'No parameterized queries', 'Insufficient input validation', 'Legacy database access patterns'], occurrence=6, current_controls=['Basic SQL error handling', 'Limited query optimization'], detection=5, rpn=270, recommended_actions=['Convert to parameterized queries/ORM', 'Input validation at all database interfaces', 'SQL injection testing tools integration', 'Database activity monitoring', 'Developer training on secure database practices'], responsibility='Database Team + Senior Developers', target_date='2025-09-30', expected_rpn_after=18)",
+        "FailureMode(id='FM007', failure_mode='Weak Encryption Key Management', potential_effects=['Data decryption by attackers', 'Compliance violations', 'Loss of data integrity', 'Reputation damage'], severity=8, potential_causes=['Hardcoded encryption keys', 'Weak key generation', 'No key rotation process', 'Inadequate key storage'], occurrence=5, current_controls=['Basic encryption implementation', 'Manual key management'], detection=6, rpn=240, recommended_actions=['Implement proper key management system', 'Use hardware security modules (HSM)', 'Automated key rotation', 'Encryption standard compliance (AES-256)', 'Regular cryptographic audits'], responsibility='Security Team + DevOps', target_date='2025-09-30', expected_rpn_after=16)",
+        "FailureMode(id='FM008', failure_mode='No Rate Limiting Implementation', potential_effects=['Denial of Service attacks', 'Resource exhaustion', 'Performance degradation', 'Trading system overload'], severity=5, potential_causes=['No API rate limiting design', 'Performance optimization focus', 'Lack of DDoS awareness', 'No load testing'], occurrence=6, current_controls=['Basic load balancing', 'Connection pooling'], detection=8, rpn=240, recommended_actions=['Implement API rate limiting (Redis-based)', 'DDoS protection service integration', 'Load testing and capacity planning', 'Real-time traffic monitoring', 'Automated scaling policies'], responsibility='DevOps + Backend Team', target_date='2025-09-02', expected_rpn_after=20)"
+      ],
+      "Phase_2025_10": [
+        "FailureMode(id='FM006', failure_mode='Missing Input Validation', potential_effects=['Data corruption', 'System crashes', 'Security bypass', 'Trading calculation errors'], severity=7, potential_causes=['No validation framework', 'Trust in internal data sources', 'Performance optimization shortcuts', 'Lack of validation standards'], occurrence=7, current_controls=['Basic type checking', 'Exception handling'], detection=4, rpn=196, recommended_actions=['Implement comprehensive validation framework', 'Schema validation for all inputs', 'Boundary testing implementation', 'Automated validation testing', 'Input validation coding standards'], responsibility='Development Team + QA', target_date='2025-10-28', expected_rpn_after=28)"
+      ]
+    },
+    "total_current_risk": 2740,
+    "total_target_risk": 170
+  },
+  "implementation_timeline": {
+    "timeline_phases": {
+      "Week_01": {
+        "failure_modes": [
+          "FailureMode(id='FM001', failure_mode='Hardcoded Credentials Exposure', potential_effects=['Unauthorized system access', 'Data breach ($4.2M average cost)', 'Regulatory compliance violations', 'Complete trading system compromise'], severity=10, potential_causes=['No secrets management system', 'Developer convenience practices', 'Lack of security training', 'No code review process'], occurrence=9, current_controls=['Manual code reviews (15% coverage)', 'Basic git commit messages'], detection=8, rpn=720, recommended_actions=['Emergency credential rotation (72 hours)', 'Deploy HashiCorp Vault or AWS Secrets Manager', 'Implement pre-commit hooks for credential detection', 'Automated scanning with tools like GitLeaks', 'Security training on secrets management'], responsibility='Security Team Lead + DevOps', target_date='2025-08-19', expected_rpn_after=20)"
+        ],
+        "total_rpn_reduction": 700,
+        "resource_hours": 72,
+        "cost_estimate": 10800
+      },
+      "Week_03": {
+        "failure_modes": [
+          "FailureMode(id='FM002', failure_mode='Command Injection Vulnerabilities', potential_effects=['Remote code execution', 'Server compromise', 'Data manipulation', 'Trading system manipulation'], severity=9, potential_causes=['Unsanitized input processing', 'Direct os.system() calls', 'No input validation framework', 'Lack of secure coding awareness'], occurrence=7, current_controls=['Basic error handling', 'Limited input validation'], detection=6, rpn=378, recommended_actions=['Replace os.system() with subprocess with shell=False', 'Implement input validation framework', 'Deploy static analysis tools (SonarQube)', 'Penetration testing for injection flaws', 'Secure coding guidelines implementation'], responsibility='Senior Developer + Security Consultant', target_date='2025-09-02', expected_rpn_after=18)",
+          "FailureMode(id='FM008', failure_mode='No Rate Limiting Implementation', potential_effects=['Denial of Service attacks', 'Resource exhaustion', 'Performance degradation', 'Trading system overload'], severity=5, potential_causes=['No API rate limiting design', 'Performance optimization focus', 'Lack of DDoS awareness', 'No load testing'], occurrence=6, current_controls=['Basic load balancing', 'Connection pooling'], detection=8, rpn=240, recommended_actions=['Implement API rate limiting (Redis-based)', 'DDoS protection service integration', 'Load testing and capacity planning', 'Real-time traffic monitoring', 'Automated scaling policies'], responsibility='DevOps + Backend Team', target_date='2025-09-02', expected_rpn_after=20)"
+        ],
+        "total_rpn_reduction": 580,
+        "resource_hours": 80,
+        "cost_estimate": 12000
+      },
+      "Week_00": {
+        "failure_modes": [
+          "FailureMode(id='FM003', failure_mode='Production Debug Mode Enabled', potential_effects=['Information disclosure', 'Performance degradation', 'System instability', 'Attack surface expansion'], severity=8, potential_causes=['Deployment configuration errors', 'No environment separation', 'Manual deployment process', 'Lack of deployment checklist'], occurrence=5, current_controls=['Manual configuration review'], detection=9, rpn=360, recommended_actions=['Immediate debug mode disable (24 hours)', 'Implement environment-specific configurations', 'Automated deployment with configuration validation', 'Continuous monitoring for debug mode detection', 'Deployment checklist with security gates'], responsibility='DevOps Lead', target_date='2025-08-12', expected_rpn_after=8)"
+        ],
+        "total_rpn_reduction": 352,
+        "resource_hours": 40,
+        "cost_estimate": 6000
+      },
+      "Week_07": {
+        "failure_modes": [
+          "FailureMode(id='FM005', failure_mode='Code Duplication Security Inconsistencies', potential_effects=['Inconsistent security implementations', 'Maintenance overhead', 'Missed security updates', 'Configuration drift'], severity=6, potential_causes=['Copy-paste development practices', 'No code reuse framework', 'Rapid development pressure', 'Lack of architectural oversight'], occurrence=8, current_controls=['Basic code review process', 'Version control tracking'], detection=7, rpn=336, recommended_actions=['Code deduplication using AST analysis', 'Implement shared utility libraries', '3S methodology implementation', 'Automated duplicate detection in CI/CD', 'Refactoring guidelines and training'], responsibility='Tech Lead + Development Team', target_date='2025-09-30', expected_rpn_after=42)",
+          "FailureMode(id='FM004', failure_mode='SQL Injection Vulnerabilities', potential_effects=['Database compromise', 'Data exfiltration', 'Data corruption', 'Unauthorized trading modifications'], severity=9, potential_causes=['Dynamic query construction', 'No parameterized queries', 'Insufficient input validation', 'Legacy database access patterns'], occurrence=6, current_controls=['Basic SQL error handling', 'Limited query optimization'], detection=5, rpn=270, recommended_actions=['Convert to parameterized queries/ORM', 'Input validation at all database interfaces', 'SQL injection testing tools integration', 'Database activity monitoring', 'Developer training on secure database practices'], responsibility='Database Team + Senior Developers', target_date='2025-09-30', expected_rpn_after=18)",
+          "FailureMode(id='FM007', failure_mode='Weak Encryption Key Management', potential_effects=['Data decryption by attackers', 'Compliance violations', 'Loss of data integrity', 'Reputation damage'], severity=8, potential_causes=['Hardcoded encryption keys', 'Weak key generation', 'No key rotation process', 'Inadequate key storage'], occurrence=5, current_controls=['Basic encryption implementation', 'Manual key management'], detection=6, rpn=240, recommended_actions=['Implement proper key management system', 'Use hardware security modules (HSM)', 'Automated key rotation', 'Encryption standard compliance (AES-256)', 'Regular cryptographic audits'], responsibility='Security Team + DevOps', target_date='2025-09-30', expected_rpn_after=16)"
+        ],
+        "total_rpn_reduction": 770,
+        "resource_hours": 120,
+        "cost_estimate": 18000
+      },
+      "Week_11": {
+        "failure_modes": [
+          "FailureMode(id='FM006', failure_mode='Missing Input Validation', potential_effects=['Data corruption', 'System crashes', 'Security bypass', 'Trading calculation errors'], severity=7, potential_causes=['No validation framework', 'Trust in internal data sources', 'Performance optimization shortcuts', 'Lack of validation standards'], occurrence=7, current_controls=['Basic type checking', 'Exception handling'], detection=4, rpn=196, recommended_actions=['Implement comprehensive validation framework', 'Schema validation for all inputs', 'Boundary testing implementation', 'Automated validation testing', 'Input validation coding standards'], responsibility='Development Team + QA', target_date='2025-10-28', expected_rpn_after=28)"
+        ],
+        "total_rpn_reduction": 168,
+        "resource_hours": 40,
+        "cost_estimate": 6000
+      }
+    },
+    "total_cost": 52800,
+    "total_hours": 352,
+    "resource_allocation": {
+      "Security_Team_Lead": {
+        "hours": 88.0,
+        "rate": 200
+      },
+      "Senior_Developers": {
+        "hours": 140.8,
+        "rate": 150
+      },
+      "DevOps_Engineers": {
+        "hours": 70.4,
+        "rate": 160
+      },
+      "Security_Consultants": {
+        "hours": 35.2,
+        "rate": 250
+      },
+      "QA_Engineers": {
+        "hours": 17.6,
+        "rate": 120
+      }
+    }
+  },
+  "roi_analysis": {
+    "current_risk_exposure": {
+      "data_breach_probability": 0.85,
+      "average_breach_cost": 4200000,
+      "regulatory_fine_potential": 2000000,
+      "business_disruption_cost": 500000,
+      "reputation_damage_cost": 1000000,
+      "customer_churn_cost": 800000
+    },
+    "expected_annual_loss_before": 5990000.0,
+    "expected_annual_loss_after": 20365.999999999753,
+    "annual_savings": 5969634.0,
+    "implementation_cost": 683000,
+    "roi_percentage": 852.0693997071742,
+    "payback_period_months": 1.3729484923196296,
+    "net_present_value_3_years": 16775902.0,
+    "compliance_benefits": {
+      "regulatory_compliance_value": 2000000,
+      "insurance_premium_reduction": 200000,
+      "customer_trust_value": 1500000,
+      "competitive_advantage": 800000,
+      "operational_efficiency": 300000
+    },
+    "risk_adjusted_roi": 1084.8658857979503
+  },
+  "control_framework": {
+    "Security_KPIs": {
+      "Vulnerability_Density": {
+        "metric": "Vulnerabilities per 1000 lines of code",
+        "current": 2.26,
+        "target": 0.0034,
+        "measurement_frequency": "Daily",
+        "alert_threshold": ">0.01",
+        "control_method": "Automated scanning with SonarQube"
+      },
+      "Credential_Exposure_Rate": {
+        "metric": "Hardcoded credentials detected per commit",
+        "current": 2.3,
+        "target": 0.0,
+        "measurement_frequency": "Per commit",
+        "alert_threshold": ">0",
+        "control_method": "Pre-commit hooks with GitLeaks"
+      },
+      "Security_Training_Completion": {
+        "metric": "Percentage of team with current security training",
+        "current": 5.0,
+        "target": 95.0,
+        "measurement_frequency": "Monthly",
+        "alert_threshold": "<90%",
+        "control_method": "Learning management system tracking"
+      },
+      "Incident_Response_Time": {
+        "metric": "Hours to resolve critical security issues",
+        "current": 72.0,
+        "target": 4.0,
+        "measurement_frequency": "Per incident",
+        "alert_threshold": ">8 hours",
+        "control_method": "Automated ticketing and escalation"
+      }
+    },
+    "Process_Controls": {
+      "Code_Review_Gates": {
+        "requirement": "Mandatory security review for all commits",
+        "automation": "Automated security checklist in PR template",
+        "compliance_target": "100%",
+        "current_compliance": "15%"
+      },
+      "Vulnerability_Scanning": {
+        "requirement": "Daily automated security scans",
+        "automation": "Integrated CI/CD pipeline scanning",
+        "compliance_target": "100% coverage",
+        "current_compliance": "0%"
+      },
+      "Secrets_Management": {
+        "requirement": "All secrets stored in secure vault",
+        "automation": "Automated secret rotation",
+        "compliance_target": "100% vault usage",
+        "current_compliance": "0%"
+      },
+      "Security_Testing": {
+        "requirement": "Penetration testing quarterly",
+        "automation": "Automated DAST/SAST integration",
+        "compliance_target": "100% test coverage",
+        "current_compliance": "10%"
+      }
+    },
+    "Governance_Structure": {
+      "Security_Champion_Program": {
+        "role": "Dedicated security champion per team",
+        "responsibilities": [
+          "Security training coordination",
+          "Vulnerability assessment oversight",
+          "Incident response coordination",
+          "Security metrics reporting"
+        ],
+        "reporting_frequency": "Weekly",
+        "escalation_path": "Security Team Lead \u2192 CTO \u2192 CEO"
+      },
+      "Security_Review_Board": {
+        "composition": "Security Lead, Tech Lead, DevOps Lead, QA Lead",
+        "meeting_frequency": "Bi-weekly",
+        "responsibilities": [
+          "Risk assessment review",
+          "Security roadmap approval",
+          "Resource allocation decisions",
+          "Compliance validation"
+        ]
+      },
+      "Continuous_Improvement": {
+        "method": "PDCA cycle with Six Sigma metrics",
+        "review_frequency": "Monthly capability studies",
+        "improvement_targets": "Cp/Cpk >= 3.0 for all processes",
+        "feedback_loop": "Lessons learned integration"
+      }
+    }
+  },
+  "executive_summary": {
+    "total_current_risk_score": 2740,
+    "total_target_risk_score": 170,
+    "risk_reduction_percentage": 93.7956204379562,
+    "implementation_cost": 52800,
+    "roi_percentage": 852.0693997071742,
+    "payback_months": 1.3729484923196296,
+    "critical_actions_required": 1
+  }
+}

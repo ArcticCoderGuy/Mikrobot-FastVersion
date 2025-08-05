@@ -1,0 +1,16 @@
+2025-08-05 20:15:52,807 - src.core.trading_engine - ERROR - Failed to initialize MT5
+2025-08-05 20:16:23,453 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:24,701 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:24,856 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:29,129 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:55,062 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:55,103 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:55,142 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:16:55,156 - src.core.trading_engine - ERROR - Trade execution error: '>' not supported between instances of 'MagicMock' and 'int'
+2025-08-05 20:16:55,362 - src.core.trading_engine - ERROR - Failed to initialize MT5
+2025-08-05 20:17:00,659 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:17:00,661 - src.core.trading_engine - WARNING - Invalid signal: TradingSignal(symbol='', trade_direction='BULL', timestamp='2025-08-05T10:30:00', current_price=0.0, strategy='MIKROBOT_FASTVERSION_4PHASE', phase_4_ylipip=None, confidence_score=1.0, metadata=None)
+2025-08-05 20:17:01,085 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:36:56,195 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:36:56,201 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections
+2025-08-05 20:37:29,521 - src.core.trading_engine - INFO - MT5 connection pool initialized with 2 connections

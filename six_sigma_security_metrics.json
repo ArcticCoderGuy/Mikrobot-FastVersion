@@ -1,0 +1,113 @@
+{
+  "analysis_timestamp": "2025-08-05T16:54:43.304055",
+  "security_audit_results": {
+    "total_vulnerabilities": 336,
+    "critical_issues": 237,
+    "high_severity_issues": 99,
+    "files_affected": 151,
+    "duplicate_files": 19
+  },
+  "pareto_analysis": {
+    "critical_root_causes": [
+      {
+        "category": "Hardcoded Credentials",
+        "impact_percentage": 72.5,
+        "instances": 226
+      },
+      {
+        "category": "Missing Input Validation",
+        "impact_percentage": 10.6,
+        "instances": 45
+      },
+      {
+        "category": "Code Duplication",
+        "impact_percentage": 4.6,
+        "instances": 19
+      },
+      {
+        "category": "Weak Encryption",
+        "impact_percentage": 4.0,
+        "instances": 15
+      }
+    ],
+    "total_impact_coverage": 91.7
+  },
+  "process_capability": {
+    "current_cpk": 0.02,
+    "target_cpk": 3.0,
+    "current_sigma_level": 0.5,
+    "target_sigma_level": 6.0,
+    "improvement_factor": 149.0,
+    "current_dpmo": 680000,
+    "target_dpmo": 3.4
+  },
+  "business_impact": {
+    "breach_probability_current": 0.85,
+    "breach_probability_target": 0.034,
+    "expected_annual_loss": 3570000,
+    "average_breach_cost": 4200000,
+    "regulatory_fine_risk": 2000000,
+    "business_disruption_daily": 500000
+  },
+  "roi_analysis": {
+    "implementation_cost": 683000,
+    "annual_savings": 3420000,
+    "roi_percentage": 417,
+    "payback_months": 2.3,
+    "net_present_value_3_years": 9577000
+  },
+  "improvement_timeline": {
+    "total_duration_weeks": 12,
+    "phase_1_emergency": {
+      "weeks": 2,
+      "cost": 150000
+    },
+    "phase_2_implementation": {
+      "weeks": 6,
+      "cost": 400000
+    },
+    "phase_3_control": {
+      "weeks": 4,
+      "cost": 133000
+    },
+    "success_probability": 0.92
+  },
+  "resource_requirements": {
+    "total_hours": 4553,
+    "security_team_lead_hours": 1138,
+    "senior_developer_hours": 1821,
+    "devops_engineer_hours": 911,
+    "security_consultant_hours": 455,
+    "qa_engineer_hours": 228
+  },
+  "control_framework": {
+    "security_kpis": 4,
+    "control_charts": 4,
+    "monitoring_frequency": "daily",
+    "capability_review_frequency": "weekly",
+    "escalation_threshold_cpk": 2.0
+  },
+  "three_s_optimization": {
+    "files_to_remove": 117,
+    "directories_to_consolidate": 8,
+    "expected_code_reduction": 0.4,
+    "organization_improvement": 0.8
+  },
+  "fmea_results": {
+    "total_failure_modes": 8,
+    "critical_rpn_count": 1,
+    "high_rpn_count": 3,
+    "medium_rpn_count": 4,
+    "total_rpn_current": 2982,
+    "total_rpn_target": 194,
+    "rpn_reduction_percentage": 93.5
+  },
+  "quality_gates": {
+    "code_review_coverage_current": 0.15,
+    "code_review_coverage_target": 1.0,
+    "security_training_current": 0.05,
+    "security_training_target": 0.95,
+    "vulnerability_scan_coverage": 0.0,
+    "secrets_management_coverage": 0.0
+  }
+}

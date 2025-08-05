@@ -4,6 +4,8 @@ Mikrobot FastVersion - Configuration Settings
 
 from pydantic_settings import BaseSettings
 from typing import Optional, List
+from dataclasses import dataclass
+from pathlib import Path
 import os
 
 
@@ -102,3 +104,44 @@ def get_reflection_intervals() -> List[int]:
     """Get reflection intervals as list of integers"""
     settings = get_settings()
     return [int(x.strip()) for x in settings.REFLECTION_INTERVALS.split(',')]
+
+
+@dataclass
+class TradingConfig:
+    """Simplified trading configuration for the new architecture"""
+    
+    # MT5 Configuration
+    mt5_path: Optional[str] = None
+    mt5_login: Optional[int] = None
+    mt5_password: Optional[str] = None
+    mt5_server: Optional[str] = None
+    
+    # Connection settings
+    connection_timeout: int = 60000
+    retry_count: int = 3
+    retry_delay: int = 5
+    
+    # Risk management
+    default_risk_percent: float = 0.55
+    max_daily_risk: float = 2.0
+    max_positions_per_symbol: int = 3
+    max_total_positions: int = 10
+    
+    # Performance settings
+    enable_caching: bool = True
+    cache_ttl_seconds: int = 30
+    max_concurrent_executions: int = 5
+    
+    # Logging
+    log_level: str = "INFO"
+    log_directory: str = "logs"
+    
+    def __post_init__(self):
+        """Load configuration from environment variables"""
+        self.mt5_login = int(os.getenv('MT5_LOGIN', '0')) or None
+        self.mt5_password = os.getenv('MT5_PASSWORD') or None
+        self.mt5_server = os.getenv('MT5_SERVER') or None
+        self.mt5_path = os.getenv('MT5_PATH') or None
+        
+        # Create log directory
+        Path(self.log_directory).mkdir(exist_ok=True)
