@@ -1,6 +1,6 @@
 """
 MIKROBOT FASTVERSION DEPLOYMENT SCRIPT - CLEAN VERSION
-Complete system deployment to account 107034605
+Complete system deployment to account 95244786
 """
 import subprocess
 import sys
@@ -81,7 +81,7 @@ def create_master_signal():
     
     activation_signal = {
         "timestamp": datetime.now().isoformat(),
-        "account": 107034605,
+        "account": 95244786,
         "strategy": "MIKROBOT_FASTVERSION",
         "status": "FULLY_ACTIVE",
         "components": {
@@ -113,7 +113,7 @@ def create_master_signal():
 
 if __name__ == "__main__":
     print("MIKROBOT FASTVERSION SYSTEM DEPLOYMENT")
-    print("Account: 107034605")
+    print("Account: 95244786")
     print("=" * 50)
     
     success_count = 0
@@ -138,7 +138,7 @@ if __name__ == "__main__":
     if success_count == total_tests:
         if create_master_signal():
             print("SUCCESS: MIKROBOT FASTVERSION FULLY DEPLOYED!")
-            print("READY FOR LIVE TRADING ON ACCOUNT 107034605")
+            print("READY FOR LIVE TRADING ON ACCOUNT 95244786")
             print("Strategy: MIKROBOT_FASTVERSION.md")
             print("Status: 24/7/365 OPERATIONAL")
         else:

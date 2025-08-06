@@ -39,9 +39,9 @@ def send_push_notification():
     print("   MT5 initialized successfully")
     
     # Login
-    login = int(os.getenv('MT5_LOGIN', 107034605))
-    password = os.getenv('MT5_PASSWORD', 'RcEw_s7w')
-    server = os.getenv('MT5_SERVER', 'AVA-Demo 1-MT5')
+    login = int(os.getenv('MT5_LOGIN', 95244786))
+    password = os.getenv('MT5_PASSWORD', 'Ua@tOnLp')
+    server = os.getenv('MT5_SERVER', 'MetaQuotesDemo')
     
     print(f"2. Connecting to account {login}...")
     if not mt5.login(login, password, server):
@@ -138,7 +138,7 @@ def send_push_notification():
             print("\n4. SUCCESS! Push notification sent!")
             print("   Check your mobile MT5 app:")
             print("   - MetaQuotes ID: 03A06890")
-            print("   - Account: 107034605")
+            print("   - Account: 95244786")
             print("   - Look for Journal activity notifications")
             print("   - Message content may appear in activity log")
         else:

@@ -1,7 +1,7 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
 IMMEDIATE MT5 CRYPTO DEPLOYMENT
-48-Hour Weekend Trading Test - Account 107034605
+48-Hour Weekend Trading Test - Account 95244786
 
 This is a simplified deployment script for immediate business validation.
 No dependencies on complex imports - direct MT5 integration only.
@@ -38,7 +38,7 @@ class ImmediateCryptoTrader:
     """
     
     def __init__(self):
-        self.account = 107034605
+        self.account = 95244786
         self.server = "MetaQuotes-Demo"
         self.password = ""
         self.trading_active = False
@@ -460,7 +460,7 @@ if __name__ == "__main__":
     print("IMMEDIATE MT5 CRYPTO DEPLOYMENT")
     print("=" * 60)
     print("48-Hour Weekend Trading Validation")
-    print("Account: 107034605 (Demo)")
+    print("Account: 95244786 (Demo)")
     print("Target: 10k EUR weekly revenue validation")
     print("=" * 60)
     

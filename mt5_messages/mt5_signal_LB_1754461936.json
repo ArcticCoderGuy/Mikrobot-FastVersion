@@ -1,0 +1,14 @@
+{
+  "symbol": "GBPJPY",
+  "action": "SELL",
+  "volume": 0.12,
+  "price": 190.45,
+  "stop_loss": 191.2,
+  "take_profit": 189.25,
+  "comment": "LIGHTNING_BOLT_BEARISH",
+  "magic": 20250806,
+  "strategy": "LIGHTNING_BOLT",
+  "confidence": 0.78,
+  "timestamp": "2025-08-06T09:32:16.089111",
+  "signal_id": "LB_1754461936"
+}

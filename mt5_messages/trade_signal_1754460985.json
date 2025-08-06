@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-06T09:16:25.989490",
+  "account": 95244786,
+  "symbol": "GBPUSD",
+  "action": "SELL",
+  "volume": 0.01,
+  "stop_loss": 1.28,
+  "take_profit": 1.27,
+  "comment": "MIKROBOT_DEMO_1754460985",
+  "magic": 20250806,
+  "execute": true
+}

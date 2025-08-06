@@ -1,7 +1,7 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
 48H CRYPTO STRATEGY - Sinun strategiasi automatisoituna
-Account 107034605 - Viikonloppu crypto trading
+Account 95244786 - Viikonloppu crypto trading
 """
 
 import MetaTrader5 as mt5
@@ -11,8 +11,8 @@ from datetime import datetime, timezone, timedelta
 import random
 
 # MT5 Configuration
-MT5_LOGIN = 107034605
-MT5_PASSWORD = "RcEw_s7w"
+MT5_LOGIN = 95244786
+MT5_PASSWORD = "Ua@tOnLp"
 MT5_SERVER = "Ava-Demo 1-MT5"
 
 # Trading Strategy Parameters
@@ -299,7 +299,7 @@ async def main():
     print("48H CRYPTO STRATEGY")
     print("Sinun strategiasi automatisoituna!")
     print("=" * 50)
-    print("Tili: 107034605")
+    print("Tili: 95244786")
     print("Kesto: 48 tuntia")
     print("Symbolit: BTC, ETH, XRP, LTC")
     print("Analyysi: 3 min vlein")

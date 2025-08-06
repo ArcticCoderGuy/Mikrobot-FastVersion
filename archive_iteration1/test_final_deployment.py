@@ -18,7 +18,7 @@ def test_final_deployment():
         print("ERROR: MT5 connection failed")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Login failed")
         mt5.shutdown()
         return False

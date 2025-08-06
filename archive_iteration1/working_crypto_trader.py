@@ -11,8 +11,8 @@ import time
 import random
 
 # MT5 Configuration
-MT5_LOGIN = 107034605
-MT5_PASSWORD = "RcEw_s7w"
+MT5_LOGIN = 95244786
+MT5_PASSWORD = "Ua@tOnLp"
 MT5_SERVER = "Ava-Demo 1-MT5"
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')

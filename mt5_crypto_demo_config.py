@@ -1,7 +1,7 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
 MT5 Crypto Demo Trading Configuration
-48-Hour Live Trading Test Setup for Account 107034605
+48-Hour Live Trading Test Setup for Account 95244786
 
 Above Robust! operational standards implementation for immediate weekend crypto trading.
 This is business-critical configuration targeting 10kEUR weekly revenue validation.
@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 class CryptoTradingConfig:
     """Comprehensive crypto trading configuration"""
     # Demo account credentials
-    account_number: int = 107034605
+    account_number: int = 95244786
     password: str = ""  # Set during initialization
     server: str = "MetaQuotes-Demo"  # Standard demo server
     
@@ -715,7 +715,7 @@ async def main():
     print("ROCKET MT5 Crypto Demo Trading Environment")
     print("=" * 50)
     print("48-Hour Live Trading Test Setup")
-    print("Account: 107034605 (Demo)")
+    print("Account: 95244786 (Demo)")
     print("Target: Weekend crypto trading validation")
     print("=" * 50)
     

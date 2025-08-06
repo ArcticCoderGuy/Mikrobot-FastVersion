@@ -280,7 +280,7 @@ def safe_mt5_operation(requester_id: str, login: int, password: str, server: str
     Decorator for safe MT5 operations
     
     Usage:
-    @safe_mt5_operation("test_component", 107034605, "password", "server")
+    @safe_mt5_operation("test_component", 95244786, "password", "server")
     def my_mt5_function():
         # MT5 operations here
         return mt5.account_info()

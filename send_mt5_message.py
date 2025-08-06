@@ -26,9 +26,9 @@ def send_mt5_messages():
     print("MT5 initialized successfully")
     
     # Login to account
-    login = int(os.getenv('MT5_LOGIN', 107034605))
-    password = os.getenv('MT5_PASSWORD', 'RcEw_s7w')
-    server = os.getenv('MT5_SERVER', 'AVA-Demo 1-MT5')
+    login = int(os.getenv('MT5_LOGIN', 95244786))
+    password = os.getenv('MT5_PASSWORD', 'Ua@tOnLp')
+    server = os.getenv('MT5_SERVER', 'MetaQuotesDemo')
     
     if not mt5.login(login, password, server):
         print(f"ERROR: Login failed: {mt5.last_error()}")

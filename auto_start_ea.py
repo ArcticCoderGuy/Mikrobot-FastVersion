@@ -19,7 +19,7 @@ def auto_start_ea():
         print("ERROR: MT5 ei käynnisty")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: MT5 kirjautuminen epäonnistui")
         mt5.shutdown()
         return False
@@ -33,7 +33,7 @@ def auto_start_ea():
         "timestamp": datetime.now().isoformat(),
         "command": "ACTIVATE_EA",
         "ea_name": "MikrobotFastversionEA",
-        "account": 107034605,
+        "account": 95244786,
         "strategy": "MIKROBOT_FASTVERSION",
         "status": "ACTIVE",
         "auto_trading": True,

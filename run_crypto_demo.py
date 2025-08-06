@@ -3,7 +3,7 @@ from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read
 48-Hour Live Crypto Trading Demo
 Immediate deployment for business validation
 
-Account: 107034605 (Demo)
+Account: 95244786 (Demo)
 Duration: 48 hours weekend crypto trading
 Target: 10kEUR weekly revenue validation
 """
@@ -29,7 +29,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Demo Account Configuration
-DEMO_ACCOUNT = 107034605
+DEMO_ACCOUNT = 95244786
 DEMO_SERVER = "MetaQuotes-Demo"
 MAX_DAILY_LOSS = -500.0  # EUR500 daily loss limit
 MAX_POSITION_RISK = 100.0  # EUR100 per position
@@ -534,7 +534,7 @@ async def main():
     """Main execution function"""
     print("[START] MIKROBOT FASTVERSION - 48-HOUR CRYPTO TRADING TEST")
     print("=" * 60)
-    print("Account: 107034605 (Demo)")
+    print("Account: 95244786 (Demo)")
     print("Duration: 48 hours")
     print("Markets: Crypto (BTC, ETH, XRP, ADA)")
     print("Risk: Conservative (1% per trade, 5% daily limit)")

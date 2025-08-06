@@ -10,13 +10,13 @@
     {
       "time": "21:31:26",
       "type": "0",
-      "message": "Network\t'107034605': terminal synchronized with Ava Trade Ltd.: 3 positions, 0 orders, 869 symbols, 0 spreads",
+      "message": "Network\t'95244786': terminal synchronized with Ava Trade Ltd.: 3 positions, 0 orders, 869 symbols, 0 spreads",
       "source": "terminal"
     },
     {
       "time": "21:31:26",
       "type": "0",
-      "message": "Network\t'107034605': trading has been enabled - hedging mode",
+      "message": "Network\t'95244786': trading has been enabled - hedging mode",
       "source": "terminal"
     },
     {
@@ -28,67 +28,67 @@
     {
       "time": "21:50:29",
       "type": "0",
-      "message": "Trades\t'107034605': market sell 6.8 USDCAD, close #39856284 buy 6.8 USDCAD 1.37888",
+      "message": "Trades\t'95244786': market sell 6.8 USDCAD, close #39856284 buy 6.8 USDCAD 1.37888",
       "source": "terminal"
     },
     {
       "time": "21:50:29",
       "type": "0",
-      "message": "Trades\t'107034605': accepted market sell 6.8 USDCAD, close #39856284 buy 6.8 USDCAD 1.37888",
+      "message": "Trades\t'95244786': accepted market sell 6.8 USDCAD, close #39856284 buy 6.8 USDCAD 1.37888",
       "source": "terminal"
     },
     {
       "time": "21:50:30",
       "type": "0",
-      "message": "Trades\t'107034605': deal #36235682 sell 6.8 USDCAD at 1.37803 done (based on order #39904319)",
+      "message": "Trades\t'95244786': deal #36235682 sell 6.8 USDCAD at 1.37803 done (based on order #39904319)",
       "source": "terminal"
     },
     {
       "time": "21:50:30",
       "type": "0",
-      "message": "Trades\t'107034605': order #39904319 sell 6.8 / 6.8 USDCAD at 1.37803 done in 439.922 ms",
+      "message": "Trades\t'95244786': order #39904319 sell 6.8 / 6.8 USDCAD at 1.37803 done in 439.922 ms",
       "source": "terminal"
     },
     {
       "time": "21:50:30",
       "type": "0",
-      "message": "Trades\t'107034605': market sell 6.8 USDCAD, close #39856402 buy 6.8 USDCAD 1.37894",
+      "message": "Trades\t'95244786': market sell 6.8 USDCAD, close #39856402 buy 6.8 USDCAD 1.37894",
       "source": "terminal"
     },
     {
       "time": "21:50:30",
       "type": "0",
-      "message": "Trades\t'107034605': accepted market sell 6.8 USDCAD, close #39856402 buy 6.8 USDCAD 1.37894",
+      "message": "Trades\t'95244786': accepted market sell 6.8 USDCAD, close #39856402 buy 6.8 USDCAD 1.37894",
       "source": "terminal"
     },
     {
       "time": "21:50:31",
       "type": "0",
-      "message": "Trades\t'107034605': deal #36235684 sell 6.8 USDCAD at 1.37803 done (based on order #39904320)",
+      "message": "Trades\t'95244786': deal #36235684 sell 6.8 USDCAD at 1.37803 done (based on order #39904320)",
       "source": "terminal"
     },
     {
       "time": "21:50:31",
       "type": "0",
-      "message": "Trades\t'107034605': order #39904320 sell 6.8 / 6.8 USDCAD at 1.37803 done in 428.669 ms",
+      "message": "Trades\t'95244786': order #39904320 sell 6.8 / 6.8 USDCAD at 1.37803 done in 428.669 ms",
       "source": "terminal"
     },
     {
       "time": "21:58:39",
       "type": "0",
-      "message": "Trades\t'107034605': deal #36235873 buy 0.7 EURJPY at 169.919 done (based on order #39904511)",
+      "message": "Trades\t'95244786': deal #36235873 buy 0.7 EURJPY at 169.919 done (based on order #39904511)",
       "source": "terminal"
     },
     {
       "time": "22:35:07",
       "type": "0",
-      "message": "Network\t'107034605': scanning network for access points",
+      "message": "Network\t'95244786': scanning network for access points",
       "source": "terminal"
     },
     {
       "time": "22:35:10",
       "type": "0",
-      "message": "Network\t'107034605': scanning network finished",
+      "message": "Network\t'95244786': scanning network finished",
       "source": "terminal"
     }
   ],

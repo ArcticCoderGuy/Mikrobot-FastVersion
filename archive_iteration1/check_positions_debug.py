@@ -4,8 +4,8 @@ Debug script to check MT5 positions structure
 import MetaTrader5 as mt5
 
 # Account details
-account_number = 107034605
-password = "RcEw_s7w"
+account_number = 95244786
+password = "Ua@tOnLp"
 server = "Ava-Demo 1-MT5"
 
 print("Checking MT5 positions structure...")

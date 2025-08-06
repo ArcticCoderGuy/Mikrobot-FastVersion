@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Demo Configuration
-DEMO_ACCOUNT = 107034605
+DEMO_ACCOUNT = 95244786
 STARTING_EQUITY = 10000.0  # EUR10,000 demo balance
 TEST_DURATION_HOURS = 48
 CRYPTO_SYMBOLS = ["BTCUSD", "ETHUSD", "XRPUSD", "ADAUSD"]
@@ -410,7 +410,7 @@ async def main():
     print("[START] MIKROBOT FASTVERSION - 48-HOUR CRYPTO SIMULATION")
     print("=" * 60)
     print("Mode: Simulation (No MT5 connection required)")
-    print("Account: 107034605 (Simulated)")
+    print("Account: 95244786 (Simulated)")
     print("Duration: 48 hours accelerated")
     print("Markets: Crypto (BTC, ETH, XRP, ADA)")
     print("Purpose: Business validation without password")

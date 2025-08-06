@@ -1,6 +1,6 @@
 """
 MIKROBOT FASTVERSION DEPLOYMENT SCRIPT
-Complete system deployment to account 107034605
+Complete system deployment to account 95244786
 """
 import subprocess
 import sys
@@ -13,7 +13,7 @@ class MikrobotFastversionDeployment:
     """Deploy complete MIKROBOT_FASTVERSION system"""
     
     def __init__(self):
-        self.account = 107034605
+        self.account = 95244786
         self.base_path = Path("C:/Users/HP/Dev/Mikrobot Fastversion")
         self.common_path = Path("C:/Users/HP/AppData/Roaming/MetaQuotes/Terminal/Common/Files")
         self.experts_path = Path("C:/Users/HP/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Experts")
@@ -67,7 +67,7 @@ class MikrobotFastversionDeployment:
                 self.log_step("ERROR: MT5 initialization failed", "ERROR")
                 return False
                 
-            if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+            if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
                 self.log_step("ERROR: MT5 login failed", "ERROR")
                 mt5.shutdown()
                 return False
@@ -154,7 +154,7 @@ echo Updating Universal Ylipip Configuration...
 python "C:\\Users\\HP\\Dev\\Mikrobot Fastversion\\universal_ylipip_trigger.py"
 
 echo MIKROBOT FASTVERSION System Ready!
-echo Account: 107034605
+echo Account: 95244786
 echo Strategy: MIKROBOT_FASTVERSION.md
 echo Status: ACTIVE
 
@@ -247,7 +247,7 @@ pause
 
 if __name__ == "__main__":
     print("MIKROBOT FASTVERSION COMPLETE DEPLOYMENT")
-    print("Account: 107034605")
+    print("Account: 95244786")
     print("Strategy: MIKROBOT_FASTVERSION.md")
     print("=" * 50)
     

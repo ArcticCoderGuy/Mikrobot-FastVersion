@@ -1,7 +1,7 @@
-# Position Management Report - MT5 Account 107034605
+# Position Management Report - MT5 Account 95244786
 
 **Date:** August 3, 2025  
-**Account:** 107034605 (Ava-Demo 1-MT5)  
+**Account:** 95244786 (Ava-Demo 1-MT5)  
 **Strategy:** M5/M1 BOS (Break of Structure) Risk Management  
 
 ## Executive Summary

@@ -18,7 +18,7 @@ def check_mt5_status():
         print('ERROR: MT5 Initialize FAILED')
         return False
         
-    if not mt5.login(107034605, 'RcEw_s7w', 'Ava-Demo 1-MT5'):
+    if not mt5.login(95244786, 'Ua@tOnLp', 'Ava-Demo 1-MT5'):
         print('ERROR: MT5 Login FAILED')
         return False
     

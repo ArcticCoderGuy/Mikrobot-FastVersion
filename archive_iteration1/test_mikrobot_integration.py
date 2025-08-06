@@ -198,7 +198,7 @@ async def test_real_mt5_scenario_simulation(components):
                 "context": {
                     "signal_data": signal_data,
                     "ea_name": "MikroBot_BOS_M5M1",
-                    "account": "107034605"
+                    "account": "95244786"
                 }
             },
             type=MessageType.REQUEST

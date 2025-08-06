@@ -1,6 +1,6 @@
 """
 MIKROBOT FASTVERSION EA DEPLOYMENT VERIFIER
-Tarkistaa että EA on aktiivinen kaikissa charteissa
+Tarkistaa ett EA on aktiivinen kaikissa charteissa
 """
 import MetaTrader5 as mt5
 from datetime import datetime
@@ -10,7 +10,7 @@ def verify_deployment():
         print("ERROR: MT5 connection failed")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Login failed")
         mt5.shutdown()
         return False

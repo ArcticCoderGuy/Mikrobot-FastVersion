@@ -5,7 +5,7 @@
 ### ✅ Sinulla on:
 - MT5 Terminal auki
 - Manuaalinen kauppa (tiketti 398xxx)
-- Demo-tili 107034605 aktiivinen
+- Demo-tili 95244786 aktiivinen
 
 ### ❌ Puuttuu:
 - Salasana järjestelmälle
@@ -49,7 +49,7 @@ Kun salasana on annettu, järjestelmä:
 import MetaTrader5 as mt5
 
 mt5.initialize()
-authorized = mt5.login(107034605, "SALASANA_TÄHÄN", "MetaQuotes-Demo")
+authorized = mt5.login(95244786, "SALASANA_TÄHÄN", "MetaQuotes-Demo")
 if authorized:
     print("✅ Yhdistetty!")
     account = mt5.account_info()

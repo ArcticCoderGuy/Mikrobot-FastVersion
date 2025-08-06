@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-06T09:16:27.990969",
+  "account": 95244786,
+  "symbol": "USDJPY",
+  "action": "BUY",
+  "volume": 0.01,
+  "stop_loss": 149.5,
+  "take_profit": 150.5,
+  "comment": "MIKROBOT_DEMO_1754460987",
+  "magic": 20250806,
+  "execute": true
+}

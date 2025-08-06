@@ -29,7 +29,7 @@ class ConflictFreeTradingSystem:
     """
     
     def __init__(self, 
-                 account_number: int = 107034605,
+                 account_number: int = 95244786,
                  server: str = "Ava-Demo 1-MT5",
                  magic_number: int = 999888):
         
@@ -423,7 +423,7 @@ async def main():
     
     # Initialize trading system
     trading_system = ConflictFreeTradingSystem(
-        account_number=107034605,
+        account_number=95244786,
         server="Ava-Demo 1-MT5"
     )
     

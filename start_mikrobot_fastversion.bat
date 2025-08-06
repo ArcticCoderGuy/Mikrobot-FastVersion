@@ -12,7 +12,7 @@ echo Updating Universal Ylipip Configuration...
 python "C:\Users\HP\Dev\Mikrobot Fastversion\universal_ylipip_trigger.py"
 
 echo MIKROBOT FASTVERSION System Ready!
-echo Account: 107034605
+echo Account: 95244786
 echo Strategy: MIKROBOT_FASTVERSION.md
 echo Status: ACTIVE
 

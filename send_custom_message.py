@@ -33,7 +33,7 @@ def send_custom_message():
             "source": "Mikrobot FastVersion",
             "timestamp": timestamp.isoformat(),
             "custom_message": custom_message,
-            "account": "107034605",
+            "account": "95244786",
             "metaquotes_id": "03A06890",
             "message_type": "custom_test",
             "sender": "Claude/Mikrobot"
@@ -49,7 +49,7 @@ def send_custom_message():
             f.write(f"MIKROBOT VIESTI - {timestamp.strftime('%H:%M:%S %d.%m.%Y')}\n")
             f.write("=" * 60 + "\n")
             f.write(f"Vastaanottaja: MetaQuotes ID 03A06890\n")
-            f.write(f"Tili: 107034605\n")
+            f.write(f"Tili: 95244786\n")
             f.write(f"Aika: {timestamp}\n")
             f.write("\nVIESTI:\n")
             f.write(f"{custom_message}\n")
@@ -121,7 +121,7 @@ def show_message_locations():
     print("\n3. KNNYKK:")
     print("   - MT5 Mobile App")
     print("   - MetaQuotes ID: 03A06890")
-    print("   - Tili: 107034605")
+    print("   - Tili: 95244786")
     
     print("\n4. VIESTI:")
     print('   "Pekka ja Aulikki menivt saunaan ja Pekka avasi')

@@ -2,7 +2,7 @@
 DUAL PHASE TP SYSTEM
 MIKROBOT_FASTVERSION.md Implementation
 Phase 1: 1:1 → Breakeven | Phase 2: Continue to 1:2
-Account: 107034605
+Account: 95244786
 """
 import MetaTrader5 as mt5
 import json
@@ -25,12 +25,12 @@ class DualPhaseTPSystem:
         self.positions_status = {}
         
     def connect_mt5(self):
-        """Connect to MT5 account 107034605"""
+        """Connect to MT5 account 95244786"""
         if not mt5.initialize():
             return False
         
-        login = 107034605
-        password = "RcEw_s7w"
+        login = 95244786
+        password = "Ua@tOnLp"
         server = "Ava-Demo 1-MT5"
         
         return mt5.login(login, password, server)
@@ -298,7 +298,7 @@ if __name__ == "__main__":
     
     if tp_system.connect_mt5():
         print("SUCCESS: Dual Phase TP System Test")
-        print("Account: 107034605")
+        print("Account: 95244786")
         
         # Get current positions
         positions = mt5.positions_get()

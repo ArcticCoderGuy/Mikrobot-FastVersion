@@ -112,7 +112,7 @@ class AboveRobustValidator:
                 with open(status_file, 'r', encoding='ascii', errors='ignore') as f:
                     status = f.read()
                 
-                if "CONNECTION VERIFIED" in status and "107034605" in status:
+                if "CONNECTION VERIFIED" in status and "95244786" in status:
                     integrity_checks["ea_connection"] = True
                     print("  EA_CONNECTION: PASS")
                 else:

@@ -10,7 +10,7 @@ Sinulla on jo toimiva EA MT5:ssä joka:
 ## 📊 Todiste Yhteydestä
 
 ```
-Account: 107034605
+Account: 95244786
 Status: CONNECTION VERIFIED
 Message: Mikrobot yhteys toimii!
 ```

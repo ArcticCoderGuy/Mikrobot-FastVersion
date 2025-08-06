@@ -3,7 +3,7 @@
 ## ✅ READY FOR DEPLOYMENT
 
 **48-Hour Weekend Crypto Trading Test**
-- **Account**: 107034605 (Demo)
+- **Account**: 95244786 (Demo)
 - **Duration**: 48 hours (Saturday 00:00 - Monday 00:00 UTC)
 - **Markets**: BTC/USD, ETH/USD, XRP/USD, ADA/USD
 - **Risk**: Conservative (1% per trade, 5% daily limit)
@@ -17,7 +17,7 @@ cd "C:\Users\HP\Dev\Mikrobot Fastversion"
 python run_crypto_demo.py
 ```
 
-**System will prompt for demo account 107034605 password**
+**System will prompt for demo account 95244786 password**
 
 ---
 

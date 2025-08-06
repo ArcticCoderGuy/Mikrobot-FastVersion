@@ -114,7 +114,7 @@ def update_strategy_with_comprehensive_rules():
             }
         },
         "activation_time": time.time(),
-        "account": 107034605,
+        "account": 95244786,
         "source": "Comprehensive_Pip_Update"
     }
     

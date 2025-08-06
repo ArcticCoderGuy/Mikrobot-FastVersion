@@ -67,8 +67,8 @@ def test_m5m1_strategy():
         with open(STATUS_FILE, 'r', encoding='ascii', errors='ignore') as f:
             status = f.read()
         
-        if "CONNECTION VERIFIED" in status and "107034605" in status:
-            print("OK PASS: EA yhteys vahvistettu tilille 107034605")
+        if "CONNECTION VERIFIED" in status and "95244786" in status:
+            print("OK PASS: EA yhteys vahvistettu tilille 95244786")
         else:
             print("ERROR FAIL: EA yhteys epvarma")
             return False
@@ -107,7 +107,7 @@ def test_m5m1_strategy():
     print("  Precision: 0.2 pip trigger (ultra-high frequency)")
     print(" Symbols: BTC/ETH/XRP/LTC USD pairs")
     print(" Mode: 24/7 continuous monitoring")
-    print(" Account: 107034605 (verified connection)")
+    print(" Account: 95244786 (verified connection)")
     print("=" * 60)
     
     return True

@@ -60,7 +60,7 @@ class QuickDeployManager:
             print("=" * 60)
             print(f"Deployment Time: {self.deployment_start}")
             print("Target: 48-hour weekend crypto trading validation")
-            print("Account: 107034605 (Demo)")
+            print("Account: 95244786 (Demo)")
             print("Risk: Conservative (1% per trade, 5% daily)")
             print("=" * 60)
             
@@ -281,7 +281,7 @@ class QuickDeployManager:
         print("\n Credential Configuration")
         
         # Demo account details
-        account = 107034605
+        account = 95244786
         
         # Get password from user
         import getpass

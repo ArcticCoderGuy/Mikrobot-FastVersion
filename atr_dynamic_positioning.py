@@ -1,7 +1,7 @@
 """
 ATR DYNAMIC POSITIONING SYSTEM
 MIKROBOT_FASTVERSION.md Implementation
-Account: 107034605
+Account: 95244786
 """
 import MetaTrader5 as mt5
 import numpy as np
@@ -25,12 +25,12 @@ class ATRDynamicPositioning:
         self.common_path = Path("C:/Users/HP/AppData/Roaming/MetaQuotes/Terminal/Common/Files")
         
     def connect_mt5(self):
-        """Connect to MT5 account 107034605"""
+        """Connect to MT5 account 95244786"""
         if not mt5.initialize():
             return False
         
-        login = 107034605
-        password = "RcEw_s7w"
+        login = 95244786
+        password = "Ua@tOnLp"
         server = "Ava-Demo 1-MT5"
         
         if not mt5.login(login, password, server):
@@ -223,7 +223,7 @@ if __name__ == "__main__":
     atr_system = ATRDynamicPositioning()
     
     if atr_system.connect_mt5():
-        print("CONNECTED to MT5 account 107034605")
+        print("CONNECTED to MT5 account 95244786")
         print(f"Account balance: ${atr_system.account_balance}")
         
         # Test symbols  

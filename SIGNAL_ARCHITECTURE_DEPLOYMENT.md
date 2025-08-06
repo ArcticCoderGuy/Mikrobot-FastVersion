@@ -38,7 +38,7 @@ python signal_based_connector.py
 Pitäisi näkyä:
 ```
 1. Testing account info request...
-   Account: 107034605
+   Account: 95244786
    Balance: €100121.15
    Status: success
 ```

@@ -29,7 +29,7 @@ def create_simple_files():
         with open(msg_dir / "mikrobot_status.txt", 'w') as f:
             f.write(f"MIKROBOT STATUS - {timestamp.strftime('%H:%M:%S %d.%m.%Y')}\n")
             f.write("=" * 50 + "\n")
-            f.write(f"Account: 107034605\n")
+            f.write(f"Account: 95244786\n")
             f.write(f"MetaQuotes ID: 03A06890\n")
             f.write(f"Status: CONNECTION VERIFIED\n")
             f.write(f"Message: Mikrobot yhteys toimii!\n")
@@ -44,7 +44,7 @@ def create_simple_files():
             "source": "Mikrobot FastVersion",
             "timestamp": timestamp.isoformat(),
             "message": f"Yhteys toimii! Aika: {timestamp.strftime('%H:%M:%S')}",
-            "account": "107034605",
+            "account": "95244786",
             "metaquotes_id": "03A06890",
             "status": "connection_verified"
         }
@@ -59,7 +59,7 @@ def create_simple_files():
     try:
         with open(msg_dir / "mikrobot_log.csv", 'w') as f:
             f.write("timestamp,account,message,status\n")
-            f.write(f"{timestamp.isoformat()},107034605,Connection test OK,verified\n")
+            f.write(f"{timestamp.isoformat()},95244786,Connection test OK,verified\n")
         print("OK - CSV log created")
     except Exception as e:
         print(f"Error creating CSV: {e}")
@@ -71,7 +71,7 @@ def create_simple_files():
             "signal_type": "CONNECTION_TEST",
             "symbol": "EURUSD",
             "timestamp": timestamp.isoformat(),
-            "account": 107034605,
+            "account": 95244786,
             "test_message": "Mikrobot connection successful"
         }
         
@@ -143,7 +143,7 @@ def show_instructions():
     print("\n3. TARKISTA KANNYKKA:")
     print("   - MT5 Mobile App")
     print("   - MetaQuotes ID: 03A06890")
-    print("   - Tili: 107034605")
+    print("   - Tili: 95244786")
     
     print("\n4. EI YHTEYSKONFLIKTEJA:")
     print("   - Sinun MT5 yhteys pysyy ehjana!")

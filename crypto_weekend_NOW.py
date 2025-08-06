@@ -1,6 +1,6 @@
 """
 WEEKEND CRYPTO TRADING - KÄYNNISTYY HETI
-Account 107034605 - Viikonloppu kaupankäynti
+Account 95244786 - Viikonloppu kaupankäynti
 """
 
 import json
@@ -56,7 +56,7 @@ class CryptoWeekendTrader:
         """Kaupankäynti silmukka"""
         logger.info("MIKROBOT WEEKEND CRYPTO - KÄYNNISTYY")
         logger.info("=" * 50)
-        logger.info("Account: 107034605")
+        logger.info("Account: 95244786")
         logger.info("Symbols: BTC, ETH, XRP, ADA, LTC")
         logger.info("Volume: 0.05 lots per trade")
         logger.info("Interval: 45 seconds")

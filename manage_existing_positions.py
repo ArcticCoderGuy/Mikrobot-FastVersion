@@ -1,7 +1,7 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
 MT5 Position Management for M5/M1 BOS Strategy
-Manages existing positions on account 107034605 according to strategy rules
+Manages existing positions on account 95244786 according to strategy rules
 """
 
 import MetaTrader5 as mt5
@@ -22,8 +22,8 @@ class M5M1PositionManager:
     """Manages existing MT5 positions according to M5/M1 BOS strategy rules"""
     
     def __init__(self):
-        self.account_number = 107034605
-        self.password = "RcEw_s7w"
+        self.account_number = 95244786
+        self.password = "Ua@tOnLp"
         self.server = "Ava-Demo 1-MT5"
         
         # M5/M1 BOS Strategy Risk Management Rules

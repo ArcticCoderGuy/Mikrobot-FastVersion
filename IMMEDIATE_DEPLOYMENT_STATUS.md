@@ -7,7 +7,7 @@
 ### ✅ Infrastructure Ready
 - **MetaTrader 5**: Installed and operational (v5120)
 - **Python Environment**: Configured with MT5 package
-- **Demo Account**: 107034605 ready for connection
+- **Demo Account**: 95244786 ready for connection
 - **Target Symbols**: BTCUSD, ETHUSD configured
 - **Log System**: Active monitoring enabled
 
@@ -53,7 +53,7 @@ python run_crypto_demo.py
 ```
 
 ### Step 2: Enter Credentials
-- **Account**: 107034605 (auto-configured)
+- **Account**: 95244786 (auto-configured)
 - **Password**: [User provides demo account password]
 - **Server**: MetaQuotes-Demo (auto-configured)
 

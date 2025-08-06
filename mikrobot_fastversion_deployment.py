@@ -44,8 +44,8 @@ except ImportError:
     exit(1)
 
 # Configuration
-MT5_LOGIN = 107034605
-MT5_PASSWORD = "RcEw_s7w"
+MT5_LOGIN = 95244786
+MT5_PASSWORD = "Ua@tOnLp"
 MT5_SERVER = "Ava-Demo 1-MT5"
 COMMON_PATH = Path("C:/Users/HP/AppData/Roaming/MetaQuotes/Terminal/Common/Files")
 EXPERTS_PATH = Path("C:/Users/HP/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Experts")

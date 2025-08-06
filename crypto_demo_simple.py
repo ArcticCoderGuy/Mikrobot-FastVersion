@@ -19,7 +19,7 @@ except ImportError:
     MT5_AVAILABLE = False
 
 # Demo Account Configuration
-DEMO_ACCOUNT = 107034605
+DEMO_ACCOUNT = 95244786
 DEMO_SERVER = "MetaQuotes-Demo"
 TEST_DURATION_HOURS = 48
 
@@ -276,7 +276,7 @@ async def main():
     """Main function"""
     print("[START] MIKROBOT FASTVERSION - 48-HOUR CRYPTO TRADING TEST")
     print("=" * 60)
-    print("Account: 107034605 (Demo)")
+    print("Account: 95244786 (Demo)")
     print("Duration: 48 hours")
     print("Markets: Crypto (BTC, ETH, XRP, ADA)")
     print("Risk: Conservative demo testing")

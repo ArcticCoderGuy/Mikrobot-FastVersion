@@ -3,7 +3,7 @@
 Admiralty Orders: Complete Forex Dominance for Admiral's Daughter
 
 Mission: Engage ALL MT5 Forex pairs with submarine precision
-Target: Demo Account 107034605
+Target: Demo Account 95244786
 Quality: Cp/Cpk ≥ 3.0 Gold Standard
 Classification: LOS ANGELES-CLASS OPERATIONS
 """
@@ -48,7 +48,7 @@ class AllForexSubmarineEngine:
     Los Angeles-class submarine precision for ALL MT5 Forex pairs
     """
     
-    def __init__(self, account_number: int = 107034605):
+    def __init__(self, account_number: int = 95244786):
         self.account_number = account_number
         self.mt5_connected = False
         self.all_forex_pairs = []
@@ -529,7 +529,7 @@ async def main():
     print("=" * 80)
     print("SUBMARINE CLASS: Los Angeles Nuclear Attack")
     print("MISSION: Complete Forex Dominance") 
-    print("TARGET ACCOUNT: 107034605")
+    print("TARGET ACCOUNT: 95244786")
     print("ADMIRALTY STATUS: Admiral's daughter demands results!")
     print("QUALITY STANDARD: Cp/Cpk >= 3.0 (Gold Standard)")
     print("=" * 80)

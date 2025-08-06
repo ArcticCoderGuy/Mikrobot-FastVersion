@@ -195,7 +195,7 @@ async def test_real_mikrobot_scenario(mt5_expert):
             "m1_break_low": 1.0852,
             "pip_trigger": 0.2,
             "timestamp": datetime.now().isoformat(),
-            "account": 107034605
+            "account": 95244786
         }
         
         # Ask MT5 Expert to analyze this signal

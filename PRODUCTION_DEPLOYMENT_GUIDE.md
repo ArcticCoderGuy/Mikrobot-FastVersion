@@ -46,7 +46,7 @@ Check Experts tab in MT5 Terminal - you should see:
 ========================================
 MIKROBOT EA v2.0 - Signal-Based Trading
 ========================================
-Account: 107034605
+Account: 95244786
 Server: Ava-Demo 1-MT5
 Magic Number: 999888
 ✅ Mikrobot EA initialized successfully
@@ -71,7 +71,7 @@ Magic Number: 999888
       - Windows MT5 Terminal
       - iPhone MT5 Mobile App
       - No connection conflicts!
-   ✅ Connected to account 107034605
+   ✅ Connected to account 95244786
    ✅ Trading system started successfully
    ```
 
@@ -79,7 +79,7 @@ Magic Number: 999888
 
 ### **iPhone MT5 Setup**:
 1. Install "MetaTrader 5" from App Store
-2. Login with your account: `107034605`
+2. Login with your account: `95244786`
 3. Server: `Ava-Demo 1-MT5`
 4. Password: `[your password]`
 
@@ -97,7 +97,7 @@ from signal_based_trading_system import ConflictFreeTradingSystem
 
 # Initialize
 trading_system = ConflictFreeTradingSystem(
-    account_number=107034605,
+    account_number=95244786,
     server="Ava-Demo 1-MT5"
 )
 

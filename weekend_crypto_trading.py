@@ -1,7 +1,7 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
 WEEKEND CRYPTO TRADING - AUTOMATED EXECUTION
-Account 107034605 - Full automation with signal architecture
+Account 95244786 - Full automation with signal architecture
 """
 
 import json
@@ -154,7 +154,7 @@ class WeekendCryptoTrader:
     async def weekend_trading_loop(self):
         """Main weekend trading loop"""
         logger.info("ROCKET WEEKEND CRYPTO TRADING STARTED")
-        logger.info(f"CHART Account: 107034605")
+        logger.info(f"CHART Account: 95244786")
         logger.info(f"MONEY Starting Balance: EUR{self.starting_balance:.2f}")
         logger.info(f"TARGET Symbols: {', '.join(CRYPTO_SYMBOLS)}")
         logger.info(f"GRAPH_UP Position Size: {POSITION_SIZE} lots")
@@ -251,7 +251,7 @@ async def main():
     """Main function - START WEEKEND CRYPTO TRADING"""
     print("ROCKET MIKROBOT WEEKEND CRYPTO TRADING")
     print("=" * 60)
-    print("Account: 107034605")
+    print("Account: 95244786")
     print("Time: Weekend crypto markets (24/7)")
     print("Strategy: Automated momentum trading")
     print("Risk: Controlled with stop losses")

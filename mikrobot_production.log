@@ -8,8 +8,32 @@
 2025-08-03 09:48:52,960 - INFO - PIP_TRIGGER_OK - 0.8
 2025-08-03 09:48:52,961 - INFO - CONFIG_PRECISION_OK - 0.8
 2025-08-03 09:48:52,962 - INFO - SYMBOLS_OK - 4 - BTCUSD,ETHUSD,XRPUSD,LTCUSD
-2025-08-03 09:48:52,964 - INFO - EA_CONNECTION_VERIFIED - 107034605
+2025-08-03 09:48:52,964 - INFO - EA_CONNECTION_VERIFIED - 95244786
 2025-08-03 09:48:52,965 - INFO - M5M1_STATUS_CHECK_PASS - 5/5
 2025-08-03 09:48:52,965 - INFO - PRODUCTION_READY - M5M1_STRATEGY_OPERATIONAL
 2025-08-03 09:48:52,968 - INFO - PRODUCTION_REPORT_CREATED - production_status_20250803_094852.json
 2025-08-03 09:48:52,968 - INFO - PRODUCTION_TEST_COMPLETE - STATUS_OPERATIONAL
+2025-08-06 12:25:03,264 - src.mikrobot_v2.notifications.imessage_notifier - INFO - 📱 iMessage Notifier initialized
+2025-08-06 12:25:03,468 - src.mikrobot_v2.core.mt5_webhook_connector - INFO - 🌐 MT5 Webhook Connector initialized
+2025-08-06 12:25:03,468 - src.mikrobot_v2.core.mt5_webhook_connector - INFO - 📡 Bridge URL: http://192.168.0.100:8001/execute
+2025-08-06 12:25:03,468 - src.mikrobot_v2.core.mt5_webhook_connector - INFO - 📈 Trading 38 instruments via webhook
+2025-08-06 12:25:03,468 - src.mikrobot_v2.strategies.lightning_bolt - INFO - ⚡ Lightning Bolt Strategy initialized
+2025-08-06 12:25:03,538 - __main__ - INFO - 🚀 MIKROBOT PRODUCTION v2.0 initialized
+2025-08-06 12:25:03,538 - __main__ - INFO - 📱 iMessage notifications: +358440606044
+2025-08-06 12:25:03,539 - __main__ - INFO - 📈 Trading 38 instruments
+2025-08-06 12:25:03,539 - __main__ - INFO - 📊 TRADING INSTRUMENTS:
+2025-08-06 12:25:03,539 - __main__ - INFO -    💰 Major Forex: EURUSD, GBPUSD, USDJPY, USDCHF, AUDUSD, USDCAD, NZDUSD
+2025-08-06 12:25:03,539 - __main__ - INFO -    💱 Minor/Cross: EURJPY, EURGBP, EURCHF, EURAUD, EURCAD, EURNZD, GBPJPY, GBPCHF, GBPAUD, GBPCAD, GBPNZD, AUDJPY, AUDCHF, AUDCAD, AUDNZD, CADJPY, CADCHF, NZDJPY, NZDCHF, NZDCAD, CHFJPY
+2025-08-06 12:25:03,539 - __main__ - INFO -    🪙 Top 10 Crypto: BTCUSD, ETHUSD, BNBUSD, XRPUSD, SOLUSD, ADAUSD, AVAXUSD, DOTUSD, LINKUSD, LTCUSD
+2025-08-06 12:25:03,539 - __main__ - INFO -    📈 Total: 38 instruments
+2025-08-06 12:25:03,539 - __main__ - INFO - 🔥 STARTING MIKROBOT PRODUCTION TRADING
+2025-08-06 12:25:03,619 - src.mikrobot_v2.core.mt5_webhook_connector - WARNING - ⚠️ Webhook test failed, but continuing: Cannot connect to host 192.168.0.100:8001 ssl:default [Connect call failed ('192.168.0.100', 8001)]
+2025-08-06 12:25:03,786 - src.mikrobot_v2.notifications.imessage_notifier - INFO - 📱 iMessage sent to +358440606044
+2025-08-06 12:25:03,786 - __main__ - INFO - 📱 Startup notification sent
+2025-08-06 12:25:03,786 - __main__ - INFO - ⚡ Starting Lightning Bolt trading loop...
+2025-08-06 12:25:03,786 - __main__ - INFO - 🛑 10:00 Finnish time reached - stopping trading
+2025-08-06 12:25:03,786 - __main__ - INFO - 📊 Trading session complete - 0 trades executed
+2025-08-06 12:25:03,952 - src.mikrobot_v2.notifications.imessage_notifier - INFO - 📱 iMessage sent to +358440606044
+2025-08-06 12:25:03,952 - __main__ - INFO - 📱 Shutdown notification sent
+2025-08-06 12:25:03,952 - __main__ - INFO - ✅ Mikrobot session completed successfully
+2025-08-06 12:25:03,952 - __main__ - INFO - 👋 Mikrobot shutdown complete

@@ -14,7 +14,7 @@ The MCP Orchestration System provides centralized coordination of:
 
 ## VERIFICATION RESULTS
 
-✅ **MT5 Connection**: Account 107034605 connected, $99,955.70 balance
+✅ **MT5 Connection**: Account 95244786 connected, $99,955.70 balance
 ✅ **Signal File Access**: 5/6 files readable, Unicode handling implemented
 ✅ **Position Sizing**: 0.69 lots calculated (0.55% risk), NOT broken 0.01 method
 ✅ **Fail-Safe Mechanisms**: Invalid signals rejected, graceful error handling

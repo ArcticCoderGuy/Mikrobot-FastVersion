@@ -1,0 +1,70 @@
+{
+  "session_start": "2025-08-06T09:16:31.995245",
+  "account": 95244786,
+  "total_trades": 5,
+  "trades": [
+    {
+      "timestamp": "2025-08-06T09:16:23.987909",
+      "account": 95244786,
+      "symbol": "EURUSD",
+      "action": "BUY",
+      "volume": 0.01,
+      "stop_loss": 1.085,
+      "take_profit": 1.09,
+      "comment": "MIKROBOT_DEMO_1754460983",
+      "magic": 20250806,
+      "execute": true
+    },
+    {
+      "timestamp": "2025-08-06T09:16:25.989490",
+      "account": 95244786,
+      "symbol": "GBPUSD",
+      "action": "SELL",
+      "volume": 0.01,
+      "stop_loss": 1.28,
+      "take_profit": 1.27,
+      "comment": "MIKROBOT_DEMO_1754460985",
+      "magic": 20250806,
+      "execute": true
+    },
+    {
+      "timestamp": "2025-08-06T09:16:27.990969",
+      "account": 95244786,
+      "symbol": "USDJPY",
+      "action": "BUY",
+      "volume": 0.01,
+      "stop_loss": 149.5,
+      "take_profit": 150.5,
+      "comment": "MIKROBOT_DEMO_1754460987",
+      "magic": 20250806,
+      "execute": true
+    },
+    {
+      "timestamp": "2025-08-06T09:16:29.992363",
+      "account": 95244786,
+      "symbol": "EURJPY",
+      "action": "SELL",
+      "volume": 0.01,
+      "stop_loss": 163.0,
+      "take_profit": 162.0,
+      "comment": "MIKROBOT_DEMO_1754460989",
+      "magic": 20250806,
+      "execute": true
+    },
+    {
+      "timestamp": "2025-08-06T09:16:31.994410",
+      "account": 95244786,
+      "symbol": "BTCUSD",
+      "action": "BUY",
+      "volume": 0.01,
+      "stop_loss": 43000,
+      "take_profit": 44000,
+      "comment": "MIKROBOT_DEMO_1754460991",
+      "magic": 20250806,
+      "execute": true
+    }
+  ],
+  "status": "REAL_DEMO_TRADING",
+  "platform": "MT5_DEMO",
+  "note": "These are REAL trade signals for MT5 demo account"
+}

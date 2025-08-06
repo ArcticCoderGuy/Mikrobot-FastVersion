@@ -36,7 +36,7 @@ def test_mikrobot_system():
         print("FAIL: MT5 ei käynnisty")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("FAIL: Kirjautuminen epäonnistui")
         mt5.shutdown()
         return False

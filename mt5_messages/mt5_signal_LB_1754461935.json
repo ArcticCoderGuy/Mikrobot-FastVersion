@@ -1,0 +1,14 @@
+{
+  "symbol": "EURUSD",
+  "action": "BUY",
+  "volume": 0.18,
+  "price": 1.0856,
+  "stop_loss": 1.0832,
+  "take_profit": 1.0904,
+  "comment": "LIGHTNING_BOLT_BULLISH",
+  "magic": 20250806,
+  "strategy": "LIGHTNING_BOLT",
+  "confidence": 0.85,
+  "timestamp": "2025-08-06T09:32:15.088712",
+  "signal_id": "LB_1754461935"
+}

@@ -1,5 +1,5 @@
 """
-MT5 Setup Validation for Demo Account 107034605
+MT5 Setup Validation for Demo Account 95244786
 Quick check if MT5 is properly configured for crypto trading
 """
 
@@ -39,7 +39,7 @@ def validate_mt5_setup():
     
     # Test 3: Demo Account Check (without login)
     print("3. Demo Account: Ready for testing")
-    print(f"   Account: 107034605")
+    print(f"   Account: 95244786")
     print(f"   Server: MetaQuotes-Demo")
     print("   Password: [Required for live connection]")
     

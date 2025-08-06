@@ -1,7 +1,7 @@
 # MT5 Crypto Demo Trading - 48-Hour Live Test
 
 **Business-Critical Weekend Crypto Trading Validation**
-- **Demo Account**: 107034605
+- **Demo Account**: 95244786
 - **Duration**: 48 hours (Weekend crypto markets)
 - **Target**: 10k€ weekly revenue validation
 - **Standards**: Above Robust! operational excellence
@@ -29,7 +29,7 @@ python mt5_crypto_demo_config.py
 ### Essential Components
 - **Python 3.8+** with asyncio support
 - **MetaTrader 5 Terminal** (installed and configured)
-- **Demo Account 107034605** with valid credentials
+- **Demo Account 95244786** with valid credentials
 - **Network Connectivity** (Binance API + MT5 servers)
 
 ### Required Packages

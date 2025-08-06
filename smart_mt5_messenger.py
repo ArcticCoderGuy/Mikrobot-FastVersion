@@ -45,7 +45,7 @@ def create_mt5_message_files():
         "source": "Mikrobot FastVersion",
         "timestamp": timestamp.isoformat(),
         "message": f"Yhteys toimii! Aika: {timestamp.strftime('%H:%M:%S')}",
-        "account": "107034605",
+        "account": "95244786",
         "metaquotes_id": "03A06890",
         "status": "connection_verified",
         "test_type": "smart_messenger"
@@ -66,7 +66,7 @@ def create_mt5_message_files():
         with open(text_file, 'w', encoding='utf-8') as f:
             f.write(f"MIKROBOT STATUS - {timestamp.strftime('%H:%M:%S %d.%m.%Y')}\n")
             f.write("=" * 50 + "\n")
-            f.write(f"Account: 107034605\n")
+            f.write(f"Account: 95244786\n")
             f.write(f"MetaQuotes ID: 03A06890\n") 
             f.write(f"Status: CONNECTION VERIFIED\n")
             f.write(f"Message: {message_data['message']}\n")
@@ -82,7 +82,7 @@ def create_mt5_message_files():
         with open(csv_file, 'a', encoding='utf-8') as f:
             if not csv_exists:
                 f.write("timestamp,source,account,message,status\n")
-            f.write(f"{timestamp.isoformat()},Mikrobot FastVersion,107034605,{message_data['message']},connection_verified\n")
+            f.write(f"{timestamp.isoformat()},Mikrobot FastVersion,95244786,{message_data['message']},connection_verified\n")
         print(f"OK CSV log updated: {csv_file}")
     except Exception as e:
         print(f"Could not update CSV log: {e}")
@@ -108,7 +108,7 @@ def create_mql5_compatible_signal():
         "m1_break_low": 1.0852,
         "pip_trigger": 0.2,
         "timestamp": datetime.now().isoformat(),
-        "account": 107034605,
+        "account": 95244786,
         "test_message": "Mikrobot connection test successful",
         "metaquotes_id": "03A06890"
     }
@@ -144,7 +144,7 @@ def create_mobile_notification_file():
     # Create notification data
     notification = {
         "type": "mikrobot_test",
-        "account": "107034605",
+        "account": "95244786",
         "metaquotes_id": "03A06890",
         "timestamp": datetime.now().isoformat(),
         "message": "Mikrobot FastVersion - Yhteys OK!",
@@ -171,7 +171,7 @@ def create_mobile_notification_file():
             alert_file = location / "mikrobot_alert.txt"
             with open(alert_file, 'w', encoding='utf-8') as f:
                 f.write(f"MIKROBOT ALERT - {datetime.now().strftime('%H:%M:%S')}\n")
-                f.write(f"Account 107034605 - Connection verified\n")
+                f.write(f"Account 95244786 - Connection verified\n")
                 f.write(f"MetaQuotes ID: 03A06890\n")
                 f.write("Check your mobile MT5 app!\n")
             
@@ -204,7 +204,7 @@ def show_instructions():
     print("    MT5 Mobile App")
     print("    MetaQuotes ID: 03A06890")  
     print("    Push-ilmoitukset")
-    print("    Tilin 107034605 tapahtumat")
+    print("    Tilin 95244786 tapahtumat")
     
     print("\n4. EI YHTEYSKONFLIKTEJA:")
     print("    Sinun MT5-terminaalisi yhteys pysyy ehjn")

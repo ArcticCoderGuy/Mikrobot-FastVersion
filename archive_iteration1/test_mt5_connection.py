@@ -49,9 +49,9 @@ def test_mt5_connection():
         print_status(f"MT5 Version: {version_info[0]} Build {version_info[1]}", "INFO")
     
     # Step 3: Login to demo account
-    login = int(os.getenv('MT5_LOGIN', 107034605))
-    password = os.getenv('MT5_PASSWORD', 'RcEw_s7w')
-    server = os.getenv('MT5_SERVER', 'AVA-Demo 1-MT5')
+    login = int(os.getenv('MT5_LOGIN', 95244786))
+    password = os.getenv('MT5_PASSWORD', 'Ua@tOnLp')
+    server = os.getenv('MT5_SERVER', 'MetaQuotesDemo')
     
     print_status(f"Connecting to server: {server}", "TESTING")
     print_status(f"Account: {login}", "INFO")
@@ -210,7 +210,7 @@ def test_webhook_integration():
         "m1_break_low": 1.0852,
         "pip_trigger": 0.2,
         "timestamp": datetime.utcnow().isoformat(),
-        "account": 107034605
+        "account": 95244786
     }
     
     print_status("Sample signal ready for webhook testing", "SUCCESS")

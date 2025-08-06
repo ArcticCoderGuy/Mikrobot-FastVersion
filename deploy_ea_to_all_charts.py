@@ -22,7 +22,7 @@ def deploy_ea_to_all_charts():
         print("ERROR: MT5 ei käynnisty")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Kirjautuminen epäonnistui")
         mt5.shutdown()
         return False
@@ -73,7 +73,7 @@ def deploy_ea_to_all_charts():
         "timestamp": datetime.now().isoformat(),
         "command": "DEPLOY_EA_ALL_CHARTS",
         "ea_name": "MikrobotFastversionEA",
-        "account": 107034605,
+        "account": 95244786,
         "strategy": "MIKROBOT_FASTVERSION",
         "version": "2.0.0",
         "deployment_type": "MULTI_CHART",
@@ -270,7 +270,7 @@ def verify_deployment():
         print("ERROR: MT5 connection failed")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Login failed")
         mt5.shutdown()
         return False

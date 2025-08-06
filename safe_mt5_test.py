@@ -52,9 +52,9 @@ def safe_connection_test():
     print()
     
     # Get credentials
-    login = int(os.getenv('MT5_LOGIN', 107034605))
-    password = os.getenv('MT5_PASSWORD', 'RcEw_s7w')
-    server = os.getenv('MT5_SERVER', 'AVA-Demo 1-MT5')
+    login = int(os.getenv('MT5_LOGIN', 95244786))
+    password = os.getenv('MT5_PASSWORD', 'Ua@tOnLp')
+    server = os.getenv('MT5_SERVER', 'MetaQuotesDemo')
     
     try:
         # Use safe context manager

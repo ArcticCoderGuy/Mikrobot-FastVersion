@@ -54,7 +54,7 @@ def check_m5m1_status():
             status = f.read()
         
         if "CONNECTION VERIFIED" in status:
-            print("EA YHTEYS: VAHVISTETTU (107034605)")
+            print("EA YHTEYS: VAHVISTETTU (95244786)")
         else:
             print("EA YHTEYS: EPAVARMA")
     
@@ -138,7 +138,7 @@ def explain_m5m1_strategy():
     print()
     
     print("INTEGRATION:")
-    print("   Account: 107034605")
+    print("   Account: 95244786")
     print("   Django MCP endpoint integration")
     print("   Real-time signal delivery")
     

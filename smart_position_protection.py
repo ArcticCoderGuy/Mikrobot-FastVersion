@@ -9,8 +9,8 @@ from datetime import datetime
 import time
 
 # Account details
-ACCOUNT = 107034605
-PASSWORD = "RcEw_s7w"
+ACCOUNT = 95244786
+PASSWORD = "Ua@tOnLp"
 SERVER = "Ava-Demo 1-MT5"
 
 def connect_mt5():

@@ -279,8 +279,8 @@ if __name__ == "__main__":
     
     if mt5.initialize():
         # Connect to account
-        login = 107034605
-        password = "RcEw_s7w"
+        login = 95244786
+        password = "Ua@tOnLp"
         server = "Ava-Demo 1-MT5"
         
         if mt5.login(login, password, server):

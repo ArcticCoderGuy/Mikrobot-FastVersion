@@ -69,7 +69,7 @@ def submarine_diagnostic_scan():
         
         # Common demo account numbers to test
         test_accounts = [
-            107034605,  # Original target
+            95244786,  # Original target
             107034604,  # One digit off
             107034606,  # One digit off
             5000000000, # Common demo pattern

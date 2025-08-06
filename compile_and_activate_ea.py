@@ -36,7 +36,7 @@ def compile_and_activate_ea():
         print("ERROR: Failed to initialize MT5")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Failed to login to MT5")
         mt5.shutdown()
         return False

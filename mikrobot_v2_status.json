@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-06T01:12:16.553009",
+  "uptime_seconds": 600.056778,
+  "mcp_stats": {
+    "total_trades": 0,
+    "successful_trades": 0,
+    "success_rate": 0.0,
+    "total_profit": 0.0,
+    "active_signals": 0,
+    "queue_size": 0,
+    "active_agents": 3,
+    "daily_performance": {}
+  },
+  "hansei_summary": {
+    "total_insights": 1,
+    "tactical_insights": 1,
+    "strategic_insights": 0,
+    "philosophical_insights": 0,
+    "actionable_insights": 1,
+    "average_confidence": 0.8,
+    "average_optimization_potential": 0.2,
+    "last_reflection": "2025-08-06T01:07:16.542200"
+  },
+  "open_positions": 0,
+  "system_status": "OPERATIONAL"
+}

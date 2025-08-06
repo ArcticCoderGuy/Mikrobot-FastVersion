@@ -76,13 +76,13 @@
     {
       "time": "21:31:26",
       "type": "0",
-      "message": "Network\t'107034605': terminal synchronized with Ava Trade Ltd.: 3 positions, 0 orders, 869 symbols, 0 spreads",
+      "message": "Network\t'95244786': terminal synchronized with Ava Trade Ltd.: 3 positions, 0 orders, 869 symbols, 0 spreads",
       "source": "terminal"
     },
     {
       "time": "21:31:26",
       "type": "0",
-      "message": "Network\t'107034605': trading has been enabled - hedging mode",
+      "message": "Network\t'95244786': trading has been enabled - hedging mode",
       "source": "terminal"
     },
     {

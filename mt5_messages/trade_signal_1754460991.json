@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-06T09:16:31.994410",
+  "account": 95244786,
+  "symbol": "BTCUSD",
+  "action": "BUY",
+  "volume": 0.01,
+  "stop_loss": 43000,
+  "take_profit": 44000,
+  "comment": "MIKROBOT_DEMO_1754460991",
+  "magic": 20250806,
+  "execute": true
+}

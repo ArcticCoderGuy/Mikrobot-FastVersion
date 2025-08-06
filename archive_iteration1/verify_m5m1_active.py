@@ -64,7 +64,7 @@ def verify_m5m1_strategy():
         
         if "CONNECTION VERIFIED" in status:
             print("  PASS: EA yhteys vahvistettu")
-            print("    Account: 107034605")
+            print("    Account: 95244786")
             tests_passed += 1
         else:
             print("  FAIL: EA yhteys epavarma")
@@ -108,7 +108,7 @@ def verify_m5m1_strategy():
         print("Precision: 0.2 pip trigger")
         print("Symbols: BTC, ETH, XRP, LTC")
         print("Mode: 24/7 continuous monitoring")
-        print("Account: 107034605")
+        print("Account: 95244786")
         print("=" * 50)
         return True
     else:

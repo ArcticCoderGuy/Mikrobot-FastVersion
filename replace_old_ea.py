@@ -20,7 +20,7 @@ def replace_old_ea():
         print("ERROR: MT5 ei käynnisty")
         return False
     
-    if not mt5.login(107034605, "RcEw_s7w", "Ava-Demo 1-MT5"):
+    if not mt5.login(95244786, "Ua@tOnLp", "Ava-Demo 1-MT5"):
         print("ERROR: Kirjautuminen epäonnistui")
         mt5.shutdown()
         return False
@@ -37,7 +37,7 @@ def replace_old_ea():
         "command": "REPLACE_EA",
         "old_ea": "MikrobotM5M1", 
         "new_ea": "MikrobotFastversionEA",
-        "account": 107034605,
+        "account": 95244786,
         "action": "IMMEDIATE_REPLACEMENT",
         "priority": "HIGH",
         "strategy": "MIKROBOT_FASTVERSION",
@@ -89,7 +89,7 @@ def replace_old_ea():
     # Päivitä pää-strategia signaali
     main_signal = {
         "timestamp": datetime.now().isoformat(),
-        "account": 107034605,
+        "account": 95244786,
         "strategy": "MIKROBOT_FASTVERSION",
         "version": "2.0.0",
         "status": "ACTIVE_REPLACEMENT_MODE",

@@ -1,6 +1,6 @@
 from encoding_utils import ASCIIFileManager, ascii_print, write_ascii_json, read_mt5_signal, write_mt5_signal
 """
-DIRECT MT5 TRADING - Suora yhteys tiliin 107034605
+DIRECT MT5 TRADING - Suora yhteys tiliin 95244786
 Palaa alkuperiseen suoraan yhteytt kyttvn metodiin
 """
 
@@ -12,8 +12,8 @@ import time
 import random
 
 # MT5 Configuration
-MT5_LOGIN = 107034605
-MT5_PASSWORD = "RcEw_s7w"
+MT5_LOGIN = 95244786
+MT5_PASSWORD = "Ua@tOnLp"
 MT5_SERVER = "Ava-Demo 1-MT5"
 
 # Trading parameters
@@ -134,7 +134,7 @@ class DirectMT5Trader:
         
         logger.info("\nROCKET ALOITETAAN SUORA KAUPANKYNTI")
         logger.info("=" * 50)
-        logger.info("Tili: 107034605")
+        logger.info("Tili: 95244786")
         logger.info("Symbolit: BTC, ETH, XRP, ADA")
         logger.info("Volume: 0.05 lots")
         logger.info("=" * 50)
@@ -166,7 +166,7 @@ class DirectMT5Trader:
 
 async def main():
     print("DIRECT MT5 TRADING")
-    print("Suora yhteys tiliin 107034605")
+    print("Suora yhteys tiliin 95244786")
     print("Ei signaaleja - suoraan MT5 API:in")
     print()
     

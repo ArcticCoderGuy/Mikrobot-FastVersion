@@ -14,9 +14,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # MT5 Configuration from .env
-MT5_LOGIN = int(os.getenv('MT5_LOGIN', 107034605))
-MT5_PASSWORD = os.getenv('MT5_PASSWORD', 'RcEw_s7w')
-MT5_SERVER = os.getenv('MT5_SERVER', 'AVA-Demo 1-MT5')
+MT5_LOGIN = int(os.getenv('MT5_LOGIN', 95244786))
+MT5_PASSWORD = os.getenv('MT5_PASSWORD', 'Ua@tOnLp')
+MT5_SERVER = os.getenv('MT5_SERVER', 'MetaQuotesDemo')
 
 logging.basicConfig(
     level=logging.INFO,

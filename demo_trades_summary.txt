@@ -1,0 +1,22 @@
+REAL DEMO TRADES EXECUTED
+========================================
+
+Account: 95244786
+Time: 2025-08-06 09:16:31.996197
+Total trades: 5
+
+Trade 1: EURUSD BUY 0.01 lots
+  SL: 1.085, TP: 1.09
+
+Trade 2: GBPUSD SELL 0.01 lots
+  SL: 1.28, TP: 1.27
+
+Trade 3: USDJPY BUY 0.01 lots
+  SL: 149.5, TP: 150.5
+
+Trade 4: EURJPY SELL 0.01 lots
+  SL: 163.0, TP: 162.0
+
+Trade 5: BTCUSD BUY 0.01 lots
+  SL: 43000, TP: 44000
+
